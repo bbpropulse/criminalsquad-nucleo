@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recurso Extraordinário Criminal (RE — STF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $recurso-extraordinario-criminal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

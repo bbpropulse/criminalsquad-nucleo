@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em crimes contra o dever e o serviço militar (arts. 195, 196, 202 e 203 do CPM)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-abandono-posto-e-dormir-em-servico para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

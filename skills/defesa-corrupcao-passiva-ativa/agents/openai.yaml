@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Corrupção Passiva e Ativa (CP arts. 317 e 333)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-corrupcao-passiva-ativa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

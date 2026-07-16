@@ -1,0 +1,68 @@
+name: "Gestão de Prazos e Intimações"
+code: "gestao-prazos-intimacoes"
+description: >
+  Rotina de gestão de carteira penal: varre o DJEN, classifica publicações,
+  calcula prazos penais (CPP 798 — dias corridos, contínuos e improrrogáveis),
+  agenda os atos e notifica advogado e cliente. Da publicação à data fatal
+  agendada e comunicada, em um único pipeline com dupla conferência de prazo.
+icon: "⚖️"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas e gestores de carteira processual penal"
+platform: "Gestão interna do escritório (DJEN, agenda, e-mail)"
+format: "rotina-de-gestao"
+performance_mode: "alta-performance"
+schedulable: true
+
+skills:
+  - monitor-dje
+  - agenda-juridica
+  - email-juridico
+
+best_practices:
+  - _criminalsquad/core/best-practices/gestao-prazos-processuais.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+
+goal: "Da publicação à data fatal agendada e comunicada, com cada prazo penal calculado e conferido em dobro."
+success_criteria:
+  - "Publicações do DJEN varridas e triadas (prazo × ciência × descartável)"
+  - "Cada prazo com regime conferido (penal dias corridos × cível dias úteis) e data fatal calculada em Python"
+  - "Régua de lembretes (D-7/D-3/D-1/D-0) por prazo; zona cinzenta sinalizada"
+  - "Atos aprovados gravados na agenda e comunicados ao advogado/cliente"
+
+agents:
+  - id: monitor
+    name: "Mônica Monitoramento"
+    icon: "📡"
+    custom: agents/monitor.custom.md
+
+  - id: intimacao
+    name: "Iara Intimação"
+    icon: "📨"
+    custom: agents/intimacao.custom.md
+
+  - id: prazo
+    name: "Priscila Prazo"
+    icon: "⏰"
+    custom: agents/prazo.custom.md
+
+  - id: agenda
+    name: "Aline Agenda"
+    icon: "📅"
+    custom: agents/agenda.custom.md
+
+  - id: notificador
+    name: "Edu E-mail"
+    icon: "✉️"
+    custom: agents/notificador.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

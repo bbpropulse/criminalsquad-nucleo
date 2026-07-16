@@ -1,0 +1,6 @@
+interface:
+  display_name: "Impugnação da Ata/Termo do Interrogatório Policial (CPP, art. 6º; art. 405 e §§ por analogia; arts. 195 e 186)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $impugnacao-ata-termo-interrogatorio para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

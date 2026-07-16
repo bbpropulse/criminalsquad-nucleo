@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rito e Resposta na Ação Penal Eleitoral (arts. 355-364 do Código Eleitoral — Lei 4.737/65)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $resposta-a-acusacao-crime-eleitoral-rito-355 para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

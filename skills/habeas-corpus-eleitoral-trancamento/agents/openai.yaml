@@ -1,0 +1,6 @@
+interface:
+  display_name: "Habeas Corpus Eleitoral e Trancamento de Ação Penal Eleitoral (CE, arts. 289-354; CF, art. 5º, LXVIII; CPP, art. 648)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $habeas-corpus-eleitoral-trancamento para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Controle de Prazos e Prescrição para a Acusação (arts. 109 a 119 do CP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acusacao-controle-prazos-prescricao-intercorrente para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recurso Especial Criminal (REsp — STJ)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $recurso-especial-criminal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

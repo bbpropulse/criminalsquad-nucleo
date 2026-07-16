@@ -1,0 +1,6 @@
+interface:
+  display_name: "Infrações político-administrativas de prefeito (DL 201/67, art. 4º) — Defesa"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-infracao-politico-administrativa-dl-201 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

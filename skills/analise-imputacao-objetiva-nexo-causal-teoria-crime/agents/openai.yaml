@@ -1,0 +1,6 @@
+interface:
+  display_name: "Análise de Tipicidade Objetiva — Nexo Causal, Imputação Objetiva e Erro (arts. 13, 17, 20 e 21 do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $analise-imputacao-objetiva-nexo-causal-teoria-crime para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

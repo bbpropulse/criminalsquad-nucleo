@@ -1,0 +1,6 @@
+interface:
+  display_name: "Acesso aos Autos de Investigação (SV 14 e Reclamação ao STF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acesso-autos-investigacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

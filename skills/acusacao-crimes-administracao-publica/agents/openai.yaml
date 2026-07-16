@@ -1,0 +1,6 @@
+interface:
+  display_name: "Acusação em Crimes contra a Administração Pública (Título XI do CP — arts. 312 a 337-A)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acusacao-crimes-administracao-publica para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

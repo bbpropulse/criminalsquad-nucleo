@@ -1,0 +1,6 @@
+interface:
+  display_name: "Válvulas reparatórias nos crimes patrimoniais (CP, arts. 15 e 16; CP 65, III, \"b\"; Súmula 554/STF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $tese-arrependimento-reparacao-patrimonial para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em peculato militar e crimes contra a Administração Militar (arts. 303 a 334 do CPM — Decreto-Lei 1.001/69)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-peculato-e-crimes-contra-administracao-militar para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

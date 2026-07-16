@@ -1,0 +1,5 @@
+id,name,icon,role,path,execution,skills
+classificador,Cida Cabimento,🧭,Aplica o mapa de manifestações judiciais e indica a peça recursal cabível e o prazo (CPP × JECRIM),./agents/classificador.custom.md,inline,
+pesquisador,Júlia Jurisprudência,🔍,Levanta precedentes (STJ/STF/súmulas) para sustentar as razões do recurso,./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+redator,Rafael Recurso,✍️,Redige a peça bipartida (interposição ao juízo a quo + razões ao tribunal) carregando a skill da peça escolhida,./agents/redator.custom.md,inline,
+revisor,Vera Veredito,✅,Revisa a peça com veredicto APPROVE/REJECT e veta intempestividade ou incabimento,./agents/revisor.custom.md,subagent,

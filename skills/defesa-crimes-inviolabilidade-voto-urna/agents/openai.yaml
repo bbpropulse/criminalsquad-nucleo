@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra a Inviolabilidade do Voto e a Urna (arts. 309-317 do Código Eleitoral)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-inviolabilidade-voto-urna para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

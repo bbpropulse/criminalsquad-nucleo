@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes de Falsidade e Fraude Eleitoral (arts. 348-354 do Código Eleitoral)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-falsidade-eleitoral para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

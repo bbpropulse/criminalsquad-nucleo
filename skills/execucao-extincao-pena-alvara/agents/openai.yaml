@@ -1,0 +1,6 @@
+interface:
+  display_name: "Extinção da pena e providência de soltura"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $execucao-extincao-pena-alvara para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blotato Publisher"
+  short_description: "Ações externas com aprovação e auditoria"
+  default_prompt: "Use $blotato para preparar um preview e aguardar aprovação antes da ação externa."
+policy:
+  allow_implicit_invocation: false

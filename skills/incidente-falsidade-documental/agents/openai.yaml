@@ -1,0 +1,6 @@
+interface:
+  display_name: "Incidente de Falsidade Documental (CPP, arts. 145-148)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $incidente-falsidade-documental para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Posse e Porte de Arma (Lei 10.826/2003 — defesa nos arts. 12-18)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $posse-porte-arma para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

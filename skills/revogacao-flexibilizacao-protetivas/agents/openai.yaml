@@ -1,0 +1,6 @@
+interface:
+  display_name: "Revogação e Flexibilização de Medidas Protetivas (defesa do apontado agressor)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $revogacao-flexibilizacao-protetivas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

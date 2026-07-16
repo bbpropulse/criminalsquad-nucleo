@@ -1,0 +1,6 @@
+interface:
+  display_name: "Assistência de Acusação em Crimes contra a Pessoa — fora do júri (CP, arts. 129 a 154-B)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $assistente-acusacao-crimes-pessoa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "ANPP — táticas avançadas de negociação com o MP (art. 28-A do CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $anpp-taticas-negociacao-avancada-mp para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa do Indiciado no Inquérito Policial Militar (CPPM, arts. 9º a 28)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-no-ipm para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

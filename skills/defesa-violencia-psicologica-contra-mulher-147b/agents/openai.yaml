@@ -1,0 +1,6 @@
+interface:
+  display_name: "Violência psicológica contra a mulher — Defesa (CP art. 147-B)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-violencia-psicologica-contra-mulher-147b para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

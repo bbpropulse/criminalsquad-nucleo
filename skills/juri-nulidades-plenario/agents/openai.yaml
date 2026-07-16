@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nulidades no Plenário do Júri (arts. 480-497, 563-564, 571 e 593, III, 'a', CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-nulidades-plenario para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

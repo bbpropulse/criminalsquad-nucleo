@@ -1,0 +1,6 @@
+interface:
+  display_name: "Controle Externo da Atividade Policial (CF, art. 129, VII; Resolução CNMP 20/2007)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $controle-externo-atividade-policial para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Seleção de Tese por Tipo Penal (CP, Parte Especial + arts. 13-21 da Parte Geral)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $selecao-tese-por-tipo-penal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Erro médico — responsabilidade penal do profissional de saúde (defesa)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-erro-medico-responsabilidade-penal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

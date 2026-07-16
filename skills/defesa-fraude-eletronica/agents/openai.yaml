@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes de Fraude Eletrônica (Lei 14.155/2021)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-fraude-eletronica para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

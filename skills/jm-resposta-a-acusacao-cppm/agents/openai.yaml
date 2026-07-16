@@ -1,0 +1,6 @@
+interface:
+  display_name: "Resposta/Defesa Processual no Rito do CPPM (Decreto-Lei 1.002/1969, arts. 384 e ss.)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $jm-resposta-a-acusacao-cppm para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Denúncia e Estratégia Acusatória nos Crimes contra a Fé Pública (CP, Título X — arts. 289 a 311)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acusacao-crimes-fe-publica-denuncia para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

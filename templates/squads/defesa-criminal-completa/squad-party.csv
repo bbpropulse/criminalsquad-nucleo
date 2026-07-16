@@ -1,0 +1,7 @@
+id,name,icon,role,path,execution,skills
+triagem,Tânia Triagem,🗂️,Coleta o caso (tipo penal, data da citação, anexos) e monta a ficha de triagem,./agents/triagem.custom.md,inline,
+leitor,Marcos Memória,📑,Lê os autos (denúncia/IP) e produz resumo estruturado para a defesa,./agents/leitor.custom.md,subagent,
+pesquisador,Júlia Jurisprudência,🔍,Pesquisa jurisprudência e súmulas (acervo local antes da web) para sustentar as teses,./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+redator,Rafael Resposta,✍️,Redige a minuta da resposta à acusação (CPP 396-A) com preliminares e tese principal,./agents/redator.custom.md,inline,resposta-preliminar
+revisor,Vera Veredito,✅,Revisão jurídica da peça com veredicto APPROVE/REJECT,./agents/revisor.custom.md,subagent,
+protocolo,Pablo Protocolo,📤,Gera o checklist de protocolo (PJe/e-SAJ) e a versão final protocolável,./agents/protocolo.custom.md,inline,

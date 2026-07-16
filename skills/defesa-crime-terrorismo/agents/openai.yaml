@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes de Terrorismo (Lei 13.260/2016)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crime-terrorismo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

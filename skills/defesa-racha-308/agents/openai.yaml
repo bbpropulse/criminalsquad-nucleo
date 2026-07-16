@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Racha / Competição não autorizada (art. 308 do CTB)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-racha-308 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

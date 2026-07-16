@@ -1,0 +1,6 @@
+interface:
+  display_name: "Habeas Corpus (HC)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $habeas-corpus para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

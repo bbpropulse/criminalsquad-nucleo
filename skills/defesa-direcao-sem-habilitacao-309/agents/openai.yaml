@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Direção sem Habilitação com perigo de dano (art. 309 do CTB)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-direcao-sem-habilitacao-309 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra a Inviolabilidade de Domicílio, Correspondência e Segredo (CP, arts. 150 a 154-A)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-contra-liberdade para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

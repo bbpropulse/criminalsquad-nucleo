@@ -1,0 +1,6 @@
+interface:
+  display_name: "Júri em Plenário — Preparação dos Debates pela Defesa"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-plenario-debates para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

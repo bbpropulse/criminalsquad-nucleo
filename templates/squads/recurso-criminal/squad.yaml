@@ -1,0 +1,80 @@
+name: "Sala de Recursos Criminais"
+code: "recurso-criminal"
+description: >
+  Dada uma decisão adversa (sentença, acórdão ou decisão interlocutória),
+  identifica o recurso cabível, confere a tempestividade e redige a peça
+  recursal correta — apelação, RESE, embargos de declaração, embargos
+  infringentes, agravo em execução, revisão criminal ou contrarrazões.
+  Da decisão atacada à peça pronta para protocolo, num único pipeline.
+icon: "⚖️"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas e defensores que precisam recorrer de decisão adversa"
+platform: "Peça processual (PJe / e-SAJ / protocolo físico)"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+
+best_practices:
+  - recurso-criminal
+  - pesquisa-jurisprudencial
+  - revisao-juridica
+  - etica-oab-sigilo
+
+resources:
+  native_agents:
+    - .claude/agents/jurisprudencia-stj-stf.md
+  peca_skills:
+    - skills/apelacao
+    - skills/rese
+    - skills/embargos-de-declaracao
+    - skills/embargos-infringentes
+    - skills/agravo-em-execucao
+    - skills/revisao-criminal
+    - skills/contrarrazoes-apelacao
+    - skills/contrarrazoes-rese
+    - skills/contrarrazoes-agravo
+  acervo: acervo/_index.yaml
+
+goal: "Identificar o recurso cabível e entregar a peça recursal correta, tempestiva e fundamentada, pronta para protocolo."
+success_criteria:
+  - "Recurso cabível corretamente classificado para a decisão atacada (espécie certa — art. 581/593 CPP)"
+  - "Tempestividade conferida (prazo do recurso × data da intimação)"
+  - "Razões/contrarrazões com fundamento citado da pesquisa; nenhuma citação [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Estrutura da peça recursal completa conforme a espécie (interposição + razões)"
+  - "Revisão jurídica isolada com veredito APPROVE"
+
+agents:
+  - id: classificador
+    name: "Cida Cabimento"
+    icon: "🧭"
+    custom: agents/classificador.custom.md
+
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator
+    name: "Rafael Recurso"
+    icon: "✍️"
+    custom: agents/redator.custom.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

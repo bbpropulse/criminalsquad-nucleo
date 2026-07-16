@@ -1,0 +1,7 @@
+id,name,icon,role,path,execution,skills
+triagem,Cíntia Cabimento,🎯,"Coleta o caso (pena mínima, primariedade, confissão, natureza do crime) e tria o instituto negocial candidato (ANPP × transação × sursis × colaboração)",./agents/triagem.custom.md,inline,
+leitor,Lucas Leitura,📑,Lê a denúncia/inquérito e produz resumo estruturado voltado à negociação,./agents/leitor.custom.md,subagent,
+pesquisador,Júlia Jurisprudência,🔍,Pesquisa requisitos legais e precedentes do instituto (acervo local antes da web) e marca citações não verificadas,./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+redator,Nara Negociação,✍️,Redige a minuta do acordo/manifestação do instituto escolhido carregando a skill correspondente,./agents/redator.custom.md,inline,"anpp,transacao-penal,suspensao-condicional-processo,colaboracao-premiada"
+revisor,Vera Veredito,✅,Revisão jurídica da minuta com veredicto APPROVE/REJECT e Citation Gate,./agents/revisor.custom.md,subagent,
+encaminhamento,Edu Encaminhamento,📤,Gera o checklist de encaminhamento (MP / audiência de homologação) e a versão final protocolável,./agents/encaminhamento.custom.md,inline,

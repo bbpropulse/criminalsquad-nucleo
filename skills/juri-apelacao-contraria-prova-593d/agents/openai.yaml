@@ -1,0 +1,6 @@
+interface:
+  display_name: "Apelação por Decisão Manifestamente Contrária à Prova dos Autos (art. 593, III, \"d\", CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-apelacao-contraria-prova-593d para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

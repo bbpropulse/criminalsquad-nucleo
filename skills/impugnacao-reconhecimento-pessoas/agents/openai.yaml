@@ -1,0 +1,6 @@
+interface:
+  display_name: "Impugnação do Reconhecimento de Pessoas (art. 226 do CPP)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $impugnacao-reconhecimento-pessoas para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

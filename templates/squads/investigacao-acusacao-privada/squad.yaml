@@ -1,0 +1,76 @@
+name: "Sala da Vítima — Acusação Privada"
+code: "investigacao-acusacao-privada"
+description: >
+  Do lado da vítima/querelante: a partir do relato dos fatos e do tipo penal,
+  distingue a ação penal (pública incondicionada × condicionada à representação ×
+  privada), indica a peça correta da fase pré-processual/ação penal privada —
+  oferecimento de representação, requerimento de instauração de investigação,
+  queixa-crime ou retratação da representação — e a redige pronta para protocolo.
+  O alerta de DECADÊNCIA (6 meses) é gate crítico em todo o pipeline.
+icon: "🗡️"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados que atuam pela vítima/querelante na fase pré-processual e na ação penal privada"
+platform: "Peça processual (delegacia / MP / PJe / e-SAJ / protocolo físico)"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+
+best_practices:
+  - peticao-criminal
+  - pesquisa-jurisprudencial
+  - revisao-juridica
+  - etica-oab-sigilo
+
+resources:
+  native_agents:
+    - .claude/agents/jurisprudencia-stj-stf.md
+  peca_skills:
+    - skills/representacao
+    - skills/requerimento-investigacao
+    - skills/queixa-crime
+    - skills/retratacao-representacao
+  acervo: acervo/_index.yaml
+
+goal: "Identificar a espécie de ação penal e entregar a peça correta do polo ativo, dentro do prazo decadencial, pronta para protocolo."
+success_criteria:
+  - "Espécie de ação penal corretamente distinguida (pública incondicionada × condicionada × privada)"
+  - "Decadência (6 meses — CP 103/CPP 38) conferida (gate crítico)"
+  - "Peça correta confirmada e redigida (requisitos da queixa CPP 41/44/48 quando aplicável)"
+  - "Toda citação verificada — sem [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Revisão jurídica isolada com veredito APPROVE"
+
+agents:
+  - id: classificador
+    name: "Cida Cabimento"
+    icon: "🧭"
+    custom: agents/classificador.custom.md
+
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator
+    name: "Quim Queixa"
+    icon: "✍️"
+    custom: agents/redator.custom.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

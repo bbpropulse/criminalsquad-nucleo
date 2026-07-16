@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Dano (art. 163 do Código Penal) e figuras próximas"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-dano para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,134 @@
+name: "Execução Penal"
+code: "execucao-penal"
+description: >
+  Conduz o pleito na execução penal por um pipeline supervisionado: triagem,
+  extração e cronologia, freshness oficial, aprovação humana da regra, cálculo
+  determinístico, diagnóstico 360, redação por uma única skill canônica, quatro
+  revisões independentes e sidecar auditável. Gera versão final e checklist,
+  mas nunca protocola automaticamente.
+icon: "⛓️"
+version: "4.0.0"
+created: "2026-06-27"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas, defensores públicos e operadores da execução penal"
+platform: "Peça processual"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+citation_verifiers: 3
+max_review_cycles: 3
+
+skills:
+  - web_search
+  - web_fetch
+
+skill_selection:
+  policy: "exactly_one_canonical_skill_per_institute"
+  lifecycle: "active_default; pilot_only_with_explicit_opt_in_and_fallback"
+  forbidden: [preview, deprecated, quarantined]
+
+conditional_skills:
+  progressao: execucao-progressao-regime
+  livramento_condicional: execucao-livramento-condicional
+  remicao: execucao-remicao
+  saida_temporaria: execucao-saida-temporaria
+  trabalho_externo: execucao-trabalho-externo
+  unificacao: execucao-unificacao-penas
+  detracao: execucao-detracao-penal
+  indulto_comutacao: execucao-indulto-comutacao
+  falta_grave_pad: execucao-defesa-falta-grave-pad
+  regressao: execucao-defesa-regressao-regime
+  prisao_domiciliar: execucao-prisao-domiciliar-apenado
+  excesso_execucao: execucao-excesso-de-execucao
+  medida_seguranca: medida-seguranca-desinternacao
+  assistencial_saude_protecao: execucao-pedido-vep-assistencial
+  prescricao_executoria: extincao-punibilidade-prescricao
+
+data:
+  - _criminalsquad/core/best-practices/peticao-criminal.md
+  - _criminalsquad/core/best-practices/recurso-criminal.md
+  - _criminalsquad/core/best-practices/pesquisa-jurisprudencial.md
+  - _criminalsquad/core/best-practices/revisao-juridica.md
+  - _criminalsquad/core/best-practices/verificacao-citacoes.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+  - _criminalsquad/core/best-practices/execucao-penal-alta-performance.md
+  - _criminalsquad/core/execution-output.schema.json
+  - _criminalsquad/core/authorities/execucao-penal-art-112.json
+  - acervo/_index.yaml
+  - acervo/legislacao/matriz-temporal-art-112-lep.md
+
+goal: "Produzir minuta e versão final auditáveis do instituto cabível, com fatos ancorados, regra atual, cálculo reproduzível, quatro revisões independentes e aprovação humana — sem protocolo automático."
+success_criteria:
+  - "Instituto e skill canônica única confirmados; nenhuma preview/quarantined é executada"
+  - "Requisitos objetivo e subjetivo conferidos com fundamento; percentual/lapso do art. 112 somente com matriz temporal revalidada no mesmo dia"
+  - "Quando houver art. 112, output/verificacao-temporal-art-112.yaml contém REGRA_APROVADA_POR_HUMANO, fontes oficiais, regra intertemporal, alcance das decisões e revisor identificado"
+  - "Fatos materiais estão ancorados e o cálculo possui regra, inputs, memória e revisão humana"
+  - "Toda citação verificada — sem [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Revisões jurídica, probatória, cálculo/prazo e citações em contexto isolado retornam APPROVE"
+  - "Sidecar v4 passa em validação --release e a aprovação final humana está registrada"
+  - "Qualquer hard fail resulta em BLOQUEADO e impede arquivo protocolável"
+
+agents:
+  - id: triagem
+    name: "Cláudia Cálculo"
+    icon: "🧮"
+    custom: agents/triagem.custom.md
+
+  - id: leitor
+    name: "Lúcio Liquidação"
+    icon: "📑"
+    custom: agents/leitor.custom.md
+
+  - id: calculista
+    name: "César Memória"
+    icon: "🧮"
+    custom: agents/calculista.custom.md
+
+  - id: pesquisador
+    name: "Sílvia Súmula"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator
+    name: "Pedro Progressão"
+    icon: "✍️"
+    custom: agents/redator.custom.md
+
+  - id: estrategista
+    name: "Helena Estratégia"
+    icon: "🧭"
+    custom: agents/estrategista.custom.md
+
+  - id: revisor
+    name: "Vânia Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+  - id: revisor-probatorio
+    name: "Priscila Prova"
+    icon: "🔬"
+    custom: agents/revisor-probatorio.custom.md
+
+  - id: revisor-calculo
+    name: "Caio Cálculo"
+    icon: "📐"
+    custom: agents/revisor-calculo.custom.md
+
+  - id: revisor-citacoes
+    name: "Cecília Fonte"
+    icon: "🔗"
+    custom: agents/revisor-citacoes.custom.md
+
+  - id: protocolo
+    name: "Tadeu Trâmite"
+    icon: "📤"
+    custom: agents/protocolo.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

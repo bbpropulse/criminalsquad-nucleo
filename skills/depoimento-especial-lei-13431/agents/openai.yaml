@@ -1,0 +1,6 @@
+interface:
+  display_name: "Depoimento Especial e Escuta Especializada (Lei 13.431/2017)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $depoimento-especial-lei-13431 para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

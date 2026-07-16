@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Injúria comum (CP, art. 140, caput e §2º)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-injuria-140 para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

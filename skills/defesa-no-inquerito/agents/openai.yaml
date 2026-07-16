@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa no Inquérito (atuação defensiva na investigação)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-no-inquerito para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

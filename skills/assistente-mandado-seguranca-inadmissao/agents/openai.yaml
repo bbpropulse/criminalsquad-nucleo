@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mandado de Segurança contra a Inadmissão do Assistente de Acusação (art. 273 do CPP; Lei 12.016/2009)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $assistente-mandado-seguranca-inadmissao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

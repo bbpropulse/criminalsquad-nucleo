@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra a Dignidade Sexual — Vulnerável e Correlatos (arts. 217-A, 218, 218-A, 218-B e 218-C do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-dignidade-sexual-vulneravel-217a para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

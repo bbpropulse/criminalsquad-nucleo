@@ -1,0 +1,6 @@
+interface:
+  display_name: "Obtenção Defensiva de Prova no Exterior (cooperação a favor da defesa — CF art. 5º, LV e LVI; CPP arts. 780-790; Res. CNJ 481/2022)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $obtencao-prova-exterior-defesa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

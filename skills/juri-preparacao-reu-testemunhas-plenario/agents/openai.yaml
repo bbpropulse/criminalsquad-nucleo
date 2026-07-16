@@ -1,0 +1,6 @@
+interface:
+  display_name: "Preparação do Réu e das Testemunhas para o Plenário (arts. 422, 473 e 474 CPP; art. 5º, XXXVIII, \"a\", e LXIII, CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-preparacao-reu-testemunhas-plenario para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

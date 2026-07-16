@@ -1,0 +1,6 @@
+interface:
+  display_name: "Captura de Mídia Audiovisual (áudio/vídeo → transcrição + frames)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $captura-midia-av para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+id,name,icon,role,path,execution,skills
+triagem,Júlia Júri,🎯,Organiza o caso doloso contra a vida (crime e fase atual) e monta a ficha do júri,./agents/triagem.custom.md,inline,
+leitor,Marcos Memória,📑,Lê os autos (denúncia/IP/instrução) e produz resumo estruturado para a defesa,./agents/leitor.custom.md,subagent,
+pesquisador,Júlia Jurisprudência,🔍,Pesquisa jurisprudência e súmulas do júri (acervo local antes da web) para sustentar as teses,./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+redator-1fase,Rafael Pronúncia,✍️,Redige as alegações finais da 1ª fase (impronúncia/absolvição sumária/desclassificação),./agents/redator-1fase.custom.md,inline,"juri-pronuncia-defesa,memoriais"
+plenario,Paulo Plenário,⚖️,Prepara a tese de plenário e a quesitação (apenas se o réu foi pronunciado),./agents/plenario.custom.md,inline,"juri-plenario-debates,juri-quesitacao"
+revisor,Vera Veredito,✅,Revisão jurídica da peça com verificação de citações e veredicto APPROVE/REJECT,./agents/revisor.custom.md,subagent,

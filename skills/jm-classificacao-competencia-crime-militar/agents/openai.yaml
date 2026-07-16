@@ -1,0 +1,6 @@
+interface:
+  display_name: "Classificação do Crime Militar e Fixação de Competência (art. 9º do CPM; arts. 124 e 125, §4º/§5º, da CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-classificacao-competencia-crime-militar para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

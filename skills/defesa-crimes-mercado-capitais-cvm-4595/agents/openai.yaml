@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra o SFN e o Mercado de Capitais (Lei 7.492/86 e Lei 6.385/76)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-mercado-capitais-cvm-4595 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

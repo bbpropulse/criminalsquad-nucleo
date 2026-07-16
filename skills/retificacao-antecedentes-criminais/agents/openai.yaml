@@ -1,0 +1,6 @@
+interface:
+  display_name: "Retificação de antecedentes e sigilo de registros criminais"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $retificacao-antecedentes-criminais para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

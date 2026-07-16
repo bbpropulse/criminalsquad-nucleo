@@ -1,0 +1,6 @@
+interface:
+  display_name: "Júri — Alegações Finais da Defesa (1ª Fase / Fase de Pronúncia)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-pronuncia-defesa para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

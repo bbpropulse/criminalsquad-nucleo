@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa contra Condução Coercitiva (CPP, art. 260; STF ADPF 395 e 444)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-conducao-coercitiva para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

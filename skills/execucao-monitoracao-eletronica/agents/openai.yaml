@@ -1,0 +1,6 @@
+interface:
+  display_name: "Monitoração Eletrônica na Execução Penal (arts. 146-B a 146-D da LEP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-monitoracao-eletronica para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

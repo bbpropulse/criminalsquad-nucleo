@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Exercício Ilegal da Medicina (282), Charlatanismo (283) e Curandeirismo (284)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-exercicio-ilegal-medicina-charlatanismo-curandeirismo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

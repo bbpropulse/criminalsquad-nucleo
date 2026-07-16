@@ -1,0 +1,233 @@
+name: "Pipeline — Execução Penal"
+version: "4.0.0"
+created: "2026-06-27"
+updated: "2026-07-09"
+squad: "execucao-penal"
+
+description: >
+  Pipeline supervisionado de execução penal: triagem e sigilo, extração
+  documental, pesquisa/freshness, aprovação humana da regra, cálculo
+  determinístico, diagnóstico 360, redação por uma única skill canônica,
+  quatro revisões independentes em paralelo, sidecar v4 e checklist. Nenhuma
+  peça é protocolada automaticamente.
+
+mode: "alta-performance"
+max_review_cycles: 3
+max_citation_cycles: 3
+citation_verifiers: 3
+
+steps:
+  - id: step-01
+    name: "Foco, Urgência e Sigilo"
+    type: checkpoint
+    file: steps/step-01-foco-do-caso.md
+
+  - id: step-02
+    name: "Classificação, Extração e Cronologia"
+    type: agent
+    agent: leitor
+    execution: subagent
+    file: steps/step-02-resumo-execucao.md
+    depends_on: step-01
+    output:
+      artifacts:
+        - output/resumo-execucao.md
+        - output/caso-estruturado.json
+
+  - id: step-03
+    name: "Pesquisa Jurídica e Freshness"
+    type: agent
+    agent: pesquisador
+    execution: subagent
+    model: powerful
+    file: steps/step-03-pesquisa-juridica.md
+    depends_on: step-02
+    output:
+      artifacts:
+        - output/pesquisa-juridica.md
+
+  - id: step-04
+    name: "Aprovar Regra e Requisitos"
+    type: checkpoint
+    file: steps/step-04-requisitos-instituto.md
+    depends_on: step-03
+    output:
+      artifacts:
+        - output/requisitos-instituto.md
+
+  - id: step-05
+    name: "Cálculo Determinístico"
+    type: agent
+    agent: calculista
+    execution: subagent
+    model: powerful
+    file: steps/step-05-calculo-deterministico.md
+    depends_on: step-04
+    output:
+      artifacts:
+        - output/memoria-calculo.json
+        - output/calculo-auditado.md
+
+  - id: step-06
+    name: "Diagnóstico 360 e Estratégia"
+    type: agent
+    agent: estrategista
+    execution: subagent
+    model: powerful
+    file: steps/step-06-diagnostico-360.md
+    depends_on: step-05
+    output:
+      artifacts:
+        - output/diagnostico-360.md
+        - output/entrega-juridica.json
+
+  - id: step-07
+    name: "Aprovar Estratégia"
+    type: checkpoint
+    file: steps/step-07-aprovar-estrategia.md
+    depends_on: step-06
+    output:
+      artifacts:
+        - output/estrategia-aprovada.md
+
+  - id: step-08
+    name: "Redação Condicional"
+    type: agent
+    agent: redator
+    execution: inline
+    file: steps/step-08-redacao-condicional.md
+    depends_on: step-07
+    output:
+      artifacts:
+        - output/peticao-execucao-minuta.md
+        - output/entrega-juridica.json
+
+  - id: step-09
+    name: "Aprovar Minuta"
+    type: checkpoint
+    file: steps/step-09-aprovar-minuta-v4.md
+    depends_on: step-08
+    output:
+      artifacts:
+        - output/aprovacao-minuta.md
+
+  - id: step-10
+    name: "Revisão Jurídica"
+    type: agent
+    agent: revisor
+    execution: subagent
+    model: powerful
+    parallel_group: revisao-quarteto
+    file: steps/step-10-revisao-juridica-v4.md
+    depends_on: step-09
+    on_reject: step-08
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-juridica/relatorio.md
+
+  - id: step-11
+    name: "Revisão Probatória"
+    type: agent
+    agent: revisor-probatorio
+    execution: subagent
+    model: powerful
+    parallel_group: revisao-quarteto
+    file: steps/step-11-revisao-probatoria.md
+    depends_on: step-09
+    on_reject: step-08
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-probatoria/relatorio.md
+
+  - id: step-12
+    name: "Revisão de Cálculo e Prazo"
+    type: agent
+    agent: revisor-calculo
+    execution: subagent
+    model: powerful
+    parallel_group: revisao-quarteto
+    file: steps/step-12-revisao-calculo.md
+    depends_on: step-09
+    on_reject: step-08
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-calculo/relatorio.md
+
+  - id: step-13
+    name: "Citation Gate"
+    type: agent
+    agent: revisor-citacoes
+    execution: subagent
+    model: powerful
+    parallel_group: revisao-quarteto
+    file: steps/step-13-citation-gate.md
+    depends_on: step-09
+    on_reject: step-08
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-citacoes/relatorio.md
+
+  - id: step-14
+    name: "Aprovação Final"
+    type: checkpoint
+    file: steps/step-14-aprovar-final-v4.md
+    depends_on: [step-10, step-11, step-12, step-13]
+    output:
+      artifacts:
+        - output/aprovacao-final-v4.md
+
+  - id: step-15
+    name: "Versão Final e Checklist"
+    type: agent
+    agent: protocolo
+    execution: inline
+    file: steps/step-15-protocolo-v4.md
+    depends_on: step-14
+    output:
+      artifacts:
+        - output/checklist-protocolo.md
+        - output/peticao-execucao-final.md
+        - output/entrega-juridica.json
+
+checkpoints:
+  - step-01
+  - step-04
+  - step-07
+  - step-09
+  - step-14
+
+hard_stops:
+  - company_profile_incomplete_for_real_case
+  - conflict_or_authorization_unresolved
+  - material_fact_without_anchor
+  - legal_rule_or_freshness_unresolved
+  - calculation_not_reproducible
+  - citation_not_verified
+  - any_review_reject
+  - sidecar_release_invalid
+  - final_human_approval_missing
+
+output:
+  artifacts:
+    - output/caso.md
+    - output/resumo-execucao.md
+    - output/caso-estruturado.json
+    - output/pesquisa-juridica.md
+    - output/requisitos-instituto.md
+    - output/memoria-calculo.json
+    - output/calculo-auditado.md
+    - output/diagnostico-360.md
+    - output/estrategia-aprovada.md
+    - output/peticao-execucao-minuta.md
+    - output/entrega-juridica.json
+    - output/revisao-juridica/relatorio.md
+    - output/revisao-probatoria/relatorio.md
+    - output/revisao-calculo/relatorio.md
+    - output/revisao-citacoes/relatorio.md
+    - output/aprovacao-final-v4.md
+    - output/checklist-protocolo.md
+    - output/peticao-execucao-final.md

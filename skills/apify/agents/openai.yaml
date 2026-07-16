@@ -1,0 +1,6 @@
+interface:
+  display_name: "Apify Web Scraper"
+  short_description: "Ações externas com aprovação e auditoria"
+  default_prompt: "Use $apify para preparar um preview e aguardar aprovação antes da ação externa."
+policy:
+  allow_implicit_invocation: false

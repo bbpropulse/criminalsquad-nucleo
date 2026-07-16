@@ -1,0 +1,6 @@
+interface:
+  display_name: "Júri — Mapa Completo (da denúncia à execução)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-mapa-completo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

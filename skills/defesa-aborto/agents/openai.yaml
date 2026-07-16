@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes de Aborto (CP, arts. 124 a 128)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-aborto para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,71 @@
+name: "Pipeline — Gestão de Prazos e Intimações"
+version: "1.0.0"
+created: "2026-06-17"
+squad: "gestao-prazos-intimacoes"
+
+description: >
+  Pipeline de rotina para a carteira penal: define a carteira/critério de busca,
+  varre o DJEN, deixa o usuário triar o que vira prazo, calcula a data fatal penal
+  com dupla conferência, aprova os agendamentos/alertas e então grava os eventos
+  na agenda e dispara as notificações. Bom candidato a execução agendada (diária).
+
+mode: "alta-performance"
+schedulable: true
+
+steps:
+  - id: step-01
+    name: "Carteira / Critério de Busca"
+    type: checkpoint
+    file: steps/step-01-carteira-criterio.md
+
+  - id: step-02
+    name: "Varredura do DJEN"
+    type: agent
+    agent: monitor
+    file: steps/step-02-varredura-djen.md
+    depends_on: step-01
+
+  - id: step-03
+    name: "Triagem de Publicações"
+    type: checkpoint
+    file: steps/step-03-triagem-publicacoes.md
+    depends_on: step-02
+
+  - id: step-04
+    name: "Cálculo de Prazos"
+    type: agent
+    agent: prazo
+    file: steps/step-04-calculo-prazos.md
+    depends_on: step-03
+
+  - id: step-05
+    name: "Aprovar Agendamentos / Alertas"
+    type: checkpoint
+    file: steps/step-05-aprovar-agendamentos.md
+    depends_on: step-04
+
+  - id: step-06
+    name: "Gravação na Agenda"
+    type: agent
+    agent: agenda
+    file: steps/step-06-gravar-agenda.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Notificação de Prazos"
+    type: agent
+    agent: notificador
+    file: steps/step-07-notificar.md
+    depends_on: step-06
+
+checkpoints:
+  - step-01  # Carteira/critério: OAB, CPF/CNPJ, processos, período
+  - step-03  # Triagem: usuário marca o que vira prazo
+  - step-05  # Aprovar agendamentos e alertas antes de gravar/disparar
+
+output:
+  artifacts:
+    - output/carteira.md
+    - output/publicacoes.yaml
+    - output/prazos.yaml
+    - output/relatorio-prazos.md

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Impugnação de Infiltração de Agentes e Ação Controlada (meios especiais de obtenção de prova)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $impugnacao-infiltracao-acao-controlada para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

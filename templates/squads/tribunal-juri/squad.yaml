@@ -1,0 +1,84 @@
+name: "Tribunal do Júri"
+code: "tribunal-juri"
+description: >
+  Orquestra a defesa no rito bifásico do Tribunal do Júri (arts. 406-497 CPP),
+  da 1ª fase (judicium accusationis) ao plenário (judicium causae). Triagem do
+  caso doloso contra a vida, leitura e resumo dos autos, pesquisa de
+  jurisprudência/súmulas (acervo local primeiro, web depois), alegações finais
+  da 1ª fase (impronúncia/absolvição sumária/desclassificação), preparação de
+  tese de plenário e quesitação, e revisão jurídica com verificação de citações
+  — tudo em um único pipeline com checkpoints de aprovação e bifurcação por fase.
+icon: "⚖️"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas que atuam no Tribunal do Júri"
+platform: "Peça processual"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+  - juri-pronuncia-defesa
+  - juri-plenario-debates
+  - juri-quesitacao
+  - memoriais
+
+data:
+  - _criminalsquad/core/best-practices/tribunal-do-juri.md
+  - _criminalsquad/core/best-practices/recurso-criminal.md
+  - _criminalsquad/core/best-practices/pesquisa-jurisprudencial.md
+  - _criminalsquad/core/best-practices/revisao-juridica.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+  - _criminalsquad/core/best-practices/verificacao-citacoes.md
+  - acervo/_index.yaml
+
+goal: "Entregar a peça da defesa do júri pertinente à fase (alegações da 1ª fase ou tese/quesitação de plenário), fundamentada e verificada."
+success_criteria:
+  - "Fase corrente identificada (1ª fase × plenário) e peça correspondente produzida"
+  - "Teses cabíveis na fase (impronúncia/absolvição sumária/desclassificação na 1ª fase; tese de plenário)"
+  - "No plenário, ordem e redação dos quesitos conferidas (CPP 482-490)"
+  - "Toda citação verificada — sem [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Revisão jurídica isolada com veredito APPROVE"
+
+agents:
+  - id: triagem
+    name: "Júlia Júri"
+    icon: "🎯"
+    custom: agents/triagem.custom.md
+
+  - id: leitor
+    name: "Marcos Memória"
+    icon: "📑"
+    custom: agents/leitor.custom.md
+
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator-1fase
+    name: "Rafael Pronúncia"
+    icon: "✍️"
+    custom: agents/redator-1fase.custom.md
+
+  - id: plenario
+    name: "Paulo Plenário"
+    icon: "⚖️"
+    custom: agents/plenario.custom.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

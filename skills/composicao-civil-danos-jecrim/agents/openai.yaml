@@ -1,0 +1,6 @@
+interface:
+  display_name: "Composição Civil dos Danos no JECRIM (art. 74 da Lei 9.099/95)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $composicao-civil-danos-jecrim para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

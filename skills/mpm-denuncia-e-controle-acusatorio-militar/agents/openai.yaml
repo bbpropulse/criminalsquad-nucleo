@@ -1,0 +1,6 @@
+interface:
+  display_name: "Denúncia do MPM e Controle Acusatório na Justiça Militar (art. 9º CPM; arts. 30 e 77 do CPPM)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $mpm-denuncia-e-controle-acusatorio-militar para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

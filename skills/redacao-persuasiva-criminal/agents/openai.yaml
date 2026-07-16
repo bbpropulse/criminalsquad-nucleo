@@ -1,0 +1,6 @@
+interface:
+  display_name: "Redação Persuasiva Criminal — a peça como obra-prima"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $redacao-persuasiva-criminal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

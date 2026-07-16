@@ -1,0 +1,62 @@
+name: "Triagem e Onboarding de Cliente"
+code: "triagem-onboarding"
+description: >
+  Conduz o ciclo de entrada de um novo cliente — da triagem inicial (intake) à
+  comunicação de boas-vindas. Coleta o caso, monta a ficha de triagem, verifica
+  conflito de interesses (EAOAB art. 17), prescrição (CP 109) e viabilidade,
+  decide aceitar/declinar, e — se aceito — faz o onboarding, a proposta de
+  honorários e o envio das comunicações. Tudo em um único pipeline com
+  checkpoints de aprovação.
+icon: "🤝"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas e escritórios de advocacia criminal"
+platform: "Atendimento ao cliente"
+format: "atendimento-cliente-juridico"
+performance_mode: "alta-performance"
+
+skills:
+  - email-juridico
+
+data:
+  - _criminalsquad/core/best-practices/atendimento-cliente-juridico.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+
+goal: "Conduzir o novo cliente da triagem à decisão aceitar/declinar e, se aceito, ao onboarding com proposta de honorários e comunicação."
+success_criteria:
+  - "Ficha de triagem completa a partir dos dados do caso"
+  - "Conflito de interesses (EAOAB art. 17), prescrição (CP 109) e viabilidade verificados"
+  - "Decisão aceitar/declinar fundamentada"
+  - "Se aceito: onboarding + proposta de honorários + comunicação de boas-vindas geradas"
+
+agents:
+  - id: triagem
+    name: "Tânia Triagem"
+    icon: "🗂️"
+    custom: agents/triagem.custom.md
+
+  - id: onboarding
+    name: "Olívia Onboarding"
+    icon: "🤝"
+    custom: agents/onboarding.custom.md
+
+  - id: honorarios
+    name: "Hugo Honorários"
+    icon: "💼"
+    custom: agents/honorarios.custom.md
+
+  - id: comunicador
+    name: "Edu E-mail"
+    icon: "✉️"
+    custom: agents/comunicador.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

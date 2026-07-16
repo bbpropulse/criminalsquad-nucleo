@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Lesão Corporal Culposa na Direção de Veículo Automotor (art. 303 do CTB)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-lesao-culposa-transito para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

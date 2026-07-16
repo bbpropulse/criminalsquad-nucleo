@@ -1,0 +1,6 @@
+interface:
+  display_name: "Competência na Justiça Militar após a Lei 13.491/2017 (CF arts. 124-125; art. 9º do CPM)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-crime-militar-competencia-jme-vs-comum-cf125 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

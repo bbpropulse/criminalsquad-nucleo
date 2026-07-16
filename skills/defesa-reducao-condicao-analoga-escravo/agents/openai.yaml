@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Redução a Condição Análoga à de Escravo e Tráfico de Pessoas (CP arts. 149 e 149-A)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-reducao-condicao-analoga-escravo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

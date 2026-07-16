@@ -1,0 +1,6 @@
+interface:
+  display_name: "Linha do Tempo Processual a partir dos Autos (CPP; CP arts. 111-117; Lei 11.419/06)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $linha-tempo-processual-autos para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

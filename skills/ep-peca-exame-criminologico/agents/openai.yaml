@@ -1,0 +1,6 @@
+interface:
+  display_name: "Missão"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $ep-peca-exame-criminologico para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

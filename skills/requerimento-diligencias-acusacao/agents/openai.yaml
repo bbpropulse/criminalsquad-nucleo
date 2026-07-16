@@ -1,0 +1,6 @@
+interface:
+  display_name: "Requerimento de Diligências pela Acusação (art. 402 do CPP; poder requisitório — arts. 13, II, e 47 do CPP; CF, art. 129, VIII)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $requerimento-diligencias-acusacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

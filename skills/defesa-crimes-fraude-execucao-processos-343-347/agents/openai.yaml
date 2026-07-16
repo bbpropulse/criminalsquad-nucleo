@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa do particular em Corrupção Ativa, Tráfico de Influência e Exploração de Prestígio (CP arts. 332, 333 e 357)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-fraude-execucao-processos-343-347 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

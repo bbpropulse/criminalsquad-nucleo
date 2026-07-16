@@ -1,0 +1,6 @@
+interface:
+  display_name: "Denúncia (peça acusatória do Ministério Público — CPP, art. 41)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $denuncia-mp para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

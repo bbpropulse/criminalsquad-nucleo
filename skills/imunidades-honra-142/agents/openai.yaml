@@ -1,0 +1,6 @@
+interface:
+  display_name: "Imunidades e Exclusão do Crime contra a Honra (CP, art. 142)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $imunidades-honra-142 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

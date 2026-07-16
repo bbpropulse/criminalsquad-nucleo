@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rito e ação penal dos crimes contra a propriedade imaterial (arts. 524-530-I CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $acao-penal-rito-crimes-propriedade-imaterial para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

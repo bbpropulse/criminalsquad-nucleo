@@ -1,0 +1,5 @@
+id,name,icon,role,path,execution,skills
+pesquisador,Júlia Jurisprudência,🔍,Encontra e ranqueia julgados/súmulas/novidades legislativas (apoio nativo jurisprudencia-stj-stf),./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+copywriter,Gustavo Gancho,✍️,Gera 5 ângulos e o copy didático de autoridade sem captação (CTA educativo),./agents/copywriter.custom.md,inline,web_search
+designer,Iago Imagem,🎨,Cria os slides sóbrios em HTML/CSS e renderiza via image-creator,./agents/designer.custom.md,inline,image-creator
+revisor,Rita Revisão,✅,Revisão final + GATE ÉTICO (Provimento 205/2021) e publicação após APPROVE,./agents/revisor.custom.md,subagent,publicacao-redes

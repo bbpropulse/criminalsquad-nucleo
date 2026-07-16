@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prisão Domiciliar Substitutiva da Preventiva (CPP, arts. 317 a 318-B)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $prisao-domiciliar para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

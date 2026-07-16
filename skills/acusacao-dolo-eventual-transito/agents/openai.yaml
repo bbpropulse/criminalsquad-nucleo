@@ -1,0 +1,6 @@
+interface:
+  display_name: "Imputação de Dolo Eventual e Pronúncia ao Júri no Trânsito (art. 18, I, CP; art. 121 c/c art. 5º, XXXVIII, CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $acusacao-dolo-eventual-transito para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

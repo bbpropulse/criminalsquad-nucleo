@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reabilitação Criminal (CP 93-95 — sigilo e efeitos da condenação)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $reabilitacao-criminal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

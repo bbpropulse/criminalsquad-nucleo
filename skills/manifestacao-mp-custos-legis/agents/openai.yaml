@@ -1,0 +1,6 @@
+interface:
+  display_name: "Manifestação do MP como Custos Legis em Recurso/HC (CF, arts. 127–129; CPP, art. 610)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $manifestacao-mp-custos-legis para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

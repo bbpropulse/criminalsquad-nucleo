@@ -1,0 +1,6 @@
+interface:
+  display_name: "Execução Civil da Sentença Penal e Ação Civil Ex Delicto (CPP arts. 63-64; CPC arts. 515, VI, 509-512 e 523; CC art. 200)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $assistente-execucao-civil-ex-delicto para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Funcionário Público (CP, art. 327) e Competência por Prerrogativa de Foro"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $conceito-funcionario-publico-competencia-especial para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Contradita de Jurado (arts. 448-449 e 466 CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-contradita-jurado para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

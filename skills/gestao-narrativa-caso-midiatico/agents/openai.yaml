@@ -1,0 +1,6 @@
+interface:
+  display_name: "Gestão da Narrativa em Caso Midiático (CF, art. 5º, LVII; EAOAB, art. 7º; Provimento OAB 205/2021)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $gestao-narrativa-caso-midiatico para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

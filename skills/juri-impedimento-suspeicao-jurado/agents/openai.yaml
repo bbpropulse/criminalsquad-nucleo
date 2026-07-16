@@ -1,0 +1,6 @@
+interface:
+  display_name: "Impedimento e Suspeição de Jurado (arts. 448-452 CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-impedimento-suspeicao-jurado para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

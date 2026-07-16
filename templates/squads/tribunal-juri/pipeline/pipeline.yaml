@@ -1,0 +1,131 @@
+name: "Pipeline — Tribunal do Júri"
+version: "1.0.0"
+created: "2026-06-17"
+squad: "tribunal-juri"
+
+description: >
+  Pipeline da defesa no rito bifásico do Júri (CPP 406-497). Da triagem do caso
+  doloso contra a vida às alegações da 1ª fase (impronúncia/absolvição sumária/
+  desclassificação) e, se houver pronúncia, à preparação de plenário (tese e
+  quesitação). BIFURCAÇÃO: se o réu já foi pronunciado, o fluxo vai do Step 04
+  direto ao Step 07 (plenário); se está em 1ª fase, segue 05→06 (e o RESE contra
+  a pronúncia pode ser elaborado depois via skill `rese`). A revisão (Step 09)
+  não é opcional: REJECT retorna ao step de redação pertinente.
+
+mode: "alta-performance"
+
+steps:
+  - id: step-01
+    name: "Caso do Júri"
+    type: checkpoint
+    file: steps/step-01-caso-do-juri.md
+    output:
+      artifacts:
+        - output/caso.md
+
+  - id: step-02
+    name: "Resumo dos Autos"
+    type: agent
+    agent: leitor
+    file: steps/step-02-resumo-autos.md
+    depends_on: step-01
+    output:
+      artifacts:
+        - output/resumo-autos.md
+
+  - id: step-03
+    name: "Pesquisa de Jurisprudência do Júri"
+    type: agent
+    agent: pesquisador
+    model: powerful
+    file: steps/step-03-pesquisa.md
+    depends_on: step-02
+    output:
+      artifacts:
+        - output/pesquisa.md
+
+  - id: step-04
+    name: "Estratégia da 1ª Fase"
+    type: checkpoint
+    file: steps/step-04-estrategia-1fase.md
+    depends_on: step-03
+    output:
+      artifacts:
+        - output/teses-1fase.md
+
+  - id: step-05
+    name: "Alegações da 1ª Fase"
+    type: agent
+    agent: redator-1fase
+    file: steps/step-05-alegacoes-1fase.md
+    depends_on: step-04
+    output:
+      artifacts:
+        - output/alegacoes-1fase.md
+
+  - id: step-06
+    name: "Aprovar 1ª Fase"
+    type: checkpoint
+    file: steps/step-06-aprovar-1fase.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Preparação de Plenário"
+    type: agent
+    agent: plenario
+    file: steps/step-07-plenario.md
+    depends_on: step-06
+    output:
+      artifacts:
+        - output/plenario.md
+
+  - id: step-08
+    name: "Aprovar Plenário"
+    type: checkpoint
+    file: steps/step-08-aprovar-plenario.md
+    depends_on: step-07
+
+  - id: step-09
+    name: "Revisão Jurídica"
+    type: agent
+    agent: revisor
+    optional: false
+    execution: subagent
+    model_tier: powerful
+    file: steps/step-09-revisao.md
+    depends_on: step-08
+    # on_reject é um valor único (padrão = step-05, 1ª fase). O step de retorno
+    # REAL depende da fase corrente — ver "REGRA POR FASE" em step-09-revisao.md:
+    #   1ª fase  → volta ao Step 05 (alegações), retoma pelo checkpoint 06
+    #   plenário → volta ao Step 07 (preparação), retoma pelo checkpoint 08
+    on_reject: step-05
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao.md
+
+checkpoints:
+  - step-01  # Caso: crime, fase (1ª fase ou pronunciado), anexos
+  - step-04  # Estratégia da 1ª fase (impronúncia/absolvição sumária/desclassificação)
+  - step-06  # Aprovação das alegações da 1ª fase
+  - step-08  # Aprovação da preparação de plenário
+
+# BIFURCAÇÃO POR FASE (ver step-01 e step-04):
+#  - Réu em 1ª fase: executar 05 (alegações) → 06; plenário (07) só após eventual pronúncia.
+#  - Réu já pronunciado: do checkpoint 04, seguir direto ao Step 07 (plenário), pulando 05-06.
+# Loop de revisão (não-opcional, teto max_review_cycles=3): o revisor (Step 09) roda
+# como subagente (contexto fresco) e emite veredito YAML (APPROVE/REJECT) no topo do
+# output/revisao.md, que o runner parseia. Em REJECT, retorna ao step de redação da
+# FASE corrente — Step 05 (1ª fase) ou Step 07 (plenário) — passando só a lista `fixes`,
+# e a execução retoma para a frente pelo respectivo checkpoint de re-aprovação (06 ou 08).
+# Ver on_reject em step-09 e a "REGRA POR FASE" detalhada em step-09-revisao.md.
+
+output:
+  artifacts:
+    - output/caso.md
+    - output/resumo-autos.md
+    - output/pesquisa.md
+    - output/teses-1fase.md
+    - output/alegacoes-1fase.md
+    - output/plenario.md
+    - output/revisao.md

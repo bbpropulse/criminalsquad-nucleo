@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agravo em Recurso Especial e em Recurso Extraordinário (AREsp / ARE)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $agravo-em-resp-re para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

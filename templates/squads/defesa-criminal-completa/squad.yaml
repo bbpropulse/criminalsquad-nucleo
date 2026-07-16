@@ -1,0 +1,84 @@
+name: "Defesa Criminal Completa"
+code: "defesa-criminal-completa"
+description: >
+  Conduz a defesa criminal do recebimento da citação até a RESPOSTA À ACUSAÇÃO
+  protocolável (CPP 396 e 396-A). Triagem do caso, leitura e resumo dos autos,
+  pesquisa de jurisprudência/súmulas (acervo local primeiro, web depois), seleção
+  de teses, redação da peça, revisão jurídica e checklist de protocolo (PJe/e-SAJ)
+  — tudo em um único pipeline com checkpoints de aprovação.
+icon: "⚖️"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+goal: "Produzir a resposta à acusação (CPP 396 e 396-A) protocolável para o caso, fundamentada e verificada."
+success_criteria:
+  - "Endereçamento, qualificação e tempestividade (prazo do art. 396) corretos"
+  - "Todas as teses aprovadas no Step 04 desenvolvidas — e nenhuma a mais"
+  - "Cada tese com fundamento citado da pesquisa; nenhuma citação [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Estrutura forense completa: preliminares (CPP 395) → absolvição sumária (CPP 397) → mérito → rol de até 8 testemunhas (CPP 401) → provas requeridas"
+  - "Revisão jurídica com veredito APPROVE e checklist de protocolo presente"
+  - "Redação obra-prima (1): teoria do caso identificável em 1 frase, subtítulos que afirmam as teses e fato desfavorável central enfrentado — não omitido"
+  - "Redação obra-prima (2): sem norma órfã nem fato órfão (toda norma aplicada ao fato concreto; todo fato narrado usado por uma tese), eventualidade sem autofagia e objeção principal da acusação antecipada e refutada — rubrica da best-practice redacao-persuasiva-criminal"
+
+# Voting (peça protocolável de alto risco): consenso conservador no Citation Gate
+# final e na Verificação da Meta — N verificadores independentes em paralelo.
+citation_verifiers: 3
+meta_verifiers: 3
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas e escritórios de advocacia criminal"
+platform: "Peça processual"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+  - resposta-preliminar
+
+data:
+  - _criminalsquad/core/best-practices/peticao-criminal.md
+  - _criminalsquad/core/best-practices/pesquisa-jurisprudencial.md
+  - _criminalsquad/core/best-practices/revisao-juridica.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+  - acervo/_index.yaml
+
+agents:
+  - id: triagem
+    name: "Tânia Triagem"
+    icon: "🗂️"
+    custom: agents/triagem.custom.md
+
+  - id: leitor
+    name: "Marcos Memória"
+    icon: "📑"
+    custom: agents/leitor.custom.md
+
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator
+    name: "Rafael Resposta"
+    icon: "✍️"
+    custom: agents/redator.custom.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+  - id: protocolo
+    name: "Pablo Protocolo"
+    icon: "📤"
+    custom: agents/protocolo.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

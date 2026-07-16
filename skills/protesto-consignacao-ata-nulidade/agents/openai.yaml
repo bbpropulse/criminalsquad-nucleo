@@ -1,0 +1,6 @@
+interface:
+  display_name: "Protesto e consignação em ata (técnica de preservação de nulidade)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $protesto-consignacao-ata-nulidade para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

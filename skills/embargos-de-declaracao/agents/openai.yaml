@@ -1,0 +1,6 @@
+interface:
+  display_name: "Embargos de Declaração (EDs)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $embargos-de-declaracao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

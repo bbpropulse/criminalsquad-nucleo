@@ -1,0 +1,185 @@
+# Índice do Acervo — GERADO por `npm run indexar-acervo` (não editar à mão; será sobrescrito).
+# Os agentes de pesquisa consultam este índice ANTES da web. Pasta casos/ é omitida (sigilo).
+# Última indexação: 45 arquivos.
+
+acervo:
+  - path: jurisprudencia/as-principais-jurisprudencias.md
+    tipo: jurisprudencia
+    tema: "as principais jurisprudencias"
+    tags: [jurisprudencias]
+  - path: jurisprudencia/informativos-encontrados.md
+    tipo: jurisprudencia
+    tema: "Informativos Criminais STJ/STF — Junho/2025 a Junho/2026"
+    tags: [informativos, encontrados]
+  - path: jurisprudencia/stf/STF_2020.md
+    tipo: jurisprudencia
+    tema: "STF 2020"
+    tags: [stf, 2020]
+  - path: jurisprudencia/stf/STF_2021.md
+    tipo: jurisprudencia
+    tema: "STF 2021"
+    tags: [stf, 2021]
+  - path: jurisprudencia/stf/STF_2022.md
+    tipo: jurisprudencia
+    tema: "STF 2022"
+    tags: [stf, 2022]
+  - path: jurisprudencia/stf/STF_2023.md
+    tipo: jurisprudencia
+    tema: "STF 2023"
+    tags: [stf, 2023]
+  - path: jurisprudencia/stf/STF_2024.md
+    tipo: jurisprudencia
+    tema: "STF 2024"
+    tags: [stf, 2024]
+  - path: jurisprudencia/stf/STF_2025.md
+    tipo: jurisprudencia
+    tema: "STF 2025"
+    tags: [stf, 2025]
+  - path: jurisprudencia/stf/STF_2026.md
+    tipo: jurisprudencia
+    tema: "STF 2026"
+    tags: [stf, 2026]
+  - path: jurisprudencia/stj/STJ_2016.md
+    tipo: jurisprudencia
+    tema: "STJ 2016"
+    tags: [stj, 2016]
+  - path: jurisprudencia/stj/STJ_2017.md
+    tipo: jurisprudencia
+    tema: "STJ 2017"
+    tags: [stj, 2017]
+  - path: jurisprudencia/stj/STJ_2018.md
+    tipo: jurisprudencia
+    tema: "STJ 2018"
+    tags: [stj, 2018]
+  - path: jurisprudencia/stj/STJ_2019.md
+    tipo: jurisprudencia
+    tema: "STJ 2019"
+    tags: [stj, 2019]
+  - path: jurisprudencia/stj/STJ_2020.md
+    tipo: jurisprudencia
+    tema: "STJ 2020"
+    tags: [stj, 2020]
+  - path: jurisprudencia/stj/STJ_2021.md
+    tipo: jurisprudencia
+    tema: "STJ 2021"
+    tags: [stj, 2021]
+  - path: jurisprudencia/stj/STJ_2022.md
+    tipo: jurisprudencia
+    tema: "STJ 2022"
+    tags: [stj, 2022]
+  - path: jurisprudencia/stj/STJ_2023.md
+    tipo: jurisprudencia
+    tema: "STJ 2023"
+    tags: [stj, 2023]
+  - path: jurisprudencia/stj/STJ_2024.md
+    tipo: jurisprudencia
+    tema: "STJ 2024"
+    tags: [stj, 2024]
+  - path: jurisprudencia/stj/STJ_2025.md
+    tipo: jurisprudencia
+    tema: "STJ 2025"
+    tags: [stj, 2025]
+  - path: jurisprudencia/stj/STJ_2026.md
+    tipo: jurisprudencia
+    tema: "STJ 2026"
+    tags: [stj, 2026]
+  - path: teses-modelos/crime-administracao-justica.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra a Administração da Justiça"
+    tags: [administracao, justica]
+  - path: teses-modelos/crime-administracao-publica.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra a Administração Pública"
+    tags: [administracao, publica]
+  - path: teses-modelos/crime-armas.md
+    tipo: modelo
+    tema: "Eixo: Armas / Estatuto do Desarmamento"
+    tags: [armas]
+  - path: teses-modelos/crime-drogas.md
+    tipo: modelo
+    tema: "Eixo: Lei de Drogas"
+    tags: [drogas]
+  - path: teses-modelos/crime-eca.md
+    tipo: modelo
+    tema: "Eixo: ECA / Atos Infracionais"
+    tags: [eca]
+  - path: teses-modelos/crime-fe-publica.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra a Fé Pública"
+    tags: [publica]
+  - path: teses-modelos/crime-honra.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra a Honra e Injúria Racial / Racismo"
+    tags: [honra]
+  - path: teses-modelos/crime-organizacao-criminosa.md
+    tipo: modelo
+    tema: "Eixo: Organização Criminosa"
+    tags: [organizacao, criminosa]
+  - path: teses-modelos/crime-patrimonio.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra o Patrimônio"
+    tags: [patrimonio]
+  - path: teses-modelos/crime-sexuais.md
+    tipo: modelo
+    tema: "Eixo: Crimes Sexuais"
+    tags: [sexuais]
+  - path: teses-modelos/crime-transito.md
+    tipo: modelo
+    tema: "Eixo: Crimes de Trânsito"
+    tags: [transito]
+  - path: teses-modelos/crime-tributarios.md
+    tipo: modelo
+    tema: "Eixo: Crimes Tributários e Descaminho"
+    tags: [tributarios]
+  - path: teses-modelos/crime-vida.md
+    tipo: modelo
+    tema: "Eixo: Crimes contra a Vida / Tribunal do Júri"
+    tags: [vida]
+  - path: teses-modelos/crime-violencia-domestica.md
+    tipo: modelo
+    tema: "Eixo: Violência Doméstica / Maria da Penha"
+    tags: [violencia, domestica]
+  - path: teses-modelos/INDICE.md
+    tipo: modelo
+    tema: "📚 Biblioteca de Teses Criminais — Índice-Mestre"
+    tags: [indice]
+  - path: teses-modelos/outros.md
+    tipo: modelo
+    tema: "Eixo: Outros / Teses Reabsorvidas do bucket \"indefinido\""
+    tags: [outros]
+  - path: teses-modelos/transversal-autoria-prova.md
+    tipo: modelo
+    tema: "Eixo: Autoria e Prova"
+    tags: [autoria, prova]
+  - path: teses-modelos/transversal-culpabilidade.md
+    tipo: modelo
+    tema: "Eixo: Culpabilidade"
+    tags: [culpabilidade]
+  - path: teses-modelos/transversal-dosimetria.md
+    tipo: modelo
+    tema: "Eixo: Dosimetria da Pena"
+    tags: [dosimetria]
+  - path: teses-modelos/transversal-excludentes.md
+    tipo: modelo
+    tema: "Eixo: Excludentes de Ilicitude/Culpabilidade"
+    tags: [excludentes]
+  - path: teses-modelos/transversal-execucao-penal.md
+    tipo: modelo
+    tema: "Eixo: Execução Penal"
+    tags: [execucao, penal]
+  - path: teses-modelos/transversal-nulidades.md
+    tipo: modelo
+    tema: "Eixo: Nulidades Processuais"
+    tags: [nulidades]
+  - path: teses-modelos/transversal-prescricao-extincao.md
+    tipo: modelo
+    tema: "Eixo: Prescrição e Extinção da Punibilidade"
+    tags: [prescricao, extincao]
+  - path: teses-modelos/transversal-prisao-cautelar.md
+    tipo: modelo
+    tema: "Eixo: Prisão Cautelar e Liberdade"
+    tags: [prisao, cautelar]
+  - path: teses-modelos/transversal-tipicidade.md
+    tipo: modelo
+    tema: "Eixo: Tipicidade / Insignificância"
+    tags: [tipicidade]

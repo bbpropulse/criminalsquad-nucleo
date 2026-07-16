@@ -1,0 +1,6 @@
+interface:
+  display_name: "Maus-tratos a animais — Defesa (Lei 9.605/98, art. 32)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-maus-tratos-animais para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

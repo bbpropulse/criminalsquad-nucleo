@@ -1,0 +1,6 @@
+interface:
+  display_name: "Liberação de Bens Constritos por Lavagem (Lei 9.613/98, art. 4º)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $liberacao-bens-lavagem para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em violência contra superior / militar de serviço / inferior (arts. 157-159 e 175 do CPM)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-violencia-contra-superior-ou-inferior para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Exceção da Verdade nos crimes contra a honra (CP arts. 138, §3º, e 139, p. único; CPP arts. 523-524)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $excecao-da-verdade-honra para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

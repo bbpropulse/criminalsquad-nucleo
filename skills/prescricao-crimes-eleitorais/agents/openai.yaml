@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prescrição e Extinção da Punibilidade em Crimes Eleitorais (CP arts. 107-119 c/c CE art. 359)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $prescricao-crimes-eleitorais para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

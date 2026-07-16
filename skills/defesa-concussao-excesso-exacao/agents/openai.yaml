@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Concussão e Excesso de Exação (CP, art. 316 e §§)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-concussao-excesso-exacao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

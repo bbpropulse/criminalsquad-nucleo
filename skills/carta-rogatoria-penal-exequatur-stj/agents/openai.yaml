@@ -1,0 +1,6 @@
+interface:
+  display_name: "Carta Rogatória Penal e Exequatur no STJ (CF, art. 105, I, i; RISTJ, arts. 216-O a 216-X)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $carta-rogatoria-penal-exequatur-stj para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

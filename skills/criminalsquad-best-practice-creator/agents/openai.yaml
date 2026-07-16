@@ -1,0 +1,6 @@
+interface:
+  display_name: "Best-Practice Creator — Workflow"
+  short_description: "Automação validada e reutilizável"
+  default_prompt: "Use $criminalsquad-best-practice-creator para construir o artefato reutilizável com validação e evidências."
+policy:
+  allow_implicit_invocation: false

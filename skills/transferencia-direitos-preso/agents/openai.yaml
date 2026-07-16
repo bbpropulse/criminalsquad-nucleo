@@ -1,0 +1,6 @@
+interface:
+  display_name: "Transferência e Direitos do Preso (execução penal)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $transferencia-direitos-preso para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

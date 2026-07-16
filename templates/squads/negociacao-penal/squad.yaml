@@ -1,0 +1,85 @@
+name: "Negociação Penal"
+code: "negociacao-penal"
+description: >
+  Avalia o cabimento e conduz a NEGOCIAÇÃO / JUSTIÇA PENAL CONSENSUAL — ANPP
+  (art. 28-A CPP), transação penal (Lei 9.099 art. 76), suspensão condicional do
+  processo (art. 89) e colaboração premiada (Lei 12.850) — da triagem do caso à
+  minuta do acordo/manifestação protocolável. Foco do caso, resumo dos autos,
+  pesquisa de requisitos/precedentes (acervo local primeiro, web depois), escolha
+  do instituto e das condições, redação da minuta, revisão jurídica com Citation
+  Gate e checklist de encaminhamento (audiência de homologação / MP) — tudo em um
+  único pipeline com checkpoints de aprovação.
+icon: "🤝"
+version: "1.0.0"
+created: "2026-06-27"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados criminalistas e escritórios de advocacia criminal"
+platform: "Peça processual / manifestação de justiça negocial"
+format: "peticao-criminal"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+  - anpp
+  - transacao-penal
+  - suspensao-condicional-processo
+  - colaboracao-premiada
+
+data:
+  - _criminalsquad/core/best-practices/justica-negocial.md
+  - _criminalsquad/core/best-practices/peticao-criminal.md
+  - _criminalsquad/core/best-practices/pesquisa-jurisprudencial.md
+  - _criminalsquad/core/best-practices/revisao-juridica.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+  - _criminalsquad/core/best-practices/verificacao-citacoes.md
+  - acervo/_index.yaml
+
+goal: "Avaliar o instituto consensual cabível e entregar a minuta do acordo/manifestação protocolável, com requisitos e condições corretos."
+success_criteria:
+  - "Instituto consensual cabível confirmado (ANPP art. 28-A / transação art. 76 / sursis processual art. 89 / colaboração)"
+  - "Requisitos legais do instituto atendidos (pena mínima, primariedade, confissão, natureza do crime conforme o caso)"
+  - "Condições propostas adequadas e proporcionais ao instituto"
+  - "Toda citação verificada — sem [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Revisão jurídica isolada com veredito APPROVE e checagem ética"
+
+agents:
+  - id: triagem
+    name: "Cíntia Cabimento"
+    icon: "🎯"
+    custom: agents/triagem.custom.md
+
+  - id: leitor
+    name: "Lucas Leitura"
+    icon: "📑"
+    custom: agents/leitor.custom.md
+
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: redator
+    name: "Nara Negociação"
+    icon: "✍️"
+    custom: agents/redator.custom.md
+
+  - id: revisor
+    name: "Vera Veredito"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+  - id: encaminhamento
+    name: "Edu Encaminhamento"
+    icon: "📤"
+    custom: agents/encaminhamento.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

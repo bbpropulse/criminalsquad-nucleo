@@ -1,0 +1,6 @@
+interface:
+  display_name: "Trancamento de Inquérito Policial via Habeas Corpus (CF, art. 5º, LXVIII; CPP, arts. 647-648)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $trancamento-inquerito-hc para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

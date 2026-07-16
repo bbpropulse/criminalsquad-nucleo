@@ -1,0 +1,122 @@
+name: "Pipeline — Negociação Penal"
+version: "1.0.0"
+created: "2026-06-27"
+squad: "negociacao-penal"
+
+description: >
+  Pipeline completo da justiça penal consensual — do foco do caso à minuta do
+  acordo/manifestação protocolável (ANPP — art. 28-A CPP; transação — Lei 9.099
+  art. 76; suspensão condicional do processo — art. 89; colaboração premiada —
+  Lei 12.850). 4 checkpoints de controle garantem que o advogado aprova cada
+  decisão crítica (foco/triagem do instituto, instituto e condições, minuta e
+  versão final) antes de avançar. A revisão jurídica do Step 07 não é opcional:
+  em caso de REJECT, o pipeline retorna ao Step 05 (redação) até a minuta ser
+  aprovada. A decisão de aceitar qualquer acordo é SEMPRE do cliente.
+
+mode: "alta-performance"
+
+steps:
+  - id: step-01
+    name: "Foco do Caso"
+    type: checkpoint
+    file: steps/step-01-foco-do-caso.md
+    output:
+      artifacts:
+        - output/caso.md
+
+  - id: step-02
+    name: "Resumo dos Autos"
+    type: agent
+    agent: leitor
+    file: steps/step-02-resumo-autos.md
+    depends_on: step-01
+    output:
+      artifacts:
+        - output/resumo-autos.md
+
+  - id: step-03
+    name: "Pesquisa Jurídica"
+    type: agent
+    agent: pesquisador
+    model: powerful
+    file: steps/step-03-pesquisa-juridica.md
+    depends_on: step-02
+    output:
+      artifacts:
+        - output/pesquisa-juridica.md
+
+  - id: step-04
+    name: "Instituto e Termos"
+    type: checkpoint
+    file: steps/step-04-instituto-e-termos.md
+    depends_on: step-03
+    output:
+      artifacts:
+        - output/instituto-e-termos.md
+
+  - id: step-05
+    name: "Redação da Minuta"
+    type: agent
+    agent: redator
+    file: steps/step-05-redacao-minuta.md
+    depends_on: step-04
+    output:
+      artifacts:
+        - output/acordo-minuta.md
+
+  - id: step-06
+    name: "Aprovar Minuta"
+    type: checkpoint
+    file: steps/step-06-aprovar-minuta.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Revisão Jurídica"
+    type: agent
+    agent: revisor
+    optional: false
+    file: steps/step-07-revisao-juridica.md
+    depends_on: step-06
+    on_reject: step-05
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-juridica.md
+
+  - id: step-08
+    name: "Aprovar Final"
+    type: checkpoint
+    file: steps/step-08-aprovar-final.md
+    depends_on: step-07
+
+  - id: step-09
+    name: "Checklist de Encaminhamento"
+    type: agent
+    agent: encaminhamento
+    file: steps/step-09-encaminhamento.md
+    depends_on: step-08
+    output:
+      artifacts:
+        - output/checklist-encaminhamento.md
+        - output/acordo-final.md
+
+checkpoints:
+  - step-01  # Foco do caso: pena mínima, primariedade, confissão, natureza do crime
+  - step-04  # Instituto cabível (ANPP/transação/sursis/colaboração) + condições
+  - step-06  # Aprovação da minuta
+  - step-08  # Aprovação da versão final (antes de encaminhar ao MP / homologação)
+
+# Loop de revisão (não-opcional): se o revisor (Step 07) emitir REJECT,
+# o pipeline retorna ao Step 05 (redação) com as instruções de correção e
+# repete até a minuta receber APPROVE. Ver on_reject em step-07.
+
+output:
+  artifacts:
+    - output/caso.md
+    - output/resumo-autos.md
+    - output/pesquisa-juridica.md
+    - output/instituto-e-termos.md
+    - output/acordo-minuta.md
+    - output/revisao-juridica.md
+    - output/checklist-encaminhamento.md
+    - output/acordo-final.md

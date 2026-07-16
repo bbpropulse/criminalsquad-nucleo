@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Fuga do Local do Acidente (art. 305 do CTB, Lei 9.503/97)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-fuga-local-305 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

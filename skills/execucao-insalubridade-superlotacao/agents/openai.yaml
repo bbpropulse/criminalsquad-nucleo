@@ -1,0 +1,6 @@
+interface:
+  display_name: "Insalubridade, Superlotação e Reparação no Cárcere (RE 580.252 · ADPF 347 · SV 56 · art. 5º, XLIX, CF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-insalubridade-superlotacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Roadmap Defensivo por Fase do Processo (CPP, arts. 394-405 — rito comum)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $roadmap-defensivo-por-fase para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

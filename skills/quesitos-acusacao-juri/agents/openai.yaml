@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quesitos e Tese da Acusação no Júri (arts. 482-491 CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $quesitos-acusacao-juri para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

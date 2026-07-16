@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa contra Regressão de Regime (execução penal — art. 118 da LEP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-defesa-regressao-regime para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

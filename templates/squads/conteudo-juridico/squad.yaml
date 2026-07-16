@@ -1,0 +1,67 @@
+name: "Conteúdo Jurídico de Autoridade"
+code: "conteudo-juridico"
+description: >
+  Transforma uma tese, um julgado ou uma novidade legislativa em conteúdo de
+  AUTORIDADE para redes sociais (carrossel/post), no espírito advogado-autoridade:
+  informar e educar, nunca captar. Pesquisa e ranqueia o material jurídico, gera
+  ângulos e copy didático, cria os slides em HTML/CSS e publica — com GATE ÉTICO
+  OBRIGATÓRIO (Provimento 205/2021 da OAB) em dois pontos do pipeline.
+icon: "📣"
+version: "1.0.0"
+created: "2026-06-17"
+mode: "alta-performance"
+
+company: "_criminalsquad/_memory/company.md"
+preferences: "_criminalsquad/_memory/preferences.md"
+memory: "_memory/memories.md"
+
+target_audience: "Advogados e escritórios que constroem autoridade nas redes informando o público"
+platform: "Instagram Feed"
+format: "instagram-feed"
+performance_mode: "alta-performance"
+
+skills:
+  - web_search
+  - web_fetch
+  - image-creator
+  - publicacao-redes
+
+data:
+  - _criminalsquad/core/best-practices/conteudo-juridico-redes.md
+  - _criminalsquad/core/best-practices/copywriting.md
+  - _criminalsquad/core/best-practices/instagram-feed.md
+  - _criminalsquad/core/best-practices/etica-oab-sigilo.md
+
+goal: "Transformar um julgado/tese/novidade em conteúdo de autoridade (carrossel/post) informativo, com o gate ético da OAB cumprido."
+success_criteria:
+  - "Material jurídico pesquisado e tema selecionado pelo usuário"
+  - "Copy didático e fiel à fonte (sem promessa de resultado, sem captação)"
+  - "Gate ético do Provimento 205/2021 cumprido nos dois pontos do pipeline"
+  - "Todo julgado/citação verificado — sem [NÃO VERIFICADO]/[DIVERGENTE]"
+  - "Slides criados e aprovados antes de publicar"
+
+agents:
+  - id: pesquisador
+    name: "Júlia Jurisprudência"
+    icon: "🔍"
+    custom: agents/pesquisador.custom.md
+
+  - id: copywriter
+    name: "Gustavo Gancho"
+    icon: "✍️"
+    custom: agents/copywriter.custom.md
+
+  - id: designer
+    name: "Iago Imagem"
+    icon: "🎨"
+    custom: agents/designer.custom.md
+
+  - id: revisor
+    name: "Rita Revisão"
+    icon: "✅"
+    custom: agents/revisor.custom.md
+
+pipeline:
+  entry: pipeline/pipeline.yaml
+
+output_dir: output/

@@ -1,0 +1,225 @@
+# Best Practices Catalog
+# The Architect reads this file to discover which best-practices are available.
+# Read the full file only for best-practices relevant to the squad being created.
+
+catalog:
+  # === Discipline Best Practices ===
+  - id: copywriting
+    name: "Copywriting & Persuasive Writing"
+    whenToUse: "Creating agents that write persuasive copy, hooks, CTAs, social media captions, sales content, or viral angles."
+    file: copywriting.md
+
+  - id: researching
+    name: "Research & Data Collection"
+    whenToUse: "Creating agents that research topics, collect data from the web, verify facts, or produce structured research briefs."
+    file: researching.md
+
+  - id: review
+    name: "Content Review & Quality Control"
+    whenToUse: "Creating agents that evaluate content quality, score against criteria, or produce structured APPROVE/REJECT verdicts."
+    file: review.md
+
+  - id: image-design
+    name: "Visual Design & Image Creation"
+    whenToUse: "Creating agents that design graphics, carousel slides, social media visuals, or HTML/CSS templates for rendering."
+    file: image-design.md
+
+  - id: social-networks-publishing
+    name: "Social Networks Publishing"
+    whenToUse: "Creating agents that publish content to Instagram, LinkedIn, X/Twitter, YouTube, or other social platforms."
+    file: social-networks-publishing.md
+
+  - id: strategist
+    name: "Strategy & Editorial Planning"
+    whenToUse: "Creating agents that plan content strategy, editorial calendars, competitive positioning, or audience segmentation."
+    file: strategist.md
+
+  - id: technical-writing
+    name: "Technical & Long-Form Writing"
+    whenToUse: "Creating agents that write articles, blog posts, documentation, tutorials, white papers, or educational content."
+    file: technical-writing.md
+
+  - id: data-analysis
+    name: "Data Analysis & Interpretation"
+    whenToUse: "Creating agents that interpret metrics, extract insights, benchmark performance, or produce analytical reports."
+    file: data-analysis.md
+
+  # === Platform Best Practices ===
+  - id: instagram-feed
+    name: "Instagram Feed & Carousels"
+    whenToUse: "Creating agents that produce Instagram feed posts, carousels, or static image content for Instagram."
+    file: instagram-feed.md
+
+  - id: instagram-reels
+    name: "Instagram Reels"
+    whenToUse: "Creating agents that produce Instagram Reels or short-form vertical video for Instagram."
+    file: instagram-reels.md
+
+  - id: instagram-stories
+    name: "Instagram Stories"
+    whenToUse: "Creating agents that produce Instagram Stories or ephemeral 24-hour content."
+    file: instagram-stories.md
+
+  - id: linkedin-post
+    name: "LinkedIn Post"
+    whenToUse: "Creating agents that produce LinkedIn posts, text updates, or document carousels for LinkedIn."
+    file: linkedin-post.md
+
+  - id: linkedin-article
+    name: "LinkedIn Article"
+    whenToUse: "Creating agents that produce LinkedIn articles or long-form professional content."
+    file: linkedin-article.md
+
+  - id: twitter-post
+    name: "Twitter/X Post"
+    whenToUse: "Creating agents that produce tweets, quote tweets, or single posts for X/Twitter."
+    file: twitter-post.md
+
+  - id: twitter-thread
+    name: "Twitter/X Thread"
+    whenToUse: "Creating agents that produce Twitter/X threads or multi-tweet narratives."
+    file: twitter-thread.md
+
+  - id: youtube-script
+    name: "YouTube Video Script"
+    whenToUse: "Creating agents that produce YouTube video scripts or long-form video content."
+    file: youtube-script.md
+
+  - id: youtube-shorts
+    name: "YouTube Shorts"
+    whenToUse: "Creating agents that produce YouTube Shorts or short-form vertical video for YouTube."
+    file: youtube-shorts.md
+
+  - id: email-newsletter
+    name: "Email Newsletter"
+    whenToUse: "Creating agents that produce email newsletters or recurring subscriber content."
+    file: email-newsletter.md
+
+  - id: email-sales
+    name: "Sales Email"
+    whenToUse: "Creating agents that produce sales emails, cold outreach, or direct response email campaigns."
+    file: email-sales.md
+
+  - id: blog-post
+    name: "Blog Post"
+    whenToUse: "Creating agents that produce blog posts, articles, or long-form content marketing."
+    file: blog-post.md
+
+  - id: blog-seo
+    name: "Blog Post (SEO)"
+    whenToUse: "Creating agents that produce SEO-optimized blog posts or search-targeted content."
+    file: blog-seo.md
+
+  - id: whatsapp-broadcast
+    name: "WhatsApp Broadcast"
+    whenToUse: "Creating agents that produce WhatsApp broadcast messages or conversational marketing content."
+    file: whatsapp-broadcast.md
+
+  # === Legal Domain Best Practices (Direito Criminal) ===
+  - id: peticao-criminal
+    name: "Peça Criminal (1º grau)"
+    whenToUse: "Agentes que redigem peças penais de primeiro grau (resposta à acusação, defesa preliminar, queixa-crime, representação, requerimentos, memoriais)."
+    file: peticao-criminal.md
+
+  - id: recurso-criminal
+    name: "Recurso Criminal"
+    whenToUse: "Agentes que redigem ou avaliam recursos penais (apelação, RESE, embargos, agravo em execução, revisão criminal, contrarrazões)."
+    file: recurso-criminal.md
+
+  - id: redacao-persuasiva-criminal
+    name: "Redação Persuasiva Criminal (obra-prima forense)"
+    whenToUse: "TODO agente que redige peça/parecer/memorial penal e todo revisor de peças — teoria do caso, narrativa dos fatos, subsunção explícita, coesão, persuasão ética e estilo. Complementa peticao-criminal/recurso-criminal (estrutura): esta governa a ESCRITA."
+    file: redacao-persuasiva-criminal.md
+
+  - id: tribunal-do-juri
+    name: "Tribunal do Júri (rito bifásico)"
+    whenToUse: "Agentes que atuam em crimes dolosos contra a vida — conhecimento do procedimento do Júri (arts. 406-497 CPP): 1ª fase (judicium accusationis) e suas quatro decisões (pronúncia, impronúncia, absolvição sumária, desclassificação), competência, 2ª fase (plenário), princípios e recursos cabíveis por decisão."
+    file: tribunal-do-juri.md
+
+  - id: pesquisa-jurisprudencial
+    name: "Pesquisa Jurisprudencial e Doutrinária"
+    whenToUse: "Agentes que pesquisam jurisprudência (STJ/STF), súmulas, repetitivos, repercussão geral e doutrina; consultam o acervo local antes da web."
+    file: pesquisa-jurisprudencial.md
+
+  - id: atendimento-cliente-juridico
+    name: "Atendimento e Triagem Jurídica"
+    whenToUse: "Agentes de intake, triagem de novos casos, onboarding, follow-up e avaliação de viabilidade de clientes."
+    file: atendimento-cliente-juridico.md
+
+  - id: gestao-prazos-processuais
+    name: "Gestão de Prazos e Intimações"
+    whenToUse: "Agentes que monitoram publicações (DJe/DJEN), interpretam intimações, calculam prazos penais e agendam atos."
+    file: gestao-prazos-processuais.md
+
+  - id: revisao-juridica
+    name: "Revisão Jurídica (peças e contratos)"
+    whenToUse: "Agentes revisores que avaliam a qualidade de peças e contratos, emitindo veredito estruturado APPROVE/REJECT."
+    file: revisao-juridica.md
+
+  - id: etica-oab-sigilo
+    name: "Ética OAB, Sigilo e LGPD"
+    whenToUse: "TRANSVERSAL — qualquer agente que lide com dados de cliente, comunicação, peças, publicidade advocatícia ou conduta profissional."
+    file: etica-oab-sigilo.md
+
+  - id: conteudo-juridico-redes
+    name: "Conteúdo Jurídico para Redes Sociais"
+    whenToUse: "Agentes que produzem conteúdo jurídico de autoridade para redes (Instagram/LinkedIn) e revisores que aplicam o gate ético (Provimento 205/2021)."
+    file: conteudo-juridico-redes.md
+
+  - id: verificacao-citacoes
+    name: "Verificação de Citações (anti-alucinação)"
+    whenToUse: "TRANSVERSAL — qualquer agente que cite lei, súmula, tese ou jurisprudência em peças/pareceres/pesquisas. Deve rodar ANTES de entregar qualquer peça."
+    file: verificacao-citacoes.md
+
+  - id: integracao-obsidian
+    name: "Integração com Obsidian (memória e conhecimento — FACULTATIVA)"
+    whenToUse: "TRANSVERSAL — agentes que leem/escrevem conhecimento, memória, casos, audiências, transcrições, dados ou comunicações. Define como usar (ou não) um vault Obsidian como camada durável. Opcional: sem vault configurado, tudo funciona local em acervo/ e _memory/. Setup pela skill obsidian-vault."
+    file: integracao-obsidian.md
+
+  - id: cadeia-custodia-prova-digital
+    name: "Cadeia de Custódia da Prova Digital"
+    whenToUse: "Agentes que auditam, produzem ou impugnam prova digital (prints de WhatsApp, extração/espelhamento de celular, quebra de sigilo telemático). Requisitos dos arts. 158-A a 158-F do CPP e jurisprudência do STJ sobre quebra da cadeia."
+    file: cadeia-custodia-prova-digital.md
+
+  - id: justica-negocial
+    name: "Justiça Penal Negocial (Estratégia)"
+    whenToUse: "Agentes que orientam a escolha entre institutos consensuais (ANPP, suspensão condicional do processo, transação penal, colaboração premiada), avaliam custo-benefício da negociação para o cliente ou preparam a postura da defesa na negociação com o MP. Combina com a skill-peça `anpp`."
+    file: justica-negocial.md
+
+  - id: execucao-penal-alta-performance
+    name: "Execução Penal de Alta Performance"
+    whenToUse: "OBRIGATÓRIO no domínio de execução penal — governa seleção canônica de skills, freshness legislativa/jurisprudencial, cálculo auditável, prova, Citation Gate, revisão independente e revisão humana. Usar com a shortlist de search-skills e consultar skills/_execucao-penal-v3-integration.yaml por busca direcionada antes de criar, pesquisar ou executar nesse domínio; não carregar o índice completo no prompt."
+    file: execucao-penal-alta-performance.md
+
+  - id: skills-alta-performance
+    name: "Skills — Padrão de Alta Performance"
+    whenToUse: "TRANSVERSAL — obrigatório para criar, migrar, auditar, selecionar ou promover qualquer skill. Define descoberta, divulgação progressiva, contratos por perfil, segurança, evals e lifecycle baseado em evidência."
+    file: skills-alta-performance.md
+
+  # === Nichos Verticais (por tipo penal) ===
+  # Playbooks por área. Cada um aponta para o banco de teses verificadas em
+  # acervo/teses-modelos/crime-*.md. Carregar junto com peticao-criminal/recurso-criminal.
+  - id: defesa-lei-drogas
+    name: "Defesa — Lei de Drogas (Lei 11.343/2006)"
+    whenToUse: "Agentes que atuam em tráfico (art. 33), tráfico privilegiado (§4º), associação (art. 35), porte para consumo (art. 28) e majorantes (art. 40): desclassificação 33→28, privilégio, licitude da abordagem, dosimetria (art. 42, bis in idem). Banco: acervo/teses-modelos/crime-drogas.md."
+    file: defesa-lei-drogas.md
+
+  - id: defesa-violencia-domestica
+    name: "Violência Doméstica / Lei Maria da Penha (Lei 11.340/2006)"
+    whenToUse: "Agentes que atuam na defesa do acusado OU na assistência à vítima em violência doméstica: incidência (motivação de gênero), vedação de despenalizadores, medidas protetivas e art. 24-A, prisão (art. 313, III CPP), prova e dosimetria. Banco: acervo/teses-modelos/crime-violencia-domestica.md."
+    file: defesa-violencia-domestica.md
+
+  - id: defesa-crimes-transito
+    name: "Crimes de Trânsito (CTB — Lei 9.503/1997)"
+    whenToUse: "Agentes que atuam em crimes de trânsito (arts. 302-312 CTB): a divisa culpa × dolo eventual (Júri), perdão judicial, embriaguez (art. 306), concursos (Súmula 664/STJ) e o regime do JECRIM (art. 291, §1º). Banco: acervo/teses-modelos/crime-transito.md."
+    file: defesa-crimes-transito.md
+
+  - id: defesa-crimes-tributarios
+    name: "Crimes Tributários, Descaminho e Contrabando"
+    whenToUse: "Agentes que atuam em crimes da Lei 8.137/90, descaminho/contrabando (arts. 334/334-A CP) e lavagem conexa: SV 24 e lançamento definitivo, extinção pelo pagamento, (in)significância no descaminho, autonomia da lavagem. Banco: acervo/teses-modelos/crime-tributarios.md."
+    file: defesa-crimes-tributarios.md
+
+  - id: defesa-crimes-contra-honra
+    name: "Crimes contra a Honra e Injúria Racial / Racismo"
+    whenToUse: "Agentes que atuam em calúnia/difamação/injúria (arts. 138-145 CP) e injúria racial/racismo (Lei 7.716/89, Lei 14.532/2023): tipos e elementos, ação penal e legitimidade (queixa/decadência; Súmula 714/STF), defesas típicas (exceção da verdade, retratação, imunidades, ausência de dolo) e liberdade de expressão. Banco: acervo/teses-modelos/crime-honra.md + manuais-criminais."
+    file: defesa-crimes-contra-honra.md

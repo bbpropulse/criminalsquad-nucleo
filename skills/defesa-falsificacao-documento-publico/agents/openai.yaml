@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Falsificação de Documento Público (CP, art. 297)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-falsificacao-documento-publico para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

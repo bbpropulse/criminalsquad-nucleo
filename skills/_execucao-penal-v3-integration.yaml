@@ -1,0 +1,273 @@
+schema_version: 1
+
+pack:
+  id: execucao-penal-skills-v3-alta-performance-73
+  imported_at: "2026-07-09"
+  archive_sha256: "4bbd6e2bd667f344a166dae5e14897ff893dc4959d95ddbad30b41e21d21c16a"
+  skills: 73
+  lifecycle: preview
+  reason: >-
+    Conteúdo incorporado e estruturalmente validado, mas ainda não promovido
+    para produção porque cálculo, vigência, eficácia e direito intertemporal
+    da execução penal exigem casos-ouro, scripts determinísticos e Citation Gate.
+
+integration_policy:
+  exact_name_collisions: 0
+  strategy: specialize_without_replacing
+  general_skills_role: entrypoint_or_legacy_bridge
+  ep_skills_role: specialized_preview
+  load_policy: >-
+    Não carregar uma skill geral e toda a cadeia ep-* simultaneamente. Selecionar
+    uma entrypoint, uma competência analítica ou de cálculo, uma skill de peça e
+    os gates estritamente necessários ao caso.
+  production_rule: >-
+    Ignorar skills com lifecycle preview em entregas finais, salvo teste explícito.
+    Promover individualmente somente após os gates definidos neste manifesto.
+
+mandatory_gates_before_promotion:
+  - frontmatter_validado
+  - skill_md_ate_500_linhas
+  - referencias_internas_resolvidas
+  - fonte_oficial_e_data_de_corte_registradas
+  - vigencia_eficacia_cautelares_e_direito_intertemporal_separados
+  - citation_gate_sem_pendencias
+  - caso_ouro_favoravel_e_adversarial
+  - calculo_deterministico_quando_aplicavel
+  - revisor_independente
+  - revisao_humana_juridica
+
+semantic_bridges:
+  agravo-em-execucao:
+    specialized:
+      - ep-peca-agravo-execucao
+  calculadora-pena-multa:
+    specialized:
+      - ep-pena-multa
+  calculadora-prescricao:
+    specialized:
+      - ep-prescricao-executoria
+  execucao-defesa-falta-grave-pad:
+    specialized:
+      - ep-pad-falta-grave
+      - ep-peca-defesa-pad
+  execucao-defesa-regressao-regime:
+    specialized:
+      - ep-defesa-regressao
+  execucao-detracao-penal:
+    specialized:
+      - ep-detracao-unificacao-nova-condenacao
+  execucao-excesso-de-execucao:
+    specialized:
+      - ep-excesso-desvio-execucao
+  execucao-indulto-comutacao:
+    specialized:
+      - ep-indulto-comutacao
+      - ep-peca-indulto-comutacao
+  execucao-insalubridade-superlotacao:
+    specialized:
+      - ep-inspecao-prisional-prova-estrutural
+      - ep-transferencia-protecao
+  execucao-liquidacao-pena-atestado:
+    specialized:
+      - ep-auditoria-calculo-pena
+      - ep-guia-recolhimento-validator
+      - ep-revisor-calculo
+  execucao-livramento-condicional:
+    specialized:
+      - ep-livramento-condicional
+      - ep-peca-livramento-condicional
+  execucao-monitoracao-eletronica:
+    specialized:
+      - ep-monitoracao-eletronica
+  execucao-pena-de-multa:
+    specialized:
+      - ep-pena-multa
+  execucao-pedido-vep-assistencial:
+    specialized:
+      - ep-direitos-pessoa-presa
+      - ep-vulnerabilidades
+  execucao-prisao-domiciliar-apenado:
+    specialized:
+      - ep-domiciliar-harmonizacao
+      - ep-peca-domiciliar-harmonizacao
+  execucao-progressao-regime:
+    specialized:
+      - ep-data-base-analyzer
+      - ep-fracao-progressao-engine
+      - ep-progressao-regime
+      - ep-peca-progressao-regime
+      - ep-revisor-calculo
+  execucao-provisoria-pena:
+    specialized:
+      - ep-execucao-provisoria
+  execucao-remicao:
+    specialized:
+      - ep-remicao-calculator
+      - ep-peca-remicao
+  execucao-saida-temporaria:
+    specialized:
+      - ep-saida-temporaria-trabalho-estudo
+  execucao-trabalho-externo:
+    specialized:
+      - ep-saida-temporaria-trabalho-estudo
+  execucao-unificacao-penas:
+    specialized:
+      - ep-detracao-unificacao-nova-condenacao
+  medida-seguranca-desinternacao:
+    specialized:
+      - ep-medida-seguranca
+  prisao-domiciliar:
+    note: >-
+      Preservar a skill geral para prisão cautelar; usar ep-* somente quando o
+      pedido pertencer à execução penal.
+    specialized:
+      - ep-domiciliar-harmonizacao
+
+promotion_waves:
+  - wave: 0
+    name: seguranca_e_fontes_vivas
+    skills:
+      - ep-antifalucinacao-juridica
+      - ep-atualizacao-legislativa-jurisprudencial
+      - ep-lgpd-sigilo-penal
+      - ep-revisor-jurisprudencia
+      - ep-eval-qualidade-skills
+  - wave: 1
+    name: leitura_diagnostico_e_prova
+    skills:
+      - ep-classificador-documental
+      - ep-extrator-dados-executorios
+      - ep-linha-do-tempo-executoria
+      - ep-matriz-prova-alegacao
+      - ep-separador-fato-prova-tese
+      - ep-diagnostico-360-execucao
+  - wave: 2
+    name: calculos_e_beneficios
+    skills:
+      - ep-auditoria-calculo-pena
+      - ep-data-base-analyzer
+      - ep-fracao-progressao-engine
+      - ep-remicao-calculator
+      - ep-beneficios-vencidos-detector
+      - ep-prescricao-executoria
+      - ep-revisor-calculo
+  - wave: 3
+    name: incidentes_e_pecas
+    rule: promover_por_instituto_apos_a_wave_2
+  - wave: 4
+    name: gestao_e_escala
+    rule: promover_apos_observabilidade_e_feedback_humano
+
+deterministic_engines:
+  fraction-date:
+    file: scripts/legal-calculators/fraction-date-engine.mjs
+    canonical_skills: [execucao-data-base-beneficios, execucao-progressao-regime]
+  remission:
+    file: scripts/legal-calculators/remission-engine.mjs
+    canonical_skills: [execucao-remicao]
+  executory-limitation:
+    file: scripts/legal-calculators/executory-limitation-engine.mjs
+    canonical_skills: [calculadora-prescricao]
+
+canonicalization:
+  schema_version: 1
+  status: pilot_supervision
+  progress:
+    add_targets_materialized: 15
+    consolidated_target_materialized: execucao-matriz-fato-prova-tese
+    deterministic_engines_tested: 3
+    source_previews_preserved: 73
+    source_previews_promoted: 0
+    forward_test_evidence: skills/_evals/results/execucao-canonicas-forward-test-2026-07-09.json
+    note: >-
+      A arquitetura canônica e os destinos existem, mas os deltas MERGE/SPLIT
+      ainda passam por validação jurídica e comparação comportamental por alvo.
+      Nenhuma preview foi promovida automaticamente.
+  policy: >-
+    As previews permanecem preservadas como fonte auditável, mas nunca são
+    selecionadas em produção. O catálogo roteia para alvos canônicos; conteúdo
+    só é promovido após freshness, casos-ouro, gates independentes e revisão humana.
+  counts:
+    ADD: 15
+    MERGE: 37
+    SPLIT: 7
+    ABSORB: 14
+  entries:
+    - {source: ep-alertas-beneficios-prazos, action: ADD, targets: [execucao-alertas-beneficios-prazos]}
+    - {source: ep-antifalucinacao-juridica, action: ABSORB, targets: [verificacao-citacoes]}
+    - {source: ep-atualizacao-legislativa-jurisprudencial, action: ABSORB, targets: [pesquisa-jurisprudencial, acervo/legislacao]}
+    - {source: ep-auditoria-calculo-pena, action: MERGE, targets: [execucao-liquidacao-pena-atestado]}
+    - {source: ep-banco-teses, action: ABSORB, targets: [acervo/teses-modelos]}
+    - {source: ep-beneficios-vencidos-detector, action: ADD, targets: [execucao-detectar-beneficios]}
+    - {source: ep-cenarios-calculo-comparativo, action: MERGE, targets: [execucao-liquidacao-pena-atestado]}
+    - {source: ep-classificador-documental, action: ADD, targets: [execucao-classificador-documental]}
+    - {source: ep-competencia-vep, action: ADD, targets: [execucao-competencia-vep]}
+    - {source: ep-core-criminalista-alta-performance, action: ABSORB, targets: [execucao-penal-alta-performance]}
+    - {source: ep-dashboard-carteira, action: ADD, targets: [execucao-dashboard-carteira]}
+    - {source: ep-data-base-analyzer, action: ADD, targets: [execucao-data-base-beneficios]}
+    - {source: ep-defesa-regressao, action: MERGE, targets: [execucao-defesa-regressao-regime]}
+    - {source: ep-detracao-unificacao-nova-condenacao, action: SPLIT, targets: [execucao-detracao-penal, execucao-unificacao-penas]}
+    - {source: ep-diagnostico-360-execucao, action: ADD, targets: [execucao-diagnostico-360]}
+    - {source: ep-direitos-pessoa-presa, action: MERGE, targets: [execucao-pedido-vep-assistencial]}
+    - {source: ep-domiciliar-harmonizacao, action: MERGE, targets: [execucao-prisao-domiciliar-apenado]}
+    - {source: ep-editor-persuasivo, action: ABSORB, targets: [redacao-persuasiva-criminal]}
+    - {source: ep-eval-qualidade-skills, action: ABSORB, targets: [tests, evals]}
+    - {source: ep-exame-criminologico, action: ADD, targets: [execucao-exame-criminologico]}
+    - {source: ep-excesso-desvio-execucao, action: MERGE, targets: [execucao-excesso-de-execucao]}
+    - {source: ep-execucao-provisoria, action: MERGE, targets: [execucao-provisoria-pena]}
+    - {source: ep-extincao-pena-alvara, action: ADD, targets: [execucao-extincao-pena-alvara]}
+    - {source: ep-extrator-dados-executorios, action: ADD, targets: [execucao-extrator-dados]}
+    - {source: ep-fracao-progressao-engine, action: MERGE, targets: [execucao-data-base-beneficios, execucao-progressao-regime]}
+    - {source: ep-guia-recolhimento-validator, action: MERGE, targets: [execucao-liquidacao-pena-atestado]}
+    - {source: ep-indulto-comutacao, action: MERGE, targets: [execucao-indulto-comutacao]}
+    - {source: ep-inspecao-prisional-prova-estrutural, action: MERGE, targets: [execucao-insalubridade-superlotacao]}
+    - {source: ep-leitor-seeu, action: MERGE, targets: [execucao-liquidacao-pena-atestado]}
+    - {source: ep-lgpd-sigilo-penal, action: ABSORB, targets: [etica-oab-sigilo]}
+    - {source: ep-linha-do-tempo-executoria, action: MERGE, targets: [execucao-extrator-dados]}
+    - {source: ep-livramento-condicional, action: MERGE, targets: [execucao-livramento-condicional]}
+    - {source: ep-matriz-prova-alegacao, action: SPLIT, targets: [execucao-matriz-fato-prova-tese, cadeia-custodia-prova-digital]}
+    - {source: ep-medida-seguranca, action: MERGE, targets: [medida-seguranca-desinternacao]}
+    - {source: ep-memoriais-sustentacao-oral, action: SPLIT, targets: [memoriais, sustentacao-oral-tribunais]}
+    - {source: ep-modelos-dinamicos-pecas, action: ABSORB, targets: [peticao-criminal, recurso-criminal]}
+    - {source: ep-monitoracao-eletronica, action: MERGE, targets: [execucao-monitoracao-eletronica]}
+    - {source: ep-pad-falta-grave, action: MERGE, targets: [execucao-defesa-falta-grave-pad]}
+    - {source: ep-parecer-cliente-linguagem-simples, action: ADD, targets: [execucao-relatorio-cliente]}
+    - {source: ep-peca-agravo-execucao, action: MERGE, targets: [agravo-em-execucao]}
+    - {source: ep-peca-defesa-pad, action: MERGE, targets: [execucao-defesa-falta-grave-pad]}
+    - {source: ep-peca-domiciliar-harmonizacao, action: MERGE, targets: [execucao-prisao-domiciliar-apenado]}
+    - {source: ep-peca-embargos-declaracao, action: MERGE, targets: [embargos-de-declaracao]}
+    - {source: ep-peca-exame-criminologico, action: MERGE, targets: [execucao-exame-criminologico]}
+    - {source: ep-peca-habeas-corpus-execucao, action: MERGE, targets: [habeas-corpus]}
+    - {source: ep-peca-impugnacao-calculo, action: MERGE, targets: [execucao-liquidacao-pena-atestado]}
+    - {source: ep-peca-indulto-comutacao, action: MERGE, targets: [execucao-indulto-comutacao]}
+    - {source: ep-peca-livramento-condicional, action: MERGE, targets: [execucao-livramento-condicional]}
+    - source: ep-peca-mandado-seguranca-correcao
+      action: MERGE
+      targets: [agravo-em-execucao, habeas-corpus]
+      gate: >-
+        Não criar skill autônoma de mandado de segurança sem validação jurídica
+        humana de subsidiariedade, competência, prazo e hipótese residual.
+    - {source: ep-peca-progressao-regime, action: MERGE, targets: [execucao-progressao-regime]}
+    - {source: ep-peca-recurso-especial-extraordinario, action: SPLIT, targets: [recurso-especial-criminal, recurso-extraordinario-criminal]}
+    - {source: ep-peca-remicao, action: MERGE, targets: [execucao-remicao]}
+    - {source: ep-peca-saude-transferencia-protecao, action: SPLIT, targets: [execucao-pedido-vep-assistencial, transferencia-direitos-preso]}
+    - {source: ep-pena-multa, action: MERGE, targets: [execucao-pena-de-multa, calculadora-pena-multa]}
+    - {source: ep-penas-restritivas-direitos, action: ADD, targets: [execucao-penas-restritivas-direitos]}
+    - {source: ep-prescricao-executoria, action: SPLIT, targets: [extincao-punibilidade-prescricao, calculadora-prescricao]}
+    - {source: ep-progressao-regime, action: MERGE, targets: [execucao-progressao-regime]}
+    - {source: ep-raciocinio-defensivo-multiteses, action: ADD, targets: [execucao-estrategia-multiteses]}
+    - {source: ep-regime-aberto-condicoes, action: ADD, targets: [execucao-regime-aberto-condicoes]}
+    - {source: ep-remicao-calculator, action: MERGE, targets: [execucao-remicao]}
+    - {source: ep-revisor-calculo, action: ABSORB, targets: [gate-calculo, evals]}
+    - {source: ep-revisor-juridico, action: ABSORB, targets: [revisao-juridica]}
+    - {source: ep-revisor-jurisprudencia, action: ABSORB, targets: [verificacao-citacoes]}
+    - {source: ep-revisor-probatorio, action: ABSORB, targets: [execucao-matriz-fato-prova-tese]}
+    - {source: ep-saida-temporaria-trabalho-estudo, action: SPLIT, targets: [execucao-saida-temporaria, execucao-trabalho-externo]}
+    - {source: ep-saude-prisional-urgente, action: MERGE, targets: [execucao-pedido-vep-assistencial]}
+    - {source: ep-separador-fato-prova-tese, action: MERGE, targets: [execucao-matriz-fato-prova-tese]}
+    - {source: ep-simulador-julgador, action: ABSORB, targets: [revisao-juridica, evals]}
+    - {source: ep-simulador-ministerio-publico, action: ABSORB, targets: [revisao-juridica, evals]}
+    - {source: ep-transferencia-protecao, action: MERGE, targets: [transferencia-direitos-preso]}
+    - {source: ep-triagem-atendimento-familia, action: ADD, targets: [execucao-triagem-familia]}
+    - {source: ep-triagem-inicial-execucao, action: MERGE, targets: [execucao-diagnostico-360]}
+    - {source: ep-vulnerabilidades, action: MERGE, targets: [execucao-pedido-vep-assistencial]}

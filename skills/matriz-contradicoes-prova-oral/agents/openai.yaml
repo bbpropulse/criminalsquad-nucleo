@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matriz de Contradições da Prova Oral (mapear → classificar → converter em peça)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $matriz-contradicoes-prova-oral para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

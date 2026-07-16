@@ -1,0 +1,12 @@
+id,name,icon,role,path,execution,skills
+triagem,Cláudia Cálculo,🧮,"Coleta foco, urgência, autorização, conflito e documentos sem escolher regra",./agents/triagem.custom.md,inline,
+leitor,Lúcio Liquidação,📑,"Classifica documentos, extrai dados ancorados e monta cronologia",./agents/leitor.custom.md,subagent,
+pesquisador,Sílvia Súmula,🔍,"Pesquisa acervo e fontes oficiais, executa freshness e prepara regra candidata",./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+calculista,César Memória,🧮,"Executa um motor determinístico com regra e aplicabilidade já aprovadas",./agents/calculista.custom.md,subagent,
+estrategista,Helena Estratégia,🧭,"Consolida diagnóstico 360, matriz fato-prova-tese e estratégia hierarquizada",./agents/estrategista.custom.md,subagent,
+redator,Pedro Progressão,✍️,"Redige pela única skill canônica do instituto e mantém o sidecar v4",./agents/redator.custom.md,inline,
+revisor,Vânia Veredito,✅,"Revisão jurídica independente com APPROVE/REJECT",./agents/revisor.custom.md,subagent,
+revisor-probatorio,Priscila Prova,🔬,"Revisão independente de fatos, provas, inferências e âncoras",./agents/revisor-probatorio.custom.md,subagent,
+revisor-calculo,Caio Cálculo,📐,"Revisão independente de regra, memória, cálculo e prazo",./agents/revisor-calculo.custom.md,subagent,
+revisor-citacoes,Cecília Fonte,🔗,"Citation Gate independente com três verificadores",./agents/revisor-citacoes.custom.md,subagent,
+protocolo,Tadeu Trâmite,📤,"Gera versão final e checklist após todos os gates; não protocola",./agents/protocolo.custom.md,inline,

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Contrarrazões de Apelação"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $contrarrazoes-apelacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

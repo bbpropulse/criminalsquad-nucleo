@@ -1,0 +1,6 @@
+interface:
+  display_name: "Calculadora de Prescrição (CP 109-119)"
+  short_description: "Cálculo penal determinístico e auditável"
+  default_prompt: "Use $calculadora-prescricao para executar um cálculo auditável sem inferir a regra jurídica."
+policy:
+  allow_implicit_invocation: false

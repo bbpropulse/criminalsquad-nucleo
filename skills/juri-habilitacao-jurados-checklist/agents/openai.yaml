@@ -1,0 +1,6 @@
+interface:
+  display_name: "Fiscalização da Habilitação e Idoneidade dos Jurados (CPP, arts. 425-426, 436-438, 447, 451, 463-464)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-habilitacao-jurados-checklist para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

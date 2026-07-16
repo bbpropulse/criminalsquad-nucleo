@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interface Penal × Improbidade Administrativa (Lei 8.429/92, red. Lei 14.230/2021; CP, arts. 312-327; CF, art. 37, §4º)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $interface-penal-improbidade-administrativa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

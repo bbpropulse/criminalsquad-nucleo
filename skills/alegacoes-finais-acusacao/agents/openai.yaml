@@ -1,0 +1,6 @@
+interface:
+  display_name: "Alegações Finais / Memoriais da Acusação (CPP 403, §3º e 404, p.u.)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $alegacoes-finais-acusacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

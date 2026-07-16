@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra a Ordem Econômica e as Relações de Consumo (Lei 8.137/1990, arts. 4º-7º) e Lei 8.176/1991"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-tributarios-ordem-economica-relacoes-consumo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

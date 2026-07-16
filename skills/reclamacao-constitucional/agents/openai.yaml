@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reclamação Constitucional em Matéria Criminal (Rcl — STF/STJ)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $reclamacao-constitucional para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

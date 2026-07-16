@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recurso Especial e Extraordinário pelo Polo Acusatório (REsp — art. 105, III, CF · RE — art. 102, III, CF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acusacao-recurso-especial-extraordinario-mp para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

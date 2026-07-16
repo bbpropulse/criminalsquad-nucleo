@@ -1,0 +1,6 @@
+interface:
+  display_name: "Imunidade parlamentar e inviolabilidade do vereador (CF, arts. 53; 27, §1º; 29, VIII)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $imunidade-parlamentar-inviolabilidade-vereador para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

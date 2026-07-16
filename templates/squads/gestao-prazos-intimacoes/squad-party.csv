@@ -1,0 +1,6 @@
+id,name,icon,role,path,execution,skills
+monitor,Mônica Monitoramento,📡,Varre o DJEN/DJe pela carteira e estrutura as publicações do período,./agents/monitor.custom.md,subagent,monitor-dje
+intimacao,Iara Intimação,📨,Interpreta intimações e ciência das publicações triadas e identifica o ato gerador de prazo,./agents/intimacao.custom.md,inline,
+prazo,Priscila Prazo,⏰,Calcula a data fatal de cada prazo penal (CPP 798 dias corridos) com dupla conferência de regime,./agents/prazo.custom.md,subagent,
+agenda,Aline Agenda,📅,Grava os prazos e atos aprovados na agenda do escritório com alerta antecipado,./agents/agenda.custom.md,inline,agenda-juridica
+notificador,Edu E-mail,✉️,Dispara lembretes e comunicações de prazo a advogado e cliente,./agents/notificador.custom.md,inline,email-juridico

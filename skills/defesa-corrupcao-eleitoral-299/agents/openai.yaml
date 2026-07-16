@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Corrupção Eleitoral (art. 299 do Código Eleitoral — Lei 4.737/65)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-corrupcao-eleitoral-299 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

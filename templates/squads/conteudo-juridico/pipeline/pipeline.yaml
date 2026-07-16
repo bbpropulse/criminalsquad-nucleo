@@ -1,0 +1,118 @@
+name: "Pipeline — Conteúdo Jurídico de Autoridade"
+version: "1.0.0"
+created: "2026-06-17"
+squad: "conteudo-juridico"
+
+description: >
+  Pipeline completo para transformar uma tese, um julgado ou uma novidade
+  legislativa em conteúdo de autoridade publicado nas redes. 4 checkpoints de
+  controle garantem que o usuário aprova cada decisão crítica. O GATE ÉTICO
+  (Provimento 205/2021 da OAB) é OBRIGATÓRIO e aparece em dois pontos: no
+  checkpoint de aprovação do copy (Step 05) e na revisão final (Step 08). A
+  revisão do Step 08 não é opcional: em REJECT por veto ético, o pipeline
+  retorna ao Step 04 (copy) e repete até aprovação.
+
+mode: "alta-performance"
+
+steps:
+  - id: step-01
+    name: "Tema/Foco"
+    type: checkpoint
+    file: steps/step-01-tema-foco.md
+
+  - id: step-02
+    name: "Pesquisa de Julgados"
+    type: agent
+    agent: pesquisador
+    model: powerful
+    file: steps/step-02-pesquisar-julgados.md
+    depends_on: step-01
+    output:
+      artifacts:
+        - output/temas.yaml
+
+  - id: step-03
+    name: "Selecionar Tema"
+    type: checkpoint
+    file: steps/step-03-selecionar-tema.md
+    depends_on: step-02
+    output:
+      artifacts:
+        - output/tema-selecionado.yaml
+
+  - id: step-04
+    name: "Geração de Ângulos + Copy"
+    type: agent
+    agent: copywriter
+    file: steps/step-04-gerar-copy.md
+    depends_on: step-03
+    output:
+      artifacts:
+        - output/copy.md
+
+  - id: step-05
+    name: "Aprovar Copy + GATE ÉTICO"
+    type: checkpoint
+    file: steps/step-05-aprovar-copy.md
+    depends_on: step-04
+
+  - id: step-06
+    name: "Criação dos Slides"
+    type: agent
+    agent: designer
+    file: steps/step-06-criar-slides.md
+    depends_on: step-05
+    output:
+      artifacts:
+        - output/slides/
+
+  - id: step-07
+    name: "Aprovar Imagens"
+    type: checkpoint
+    file: steps/step-07-aprovar-imagens.md
+    depends_on: step-06
+
+  - id: step-08
+    name: "Revisão Final + GATE ÉTICO"
+    type: agent
+    agent: revisor
+    optional: false
+    file: steps/step-08-revisao-final.md
+    depends_on: step-07
+    on_reject: step-04
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-final.md
+
+  - id: step-09
+    name: "Publicação nas Redes"
+    type: agent
+    agent: revisor
+    file: steps/step-09-publicar.md
+    depends_on: step-08
+    output:
+      artifacts:
+        - output/publish-report.md
+
+checkpoints:
+  - step-01  # Tema/Foco: área + objetivo
+  - step-03  # Seleção do tema/julgado
+  - step-05  # Aprovação do copy + GATE ÉTICO (Provimento 205/2021)
+  - step-07  # Aprovação das imagens
+
+# Loop de revisão (não-opcional): se a Rita Revisão (Step 08) emitir REJECT —
+# inclusive por VETO ÉTICO —, o pipeline retorna ao Step 04 (copy) com as
+# instruções de correção e repete até receber APPROVE. Ver on_reject em step-08.
+# O Step 09 (publicação) só executa após APPROVE no Step 08.
+
+output:
+  artifacts:
+    - output/foco.md
+    - output/temas.yaml
+    - output/tema-selecionado.yaml
+    - output/copy.md
+    - output/slides/
+    - output/slides/rendered/
+    - output/revisao-final.md
+    - output/publish-report.md

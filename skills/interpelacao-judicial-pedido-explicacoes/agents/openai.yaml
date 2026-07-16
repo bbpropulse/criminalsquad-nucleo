@@ -1,0 +1,6 @@
+interface:
+  display_name: "Interpelação Judicial / Pedido de Explicações (CP art. 144)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $interpelacao-judicial-pedido-explicacoes para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

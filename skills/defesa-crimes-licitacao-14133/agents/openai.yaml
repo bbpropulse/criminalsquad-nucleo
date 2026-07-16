@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes de Licitação (CP, arts. 337-E a 337-P — Lei 14.133/2021)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-licitacao-14133 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

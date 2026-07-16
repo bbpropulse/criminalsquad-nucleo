@@ -1,0 +1,5 @@
+id,name,icon,role,path,execution,skills
+classificador,Cida Cabimento,🧭,Distingue a espécie de ação penal (pública incondicionada × condicionada × privada) e indica a peça correta + alerta de decadência (6 meses),./agents/classificador.custom.md,inline,
+pesquisador,Júlia Jurisprudência,🔍,Levanta precedentes (STJ/STF/súmulas) que sustentam a tipificação e o cabimento da peça,./agents/pesquisador.custom.md,subagent,"web_search,web_fetch"
+redator,Quim Queixa,✍️,Redige a peça da fase pré-processual/ação privada carregando a skill da peça escolhida (queixa/representação/requerimento/retratação),./agents/redator.custom.md,inline,
+revisor,Vera Veredito,✅,Revisa a peça com veredicto APPROVE/REJECT e veta decadência ou peça incabível para a espécie de ação,./agents/revisor.custom.md,subagent,

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recurso Supletivo do Assistente de Acusação (arts. 271, 584, §1º, e 598 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $assistente-recurso-supletivo para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false
