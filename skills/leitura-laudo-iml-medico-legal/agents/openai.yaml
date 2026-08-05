@@ -1,0 +1,6 @@
+interface:
+  display_name: "Leitura e interpretação de laudos do IML (prova pericial médico-legal)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $leitura-laudo-iml-medico-legal para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Representação por Abuso de Autoridade (Lei 13.869/2019)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $acusacao-representacao-abuso-autoridade para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

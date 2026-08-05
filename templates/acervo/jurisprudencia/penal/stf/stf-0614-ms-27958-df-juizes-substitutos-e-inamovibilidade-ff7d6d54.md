@@ -1,0 +1,42 @@
+---
+id: "stf-1674ff7d6d54"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0614"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal", "Direito Tributário", "Direito da Criança e do Adolescente"]
+assunto: "Juízes substitutos e inamovibilidade - 1"
+processo: "MS 27958/DF"
+relator: "Ricardo Lewandowski"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0614.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo614.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "baixa"
+revisao_humana: false
+hash_conteudo_sha256: "5288d6d17a7d607030183fe8d8b59797b3df08121b261cad559908c1f940eb6a"
+---
+
+# Juízes substitutos e inamovibilidade
+
+> Avisos de curadoria automática: Classificação heurística de baixa confiança; requer revisão humana.
+
+## Conteúdo do informativo
+
+Juízes substitutos e inamovibilidade - 1 O Plenário iniciou julgamento de mandado de segurança impetrado por juiz substituto contra ato do Conselho Nacional de Justiça - CNJ que julgara improcedente pedido de providências por ele formulado, sob o fundamento de que o instituto da inamovibilidade (CF, art. 95, II) não alcança os juízes substitutos, ainda que assegurados pela vitaliciedade. Na espécie, o magistrado alega que, ao ingressar na magistratura do Estado do Mato Grosso, fora lotado em uma determinada comarca, mas, posteriormente, tivera sua lotação alterada, várias vezes, para comarcas distintas. O Min. Ricardo Lewandowski, relator, concedeu parcialmente a ordem para anular a decisão do CNJ por entender que a garantia da inamovibilidade se estenderia aos juízes substitutos. Asseverou que a Constituição, ao falar de juízes, faria referência às garantias da magistratura, condicionando apenas a vitaliciedade, no primeiro grau, a dois anos de exercício. Dessa forma, a irredutibilidade de subsídio e a inamovibilidade estariam estabelecidas desde o ingresso do magistrado na carreira, ou seja, aplicar-se-iam imediatamente. Em seguida, tendo em conta o que disposto na Lei Orgânica da Magistratura Nacional (Lei Complementar 35/79) quanto à inamovibilidade (“Art. 30 - O Juiz não poderá ser removido ou promovido senão com seu assentimento, manifestado na forma da lei, ressalvado o disposto no art. 45, item I. Art. 31 - Em caso de mudança da sede do Juízo será facultado ao Juiz remover-se para ela ou para Comarca de igual entrância, ou obter a disponibilidade com vencimentos integrais. ... Art. 45 - O Tribunal ou seu órgão especial poderá determinar, por motivo de interesse público, em escrutínio secreto e pelo voto de dois terços de seus membros efetivos: I - a remoção de Juiz de instância inferior;”), reputou que a regra seria o juiz que ostenta o predicamento da inamovibilidade ser removido apenas com seu assentimento, consistindo exceção isso ocorrer quando, por escrutínio secreto, o tribunal ou seu órgão especial assim o determinar por motivo de interesse público. MS 27958/DF, rel. Min. Ricardo Lewandowski, 3.2.2011. (MS-27958)
+
+Juízes substitutos e inamovibilidade - 2 O relator acrescentou que a inamovibilidade seria uma garantia da magistratura para que fosse assegurada independência e imparcialidade do próprio Poder Judiciário. Aduziu, por outro lado, ser possível que a substituição fosse exercida por meio de escala sem que se removesse compulsoriamente o magistrado de sua comarca ou vara, de modo que respondesse temporariamente pelo serviço nos casos em que o juiz titular estivesse afastado ou sobrecarregado, nos termos do art. 50, § 1º, do Código de Organização do Estado de Mato Grosso (“Art. 50. Em suas faltas ou impedimentos, os Juízes de Direito serão substituídos, uns pelos outros, segundo escala anual aprovada pelo Conselho da Magistratura. § 1º Cada Juiz terá três substitutos sucessivos.”). Em divergência, o Min. Marco Aurélio denegou a ordem por considerar que a inamovibilidade não guardaria pertinência com o cargo de juiz substituto, haja vista que o juiz seria nomeado substituto para atender às necessidades de substituição. Ressaltou que assentar que o juiz substituto goza da prerrogativa inerente à inamovibilidade descaracterizaria o próprio cargo por ele ocupado e que eventual abuso do poder se resolveria em outro campo, sendo que cada Estado poderia ter a organização judiciária, limitando a movimentação do juiz substituto. Após, pediu vista dos autos o Min. Ayres Britto. MS 27958/DF, rel. Min. Ricardo Lewandowski, 3.2.2011. (MS-27958) REPERCUSSÃO GERAL
+
+## Referência processual
+
+Juízes substitutos e inamovibilidade - 1 O Plenário iniciou julgamento de mandado de segurança impetrado por juiz substituto contra ato do Conselho Nacional de Justiça - CNJ que julgara improcedente pedido de providências por ele formulado, sob o fundamento de que o instituto da inamovibilidade (CF, art. 95, II) não alcança os juízes substitutos, ainda que assegurados pela vitaliciedade. Na espécie, o magistrado alega que, ao ingressar na magistratura do Estado do Mato Grosso, fora lotado em uma determinada comarca, mas, posteriormente, tivera sua lotação alterada, várias vezes, para comarcas distintas. O Min. Ricardo Lewandowski, relator, concedeu parcialmente a ordem para anular a decisão do CNJ por entender que a garantia da inamovibilidade se estenderia aos juízes substitutos. Asseverou que a Constituição, ao falar de juízes, faria referência às garantias da magistratura, condicionando apenas a vitaliciedade, no primeiro grau, a dois anos de exercício. Dessa forma, a irredutibilidade de subsídio e a inamovibilidade estariam estabelecidas desde o ingresso do magistrado na carreira, ou seja, aplicar-se-iam imediatamente. Em seguida, tendo em conta o que disposto na Lei Orgânica da Magistratura Nacional (Lei Complementar 35/79) quanto à inamovibilidade (“Art. 30 - O Juiz não poderá ser removido ou promovido senão com seu assentimento, manifestado na forma da lei, ressalvado o disposto no art. 45, item I. Art. 31 - Em caso de mudança da sede do Juízo será facultado ao Juiz remover-se para ela ou para Comarca de igual entrância, ou obter a disponibilidade com vencimentos integrais. ... Art. 45 - O Tribunal ou seu órgão especial poderá determinar, por motivo de interesse público, em escrutínio secreto e pelo voto de dois terços de seus membros efetivos: I - a remoção de Juiz de instância inferior;”), reputou que a regra seria o juiz que ostenta o predicamento da inamovibilidade ser removido apenas com seu assentimento, consistindo exceção isso ocorrer quando, por escrutínio secreto, o tribunal ou seu órgão especial assim o determinar por motivo de interesse público. MS 27958/DF, rel. Min. Ricardo Lewandowski, 3.2.2011. (MS-27958) | Juízes substitutos e inamovibilidade - 2 O relator acrescentou que a inamovibilidade seria uma garantia da magistratura para que fosse assegurada independência e imparcialidade do próprio Poder Judiciário. Aduziu, por outro lado, ser possível que a substituição fosse exercida por meio de escala sem que se removesse compulsoriamente o magistrado de sua comarca ou vara, de modo que respondesse temporariamente pelo serviço nos casos em que o juiz titular estivesse afastado ou sobrecarregado, nos termos do art. 50, § 1º, do Código de Organização do Estado de Mato Grosso (“Art. 50. Em suas faltas ou impedimentos, os Juízes de Direito serão substituídos, uns pelos outros, segundo escala anual aprovada pelo Conselho da Magistratura. § 1º Cada Juiz terá três substitutos sucessivos.”). Em divergência, o Min. Marco Aurélio denegou a ordem por considerar que a inamovibilidade não guardaria pertinência com o cargo de juiz substituto, haja vista que o juiz seria nomeado substituto para atender às necessidades de substituição. Ressaltou que assentar que o juiz substituto goza da prerrogativa inerente à inamovibilidade descaracterizaria o próprio cargo por ele ocupado e que eventual abuso do poder se resolveria em outro campo, sendo que cada Estado poderia ter a organização judiciária, limitando a movimentação do juiz substituto. Após, pediu vista dos autos o Min. Ayres Britto. MS 27958/DF, rel. Min. Ricardo Lewandowski, 3.2.2011. (MS-27958) REPERCUSSÃO GERAL
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0614
+- Arquivo-fonte: `stf/Informativo_STF_0614.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo614.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

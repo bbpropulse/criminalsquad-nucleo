@@ -1,0 +1,6 @@
+interface:
+  display_name: "Image Generator"
+  short_description: "Ações externas com aprovação e auditoria"
+  default_prompt: "Use $image-ai-generator para preparar um preview e aguardar aprovação antes da ação externa."
+policy:
+  allow_implicit_invocation: false

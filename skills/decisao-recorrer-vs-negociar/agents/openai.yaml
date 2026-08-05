@@ -1,0 +1,6 @@
+interface:
+  display_name: "Decisão Estratégica: Recorrer × Negociar × Aceitar (CPP art. 617; CP arts. 110, 42, 91-92; CPP art. 28-A)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $decisao-recorrer-vs-negociar para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

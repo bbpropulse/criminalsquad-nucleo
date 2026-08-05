@@ -1,0 +1,6 @@
+interface:
+  display_name: "Habeas Corpus na Justiça Militar (art. 5º, LXVIII, CF; art. 466 e ss. do CPPM; art. 142, §2º, CF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $jm-habeas-corpus-militar para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

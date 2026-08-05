@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes de Genocídio (Lei 2.889/1956)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-genocidio-2889 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

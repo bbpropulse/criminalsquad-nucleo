@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nas condutas da Lei de Drogas além do tráfico (arts. 28, 33 §4º, 35)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-lei-drogas-condutas-diversas-porte-consumo-associacao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

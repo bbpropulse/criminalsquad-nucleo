@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa do Agente Público — Abuso de Autoridade (Lei 13.869/2019)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-abuso-autoridade para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

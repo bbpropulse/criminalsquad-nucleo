@@ -1,0 +1,6 @@
+interface:
+  display_name: "Resposta à Mutatio e Emendatio Libelli (reação ao aditamento)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $resposta-mutatio-emendatio para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

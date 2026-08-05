@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prova Emprestada — Admissão e Impugnação (CPP arts. 155 e 3º; CPC art. 372; CF art. 5º, LV)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $prova-emprestada-admissibilidade para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

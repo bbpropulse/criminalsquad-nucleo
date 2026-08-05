@@ -1,0 +1,6 @@
+interface:
+  display_name: "Construção da Teoria do Caso (arts. 155, 156 e 386 do CPP; in dubio pro reo)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $teoria-do-caso-construcao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

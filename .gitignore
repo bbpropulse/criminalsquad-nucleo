@@ -1,0 +1,7 @@
+node_modules/
+_criminalsquad/_memory/
+_criminalsquad/_browser_profile/
+_criminalsquad/logs/
+acervo/casos/
+squads/*/_memory/
+.env

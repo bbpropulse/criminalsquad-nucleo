@@ -1,0 +1,6 @@
+interface:
+  display_name: "Calculadora da Pena de Multa (arts. 49 a 52, 58 e 60 do CP)"
+  short_description: "Cálculo penal determinístico e auditável"
+  default_prompt: "Use $calculadora-pena-multa para executar um cálculo auditável sem inferir a regra jurídica."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Análise Transversal do Crime Culposo — Dever de Cuidado e Previsibilidade (art. 18, II, do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $analise-tipo-culposo-dever-cuidado-transversal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

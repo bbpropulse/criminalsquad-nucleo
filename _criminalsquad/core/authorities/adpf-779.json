@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "ADPF 779 (STF) — Rel. Min. Dias Toffoli — A tese da 'legítima defesa da honra' é inconstitucional e não pode ser sustentada em plenário do júri.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "adpf-779-fonte-oficial",
+      "kind": "docket",
+      "title": "ADPF 779 (STF) — Rel. Min. Dias Toffoli",
+      "official_url": "https://portal.stf.jus.br/processos/abaDecisoes.asp?incidente=6081690",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Inconstitucionalidade da tese da legítima defesa da honra. O Plenário julgou INTEGRALMENTE PROCEDENTE a arguição em 01/08/2023 (mérito), por unanimidade, confirmando a cautelar referendada em 15/03/2021. Deu interpretação conforme aos arts. 23, II, e 25, caput e parágrafo único, do CP e ao art. 65 do CPP, e obstou a invocação da tese pela defesa, pela acusação, pela autoridade policial e pelo juízo, nas fases pré-processual e processual e no júri, sob pena de nulidade."
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

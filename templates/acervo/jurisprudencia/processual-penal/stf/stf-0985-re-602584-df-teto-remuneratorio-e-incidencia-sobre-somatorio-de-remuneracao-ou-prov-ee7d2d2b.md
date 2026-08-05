@@ -1,0 +1,38 @@
+---
+id: "stf-7d1dee7d2d2b"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0985"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "Teto remuneratório e incidência sobre somatório de remuneração ou provento e pensão"
+processo: "RE 602584/DF"
+relator: "Marco Aurélio"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0985.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo985.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "ramo_oficial_do_informativo"
+classificacao_confianca: "alta"
+revisao_humana: false
+hash_conteudo_sha256: "875c60cb7fa59aa3a21cb5692fa938605b64794aaf6dde5eafbf0a78fd934b79"
+---
+
+# Teto remuneratório e incidência sobre somatório de remuneração ou provento e pensão
+
+## Conteúdo do informativo
+
+Teto remuneratório e incidência sobre somatório de remuneração ou provento e pensão - Ocorrida a morte do instituidor da pensão em momento posterior ao da Emenda Constitucional (EC) 19/1998, o teto constitucional previsto no inciso XI do artigo 37 da Constituição Federal (CF) (1) incide sobre o somatório de remuneração ou provento e pensão percebida por servidor. Essa foi a tese de repercussão geral fixada pelo Plenário ( Tema 359 ), ao dar provimento, por maioria, a recurso extraordinário e indeferir ordem de mandado de segurança. Na hipótese dos autos, o tribunal de origem assentou a não incidência do teto constitucional remuneratório sobre a soma dos valores recebidos, por servidora, a título de pensão por morte e os vencimentos alusivos à remuneração do seu cargo público efetivo. O colegiado afirmou, inicialmente, estar-se diante de questão diversa da examinada no julgamento do RE 602.043 ( Tema 384 ) e do RE 612.975 ( Tema 377 ). Esclareceu que, no caso concreto, o servidor que instituiu a pensão faleceu em 13.6.1999. Na época do julgamento impugnado mediante o extraordinário (dezembro de 2008), a beneficiária estava na ativa, mas aposentou-se em 19.10.2015, acumulando a pensão e os proventos da aposentadoria. Concluiu que, portanto, cabível considerar, para efeito de teto, previsto no art. 37, XI, da CF, o somatório de valores percebidos a título de remuneração, proventos e pensão. Vencidos os ministros Celso de Mello, Ricardo Lewandowski e Dias Toffoli (presidente) que negaram provimento ao recurso, ao fundamento de que, por se tratar de direitos decorrentes de fatos geradores distintos, o teto remuneratório deveria incidir isoladamente sobre cada uma das verbas. (1) CF: “Art. 37. A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte: (...) XI – a remuneração e o subsídio dos ocupantes de cargos, funções e empregos públicos da administração direta, autárquica e fundacional, dos membros de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, dos detentores de mandato eletivo e dos demais agentes políticos e os proventos, pensões ou outra espécie remuneratória, percebidos cumulativamente ou não, incluídas as vantagens pessoais ou de qualquer outra natureza, não poderão exceder o subsídio mensal, em espécie, dos Ministros do Supremo Tribunal Federal, aplicando-se como limite, nos Municípios, o subsídio do Prefeito, e nos Estados e no Distrito Federal, o subsídio mensal do Governador no âmbito do Poder Executivo, o subsídio dos Deputados Estaduais e Distritais no âmbito do Poder Legislativo e o subsídio dos Desembargadores do Tribunal de Justiça, limitado a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, em espécie, dos Ministros do Supremo Tribunal Federal, no âmbito do Poder Judiciário, aplicável este limite aos membros do Ministério Público, aos Procuradores e aos Defensores Públicos;” RE 602584/DF, rel. Min. Marco Aurélio, julgamento em 6.8.2020. (RE-602584) SEGUNDA TURMA DIREITO PROCESSUAL PENAL – “HABEAS CORPUS”
+
+## Referência processual
+
+Teto remuneratório e incidência sobre somatório de remuneração ou provento e pensão - Ocorrida a morte do instituidor da pensão em momento posterior ao da Emenda Constitucional (EC) 19/1998, o teto constitucional previsto no inciso XI do artigo 37 da Constituição Federal (CF) (1) incide sobre o somatório de remuneração ou provento e pensão percebida por servidor. Essa foi a tese de repercussão geral fixada pelo Plenário ( Tema 359 ), ao dar provimento, por maioria, a recurso extraordinário e indeferir ordem de mandado de segurança. Na hipótese dos autos, o tribunal de origem assentou a não incidência do teto constitucional remuneratório sobre a soma dos valores recebidos, por servidora, a título de pensão por morte e os vencimentos alusivos à remuneração do seu cargo público efetivo. O colegiado afirmou, inicialmente, estar-se diante de questão diversa da examinada no julgamento do RE 602.043 ( Tema 384 ) e do RE 612.975 ( Tema 377 ). Esclareceu que, no caso concreto, o servidor que instituiu a pensão faleceu em 13.6.1999. Na época do julgamento impugnado mediante o extraordinário (dezembro de 2008), a beneficiária estava na ativa, mas aposentou-se em 19.10.2015, acumulando a pensão e os proventos da aposentadoria. Concluiu que, portanto, cabível considerar, para efeito de teto, previsto no art. 37, XI, da CF, o somatório de valores percebidos a título de remuneração, proventos e pensão. Vencidos os ministros Celso de Mello, Ricardo Lewandowski e Dias Toffoli (presidente) que negaram provimento ao recurso, ao fundamento de que, por se tratar de direitos decorrentes de fatos geradores distintos, o teto remuneratório deveria incidir isoladamente sobre cada uma das verbas. (1) CF: “Art. 37. A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte: (...) XI – a remuneração e o subsídio dos ocupantes de cargos, funções e empregos públicos da administração direta, autárquica e fundacional, dos membros de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, dos detentores de mandato eletivo e dos demais agentes políticos e os proventos, pensões ou outra espécie remuneratória, percebidos cumulativamente ou não, incluídas as vantagens pessoais ou de qualquer outra natureza, não poderão exceder o subsídio mensal, em espécie, dos Ministros do Supremo Tribunal Federal, aplicando-se como limite, nos Municípios, o subsídio do Prefeito, e nos Estados e no Distrito Federal, o subsídio mensal do Governador no âmbito do Poder Executivo, o subsídio dos Deputados Estaduais e Distritais no âmbito do Poder Legislativo e o subsídio dos Desembargadores do Tribunal de Justiça, limitado a noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal, em espécie, dos Ministros do Supremo Tribunal Federal, no âmbito do Poder Judiciário, aplicável este limite aos membros do Ministério Público, aos Procuradores e aos Defensores Públicos;” RE 602584/DF, rel. Min. Marco Aurélio, julgamento em 6.8.2020. (RE-602584) SEGUNDA TURMA DIREITO PROCESSUAL PENAL – “HABEAS CORPUS”
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0985
+- Arquivo-fonte: `stf/Informativo_STF_0985.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo985.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

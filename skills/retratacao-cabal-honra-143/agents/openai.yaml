@@ -1,0 +1,6 @@
+interface:
+  display_name: "Retratação Cabal do Querelado nos Crimes contra a Honra (CP, art. 143)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $retratacao-cabal-honra-143 para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

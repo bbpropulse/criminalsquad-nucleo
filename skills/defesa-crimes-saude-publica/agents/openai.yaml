@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes contra a Saúde Pública (CP, arts. 267 a 285)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-saude-publica para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

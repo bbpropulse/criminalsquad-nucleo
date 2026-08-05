@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Boca de Urna e Propaganda no Dia da Eleição (art. 39, §5º, da Lei 9.504/97)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-boca-de-urna-propaganda-dia-eleicao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Técnica de oratória forense em audiência e tribunal"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $tecnica-oratoria-forense-audiencia para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

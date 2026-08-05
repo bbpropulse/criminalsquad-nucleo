@@ -1,0 +1,6 @@
+interface:
+  display_name: "Leitura de Autenticidade de Print de Conversa (Lei 12.965/2014; CPP arts. 158-A a 158-F e 232)"
+  short_description: "Prova e documentos com rastreabilidade"
+  default_prompt: "Use $leitura-autenticidade-print-conversa para examinar o material com âncoras, confiança e preservação do original."
+policy:
+  allow_implicit_invocation: false

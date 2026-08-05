@@ -1,0 +1,6 @@
+interface:
+  display_name: "Checklist de Cabimento Recursal (arts. 574 a 667 do CPP; Lei 8.038/90; arts. 994 e 1.029 do CPC subsidiário)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $checklist-cabimento-recursal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

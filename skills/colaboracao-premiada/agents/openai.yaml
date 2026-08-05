@@ -1,0 +1,6 @@
+interface:
+  display_name: "Colaboração Premiada (Lei 12.850/2013, arts. 3º-A a 7º)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $colaboracao-premiada para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

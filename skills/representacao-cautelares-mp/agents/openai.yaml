@@ -1,0 +1,6 @@
+interface:
+  display_name: "Representação e Requerimento de Cautelares (polo acusatório)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $representacao-cautelares-mp para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

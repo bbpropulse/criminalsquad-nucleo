@@ -1,0 +1,6 @@
+interface:
+  display_name: "Habilitação e Acesso aos Autos (entrada do advogado no caso)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $habilitacao-acesso-autos para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

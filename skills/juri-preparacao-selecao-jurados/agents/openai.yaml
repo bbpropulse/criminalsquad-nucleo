@@ -1,0 +1,6 @@
+interface:
+  display_name: "Preparação Prévia da Seleção de Jurados (arts. 425-426, 447-469 CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-preparacao-selecao-jurados para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

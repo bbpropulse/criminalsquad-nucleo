@@ -1,0 +1,6 @@
+interface:
+  display_name: "Extradição Ativa — pedido brasileiro (Lei 13.445/2017, arts. 88-90; Decreto 9.199/2017)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $extradicao-ativa-pedido-brasil para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

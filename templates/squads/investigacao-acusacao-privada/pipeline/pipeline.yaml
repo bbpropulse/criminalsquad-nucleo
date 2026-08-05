@@ -1,0 +1,85 @@
+name: "Pipeline — Sala da Vítima — Acusação Privada"
+version: "1.0.0"
+created: "2026-06-17"
+squad: "investigacao-acusacao-privada"
+
+description: >
+  Pipeline completo para transformar o relato da vítima em peça da fase
+  pré-processual/ação penal privada pronta para protocolo. 3 checkpoints de
+  controle garantem que o advogado confirma os fatos/tipo penal, a peça escolhida
+  e a versão final. A DECADÊNCIA (6 meses — CP art. 103 / CPP art. 38) é conferida
+  em todos os steps como gate crítico, pois o prazo é fatal.
+
+mode: "alta-performance"
+
+steps:
+  - id: step-01
+    name: "Fatos e Tipo Penal"
+    type: checkpoint
+    file: steps/step-01-fatos-tipo-penal.md
+
+  - id: step-02
+    name: "Classificação do Cabimento"
+    type: agent
+    agent: classificador
+    file: steps/step-02-classificar-cabimento.md
+    depends_on: step-01
+
+  - id: step-03
+    name: "Confirmar Peça"
+    type: checkpoint
+    file: steps/step-03-confirmar-peca.md
+    depends_on: step-02
+
+  - id: step-04
+    name: "Pesquisa de Precedentes"
+    type: agent
+    agent: pesquisador
+    file: steps/step-04-pesquisar-precedentes.md
+    depends_on: step-03
+
+  - id: step-05
+    name: "Redação da Peça"
+    type: agent
+    agent: redator
+    file: steps/step-05-redigir-peca.md
+    depends_on: step-04
+
+  - id: step-06
+    name: "Aprovar Peça"
+    type: checkpoint
+    file: steps/step-06-aprovar-peca.md
+    depends_on: step-05
+
+  - id: step-07
+    name: "Revisão Final"
+    type: agent
+    agent: revisor
+    optional: false
+    file: steps/step-07-revisar.md
+    depends_on: step-06
+    on_reject: step-05
+    max_review_cycles: 3
+    output:
+      artifacts:
+        - output/revisao-final.md
+
+# Loop de revisão (não-opcional): se a revisora (Step 07) emitir REJECT,
+# o pipeline retorna ao Step 05 (redação) passando apenas a lista `fixes`
+# (feedback-delta) e RETOMA para a frente pelo checkpoint Step 06 (re-aprovação
+# do advogado a cada ciclo — intencional no jurídico), até APPROVE ou o teto
+# max_review_cycles=3. Citation Gate (verificador-citacoes) roda antes do APPROVE.
+# Ver on_reject + max_review_cycles em step-07.
+
+checkpoints:
+  - step-01  # Fatos e tipo penal: relato + provas + autoria conhecida? + data do conhecimento da autoria
+  - step-03  # Confirmar a peça e o prazo decadencial
+  - step-06  # Aprovar versão final da peça
+
+output:
+  artifacts:
+    - output/fatos.md
+    - output/cabimento.md
+    - output/precedentes.md
+    - output/peca.md
+    - output/revisao-final.md

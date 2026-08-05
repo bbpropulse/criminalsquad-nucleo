@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crime de Responsabilidade de Governador (Lei 1.079/50)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crime-responsabilidade-governador-lei-1079 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

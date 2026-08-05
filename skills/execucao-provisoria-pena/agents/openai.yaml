@@ -1,0 +1,6 @@
+interface:
+  display_name: "Execução Provisória da Pena (guia provisória e benefícios antes do trânsito)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-provisoria-pena para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

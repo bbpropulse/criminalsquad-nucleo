@@ -1,0 +1,6 @@
+interface:
+  display_name: "Estouro de Urna, Separação de Julgamentos e Adiamento da Sessão (arts. 469-471 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-estouro-urna-adiamento para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

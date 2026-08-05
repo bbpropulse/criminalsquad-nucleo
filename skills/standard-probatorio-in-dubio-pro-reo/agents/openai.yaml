@@ -1,0 +1,6 @@
+interface:
+  display_name: "Standard Probatório e In Dubio Pro Reo (CPP arts. 156 e 386, VII; CF art. 5º, LVII)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $standard-probatorio-in-dubio-pro-reo para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

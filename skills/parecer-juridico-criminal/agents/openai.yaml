@@ -1,0 +1,6 @@
+interface:
+  display_name: "Parecer Jurídico-Criminal (consulta, viabilidade e custos legis)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $parecer-juridico-criminal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Comércio Ilegal e Tráfico de Arma de Fogo (Lei 10.826/2003 — defesa nos arts. 17 e 18)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-estatuto-desarmamento-comercio-trafico-arma para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sursis da Pena (suspensão condicional da execução da pena — arts. 77 a 82 do CP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $sursis-da-pena para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

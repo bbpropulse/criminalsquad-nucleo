@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Maus-Tratos (CP, art. 136)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-maus-tratos para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

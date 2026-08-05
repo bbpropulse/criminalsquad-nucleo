@@ -1,0 +1,6 @@
+interface:
+  display_name: "Desaforamento no Tribunal do Júri — polo acusatório e contrarrazões (arts. 427-428 CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-desaforamento-acusacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

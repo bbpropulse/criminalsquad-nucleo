@@ -1,0 +1,6 @@
+interface:
+  display_name: "Controle e Tese de Imputação — análise pré-denúncia do MP (CPP, arts. 41, 395, III, 28 e 28-A)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $controle-imputacao-mp para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

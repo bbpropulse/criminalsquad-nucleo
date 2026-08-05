@@ -1,0 +1,38 @@
+---
+id: "stf-f632dc69be01"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0940"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "Magistrado impedido e nulidade absoluta"
+processo: "HC 136015/MG"
+relator: "Ricardo Lewandowski"
+orgao_julgador: "SEGUNDA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0940.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo940.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "ramo_oficial_do_informativo"
+classificacao_confianca: "alta"
+revisao_humana: false
+hash_conteudo_sha256: "396f79a26233f7660d889bd3ce825f0a196eef613b0a985546f431fcb0ac3303"
+---
+
+# Magistrado impedido e nulidade absoluta
+
+## Conteúdo do informativo
+
+Magistrado impedido e nulidade absoluta - A participação de magistrado em julgamento de caso em que seu pai já havia atuado é causa de nulidade absoluta, prevista no art. 252, I, do Código de Processo Penal (CPP) (1). Com base nesse entendimento, a Segunda Turma, por maioria, concedeu habeas corpus para anular julgamento de recurso em sentido estrito e determinar que outro seja proferido sem a participação do magistrado impedido. O colegiado considerou o fato de que o pai do magistrado julgador do recurso em sentido estrito havia participado anteriormente do julgamento de outro habeas corpus impetrado pela paciente e de apelação interposta por corréu perante o tribunal de justiça a quo. Reconheceu a existência de efetivo prejuízo para a paciente. Afastou a aplicação de precedente do Plenário que, com base no princípio processual penal pas de nullité sans grief, concluiu que a atuação de ministro da Corte, supostamente impedido, não influiria no resultado do julgamento. Na situação analisada, o órgão colegiado do tribunal de origem era formado por apenas três magistrados. A exclusão do desembargador impedido acarretaria substancial alteração no resultado do julgamento, porque, sem ele, não haveria sequer quórum para a própria instalação da sessão de julgamento. Vencido o ministro Edson Fachin, que não conheceu do habeas corpus por dois fundamentos. Primeiro, a impetração seria incabível, na linha de precedentes da Corte, porque voltada contra decisão monocrática de ministro do Superior Tribunal de Justiça. Segundo, diante da certificação do trânsito em julgado da decisão do tribunal de origem, o writ seria utilizado como substituto da revisão criminal. Concluiu, em seguida, pela inexistência de situação de ilegalidade flagrante ou situação teratológica apta a mitigar esses óbices. Para o ministro Fachin, não houve vulneração à imparcialidade do Estado-juiz. Isso porque os julgadores ligados por vínculo de parentesco não integraram o mesmo colegiado durante um mesmo julgado, mas atuaram em incidentes subsequentes diversos. Esclareceu, no ponto, que a norma constante do art. 253 do CPP (2) visa evitar, por meio de presunção de parcialidade, que determinada compreensão individual na prática tenha feitio de colegiado. Considerou que, no caso, não se deu votação alinhada e conjunta que acarretasse desequilíbrio na interação de forças argumentativas. Também não foi demonstrado prejuízo, o que essencial à declaração de nulidade, relativa ou absoluta, a teor do art. 563 do CPP (3). (1) CPP: “Art. 252. O juiz não poderá exercer jurisdição no processo em que: I – tiver funcionado seu cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito;” (2) CPP: “Art. 253. Nos juízos coletivos, não poderão servir no mesmo processo os juízes que forem entre si parentes, consanguíneos ou afins, em linha reta ou colateral até o terceiro grau, inclusive.” (3) CPP: “Art. 563. Nenhum ato será declarado nulo, se da nulidade não resultar prejuízo para a acusação ou para a defesa.” HC 136015/MG, rel. Min. Ricardo Lewandowski, julgamento em 14.5.2019. (HC-136015) DIREITO PROCESSUAL PENAL – EXECUÇÃO DAS PENAS
+
+## Referência processual
+
+Magistrado impedido e nulidade absoluta - A participação de magistrado em julgamento de caso em que seu pai já havia atuado é causa de nulidade absoluta, prevista no art. 252, I, do Código de Processo Penal (CPP) (1). Com base nesse entendimento, a Segunda Turma, por maioria, concedeu habeas corpus para anular julgamento de recurso em sentido estrito e determinar que outro seja proferido sem a participação do magistrado impedido. O colegiado considerou o fato de que o pai do magistrado julgador do recurso em sentido estrito havia participado anteriormente do julgamento de outro habeas corpus impetrado pela paciente e de apelação interposta por corréu perante o tribunal de justiça a quo. Reconheceu a existência de efetivo prejuízo para a paciente. Afastou a aplicação de precedente do Plenário que, com base no princípio processual penal pas de nullité sans grief, concluiu que a atuação de ministro da Corte, supostamente impedido, não influiria no resultado do julgamento. Na situação analisada, o órgão colegiado do tribunal de origem era formado por apenas três magistrados. A exclusão do desembargador impedido acarretaria substancial alteração no resultado do julgamento, porque, sem ele, não haveria sequer quórum para a própria instalação da sessão de julgamento. Vencido o ministro Edson Fachin, que não conheceu do habeas corpus por dois fundamentos. Primeiro, a impetração seria incabível, na linha de precedentes da Corte, porque voltada contra decisão monocrática de ministro do Superior Tribunal de Justiça. Segundo, diante da certificação do trânsito em julgado da decisão do tribunal de origem, o writ seria utilizado como substituto da revisão criminal. Concluiu, em seguida, pela inexistência de situação de ilegalidade flagrante ou situação teratológica apta a mitigar esses óbices. Para o ministro Fachin, não houve vulneração à imparcialidade do Estado-juiz. Isso porque os julgadores ligados por vínculo de parentesco não integraram o mesmo colegiado durante um mesmo julgado, mas atuaram em incidentes subsequentes diversos. Esclareceu, no ponto, que a norma constante do art. 253 do CPP (2) visa evitar, por meio de presunção de parcialidade, que determinada compreensão individual na prática tenha feitio de colegiado. Considerou que, no caso, não se deu votação alinhada e conjunta que acarretasse desequilíbrio na interação de forças argumentativas. Também não foi demonstrado prejuízo, o que essencial à declaração de nulidade, relativa ou absoluta, a teor do art. 563 do CPP (3). (1) CPP: “Art. 252. O juiz não poderá exercer jurisdição no processo em que: I – tiver funcionado seu cônjuge ou parente, consanguíneo ou afim, em linha reta ou colateral até o terceiro grau, inclusive, como defensor ou advogado, órgão do Ministério Público, autoridade policial, auxiliar da justiça ou perito;” (2) CPP: “Art. 253. Nos juízos coletivos, não poderão servir no mesmo processo os juízes que forem entre si parentes, consanguíneos ou afins, em linha reta ou colateral até o terceiro grau, inclusive.” (3) CPP: “Art. 563. Nenhum ato será declarado nulo, se da nulidade não resultar prejuízo para a acusação ou para a defesa.” HC 136015/MG, rel. Min. Ricardo Lewandowski, julgamento em 14.5.2019. (HC-136015) DIREITO PROCESSUAL PENAL – EXECUÇÃO DAS PENAS
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0940
+- Arquivo-fonte: `stf/Informativo_STF_0940.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo940.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

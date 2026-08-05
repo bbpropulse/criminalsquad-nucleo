@@ -1,0 +1,6 @@
+interface:
+  display_name: "Enquadramento e competência em pirâmide/Ponzi e captação irregular"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-piramide-captacao-irregular-economia-popular para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

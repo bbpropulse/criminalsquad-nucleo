@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "ADPF 338 (STF) — Rel. Min. Luís Roberto Barroso; Red. p/ acórdão Min. Flávio Dino — Reconheceu a CONSTITUCIONALIDADE do art. 141, II, do CP (crime contra a honra de funcionário público).",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "adpf-338-fonte-oficial",
+      "kind": "docket",
+      "title": "ADPF 338 (STF) — Rel. Min. Luís Roberto Barroso; Red. p/ acórdão Min. Flávio Dino",
+      "official_url": "https://portal.stf.jus.br/processos/abaDecisoes.asp?incidente=4739360",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Ação do Partido Progressista (PP) contra o art. 141, II, do CP (aumento de um terço da pena na calúnia, injúria ou difamação praticadas contra funcionário público em razão da função). O Plenário julgou a arguição IMPROCEDENTE em 05/02/2026, por maioria, prevalecendo a divergência do Min. Flávio Dino (Redator para o acórdão) — a norma foi mantida integralmente. Acórdão publicado em 08/04/2026; trânsito em julgado em 16/04/2026. Improcedência de ADPF em controle abstrato equiva"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

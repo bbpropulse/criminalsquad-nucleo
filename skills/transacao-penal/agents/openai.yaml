@@ -1,0 +1,6 @@
+interface:
+  display_name: "Transação Penal (art. 76 da Lei 9.099/95)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $transacao-penal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

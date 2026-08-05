@@ -1,0 +1,6 @@
+interface:
+  display_name: "Réplica, Tréplica e Aparte no Tribunal do Júri (arts. 476, 477 e 497, XII do CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-replica-treplica-aparte para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

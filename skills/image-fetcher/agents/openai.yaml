@@ -1,0 +1,6 @@
+interface:
+  display_name: "Asset Fetcher"
+  short_description: "Automação validada e reutilizável"
+  default_prompt: "Use $image-fetcher para construir o artefato reutilizável com validação e evidências."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Decadência em Crimes contra a Honra (art. 38 CPP; art. 103 CP; art. 107, IV, CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $decadencia-honra-controle-prazo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

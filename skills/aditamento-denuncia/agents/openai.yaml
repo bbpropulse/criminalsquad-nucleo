@@ -1,0 +1,6 @@
+interface:
+  display_name: "Aditamento da Denúncia (mutatio libelli — arts. 384 e 569 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $aditamento-denuncia para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,40 @@
+---
+id: "stj-3acdca445a89"
+tribunal: "STJ"
+tribunal_nome: "Superior Tribunal de Justiça"
+informativo: "0582"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal"]
+assunto: "DIREITO PENAL. CLASSIFICAÇÃO DE SUBSTÂNCIA COMO DROGA PARA FINS DA LEI N. 11.343/2006."
+processo: "REsp 1.444.537-RS"
+relator: "Rogerio Schietti Cruz"
+orgao_julgador: "SEXTA TURMA"
+data_julgamento: "12/4/2016"
+fonte_arquivo: "stj/Informativo_STJ_0582.pdf"
+fonte_url: "https://processo.stj.jus.br/SCON/GetPDFINFJ?edicao=0582"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "ba7d526f0fdb911e8ec2cc82f1d52f937629932810f730b7c6a4d201f740c9fc"
+---
+
+# DIREITO PENAL. CLASSIFICAÇÃO DE SUBSTÂNCIA COMO DROGA PARA FINS DA LEI N. 11.343/2006.
+
+## Conteúdo do informativo
+
+DIREITO PENAL. CLASSIFICAÇÃO DE SUBSTÂNCIA COMO DROGA PARA FINS DA LEI N. 11.343/2006.
+
+Classifica-se como "droga", para fins da Lei n. 11.343/2006 (Lei de Drogas), a substância apreendida que possua canabinoides - característica da espécie vegetal Cannabis sativa -, ainda que naquela não haja tetrahidrocanabinol (THC). Inicialmente, emerge a necessidade de se analisar o preceito contido no parágrafo único do art. 1º da Lei de Drogas, segundo o qual "consideram-se como drogas as substâncias ou os produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União". Em acréscimo, estabelece o art. 66 da Lei de Drogas que, "Para fins do disposto no parágrafo único do art. 1º desta Lei, até que seja atualizada a terminologia da lista mencionada no preceito, denominam-se drogas substâncias entorpecentes, psicotrópicas, precursoras e outras sob controle especial, da Portaria SVS/MS nº 344, de 12 de maio de 1998". Verifica-se, assim, que, sistematicamente, por uma opção legislativa, o art. 66 ampliou o universo de incidência dos comandos proibitivos penais. Portanto, a definição do que sejam "drogas", capazes de caracterizar os delitos previstos na Lei n. 11.343/2006, advém da Portaria n. 344/1998 da Secretaria de Vigilância Sanitária do Ministério da Saúde. Nesse contexto, por ser constituída de um conceito técnico-jurídico, só será considerada droga o que a lei (em sentido amplo) assim o reconhecer. Desse modo, mesmo que determinada substância cause dependência física ou psíquica, se ela não estiver prevista no rol das substâncias legalmente proibidas, ela não será tratada como droga para fins de incidência da Lei n. 11.343/2006. Salientado isso, nota-se que a Cannabis sativa integra a Lista E da Portaria n. 344/1998 da Secretaria de Vigilância Sanitária do Ministério da Saúde, que, em última análise, a define como planta que pode originar substâncias entorpecentes e/ou psicotrópicas. Essa mesma lista traz um adendo de que "ficam também sob controle todos os sais e isômeros das substâncias obtidas a partir das plantas elencadas acima". Portanto, irrelevante, para a comprovação da materialidade de delito, o fato de laudo pericial não haver revelado a presença de tetrahidrocanabinol (THC) - um dos componentes ativos da Cannabis sativa - na substância se constatada a presença de canabinoides, característicos da espécie vegetal Cannabis sativa, que integram a Lista E da Portaria n. 344/1998 e causam dependência. Ressalte-se que essa também tem sido a compreensão adotada pelo STF, o qual, no julgamento do HC 122.247-DF (Segunda Turma, DJe 2/6/2014), firmou entendimento no sentido de que "a ausência de indicação, no laudo toxicológico, de um dos princípios ativos do entorpecente vulgarmente conhecido como 'maconha' não impede a caracterização da materialidade delitiva". Por fim, saliente-se que a própria Portaria n. 344/1998 determina, em seu art. 95, que plantas, substâncias e/ou medicamentos de uso proscrito no Brasil (Lista E e Lista F) serão incinerados. Ou seja, se a própria portaria integradora dos tipos penais relacionados na Lei de Drogas determinou, expressamente, que as plantas integrantes da Lista E serão incineradas, seria ilógico instituir sua apreensão e incineração, se proscritas não fossem. Precedente citado do STF: HC 116.312-RS, Primeira Turma, DJe 3/10/2013. REsp 1.444.537-RS, Rel. Min. Rogerio Schietti Cruz, julgado em 12/4/2016, DJe 25/4/2016.
+
+## Referência processual
+
+Classifica-se como "droga", para fins da Lei n. 11.343/2006 (Lei de Drogas), a substância apreendida que possua canabinoides - característica da espécie vegetal Cannabis sativa -, ainda que naquela não haja tetrahidrocanabinol (THC). Inicialmente, emerge a necessidade de se analisar o preceito contido no parágrafo único do art. 1º da Lei de Drogas, segundo o qual "consideram-se como drogas as substâncias ou os produtos capazes de causar dependência, assim especificados em lei ou relacionados em listas atualizadas periodicamente pelo Poder Executivo da União". Em acréscimo, estabelece o art. 66 da Lei de Drogas que, "Para fins do disposto no parágrafo único do art. 1º desta Lei, até que seja atualizada a terminologia da lista mencionada no preceito, denominam-se drogas substâncias entorpecentes, psicotrópicas, precursoras e outras sob controle especial, da Portaria SVS/MS nº 344, de 12 de maio de 1998". Verifica-se, assim, que, sistematicamente, por uma opção legislativa, o art. 66 ampliou o universo de incidência dos comandos proibitivos penais. Portanto, a definição do que sejam "drogas", capazes de caracterizar os delitos previstos na Lei n. 11.343/2006, advém da Portaria n. 344/1998 da Secretaria de Vigilância Sanitária do Ministério da Saúde. Nesse contexto, por ser constituída de um conceito técnico-jurídico, só será considerada droga o que a lei (em sentido amplo) assim o reconhecer. Desse modo, mesmo que determinada substância cause dependência física ou psíquica, se ela não estiver prevista no rol das substâncias legalmente proibidas, ela não será tratada como droga para fins de incidência da Lei n. 11.343/2006. Salientado isso, nota-se que a Cannabis sativa integra a Lista E da Portaria n. 344/1998 da Secretaria de Vigilância Sanitária do Ministério da Saúde, que, em última análise, a define como planta que pode originar substâncias entorpecentes e/ou psicotrópicas. Essa mesma lista traz um adendo de que "ficam também sob controle todos os sais e isômeros das substâncias obtidas a partir das plantas elencadas acima". Portanto, irrelevante, para a comprovação da materialidade de delito, o fato de laudo pericial não haver revelado a presença de tetrahidrocanabinol (THC) - um dos componentes ativos da Cannabis sativa - na substância se constatada a presença de canabinoides, característicos da espécie vegetal Cannabis sativa, que integram a Lista E da Portaria n. 344/1998 e causam dependência. Ressalte-se que essa também tem sido a compreensão adotada pelo STF, o qual, no julgamento do HC 122.247-DF (Segunda Turma, DJe 2/6/2014), firmou entendimento no sentido de que "a ausência de indicação, no laudo toxicológico, de um dos princípios ativos do entorpecente vulgarmente conhecido como 'maconha' não impede a caracterização da materialidade delitiva". Por fim, saliente-se que a própria Portaria n. 344/1998 determina, em seu art. 95, que plantas, substâncias e/ou medicamentos de uso proscrito no Brasil (Lista E e Lista F) serão incinerados. Ou seja, se a própria portaria integradora dos tipos penais relacionados na Lei de Drogas determinou, expressamente, que as plantas integrantes da Lista E serão incineradas, seria ilógico instituir sua apreensão e incineração, se proscritas não fossem. Precedente citado do STF: HC 116.312-RS, Primeira Turma, DJe 3/10/2013. REsp 1.444.537-RS, Rel. Min. Rogerio Schietti Cruz, julgado em 12/4/2016, DJe 25/4/2016.
+
+## Proveniência
+
+- Tribunal: Superior Tribunal de Justiça
+- Informativo: 0582
+- Arquivo-fonte: `stj/Informativo_STJ_0582.pdf`
+- URL registrada no índice de origem: https://processo.stj.jus.br/SCON/GetPDFINFJ?edicao=0582
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

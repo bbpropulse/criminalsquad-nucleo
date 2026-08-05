@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "RHC 99.735-SC (STJ, 6ª Turma, Rel. Min. Laurita Vaz) — Acessar e apagar dados sem deixar rastro é tratado como ILÍCITO (prova ilícita / medida ilegal).",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "rhc-99-735-sc-fonte-oficial",
+      "kind": "docket",
+      "title": "RHC 99.735-SC (STJ, 6ª Turma, Rel. Min. Laurita Vaz)",
+      "official_url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ATC?seq=92663446&tipo=91&nreg=201801533498&SeqCgrmaSessao=&CodOrgaoJgdr=&dt=20190328&formato=PDF&salvar=false",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Recurso ordinário em habeas corpus sobre autorização judicial de ESPELHAMENTO, via WhatsApp Web (Código QR), das conversas do investigado com terceiros, em apuração de tráfico e associação (arts. 33 e 35 da Lei 11.343/2006). A Sexta Turma declarou a nulidade da decisão que autorizou o espelhamento e das provas dela dependentes, justamente porque a ferramenta permite ao investigador enviar novas mensagens e excluir mensagens passadas, presentes ou futuras 'com total liberdade,"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

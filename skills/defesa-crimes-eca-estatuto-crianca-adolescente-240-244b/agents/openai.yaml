@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos crimes do ECA contra a criança e o adolescente (Lei 8.069/90, arts. 240 a 244-B)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-eca-estatuto-crianca-adolescente-240-244b para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

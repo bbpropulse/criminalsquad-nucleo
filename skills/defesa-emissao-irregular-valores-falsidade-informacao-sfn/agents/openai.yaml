@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa dos crimes de informação e emissão da Lei 7.492/86 (SFN)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-emissao-irregular-valores-falsidade-informacao-sfn para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

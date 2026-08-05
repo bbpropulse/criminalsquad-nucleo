@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Esbulho Possessório e Usurpação (art. 161 do CP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-esbulho-usurpacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

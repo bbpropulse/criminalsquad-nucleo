@@ -1,0 +1,6 @@
+interface:
+  display_name: "Unificação de Penas (soma na execução)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-unificacao-penas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

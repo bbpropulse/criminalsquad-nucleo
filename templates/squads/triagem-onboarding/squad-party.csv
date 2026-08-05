@@ -1,0 +1,5 @@
+id,name,icon,role,path,execution,skills
+triagem,Tânia Triagem,🗂️,Coleta o caso e monta a ficha de triagem (8 blocos) com conflito de interesses (EAOAB 17)/ viabilidade / prescrição (CP 109),./agents/triagem.custom.md,inline,
+onboarding,Olívia Onboarding,🤝,Faz o onboarding do cliente aceito — boas-vindas e checklist de coleta de documentos,./agents/onboarding.custom.md,inline,
+honorarios,Hugo Honorários,💼,Monta a proposta e a minuta de honorários a partir da viabilidade da triagem,./agents/honorarios.custom.md,inline,
+comunicador,Edu E-mail,✉️,Redige e envia as comunicações ao cliente (boas-vindas + proposta/contrato),./agents/comunicador.custom.md,inline,email-juridico

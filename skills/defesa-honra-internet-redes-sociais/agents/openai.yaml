@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes contra a Honra pela Internet e Redes Sociais (arts. 138-140, 141, §2º, e 143, p.u., CP; Lei 12.965/2014 — Marco Civil)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-honra-internet-redes-sociais para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

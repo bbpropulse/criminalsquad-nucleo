@@ -1,0 +1,6 @@
+interface:
+  display_name: "Memoriais (Alegações Finais Escritas)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $memoriais para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

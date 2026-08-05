@@ -1,0 +1,40 @@
+---
+id: "stf-5f7fc32f9bb0"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0495"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "Inquérito Policial e Prova Ilícita - 1"
+processo: "HC 82862/SP"
+relator: "Cezar Peluso"
+orgao_julgador: "SEGUNDA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0495.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo495.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "1e186455a137588c2a806685584c7262a55d6545fd76cfd87ee9f5c6111b62ea"
+---
+
+# Inquérito Policial e Prova Ilícita
+
+## Conteúdo do informativo
+
+Inquérito Policial e Prova Ilícita - 1 A Turma deferiu habeas corpus para determinar a exclusão, do inquérito policial, de cópia de documentos obtidos ilicitamente que, antes desentranhadas, foram reconduzidas, por via indireta, ao mesmo procedimento inquisitório. No caso, ex-presidente da empresa da qual os pacientes são diretores ajuizara reclamação trabalhista e requerera, com base em documentos sigilosos da empresa, fornecidos por colega de trabalho, a abertura de inquérito policial para apuração de supostos crimes de falsidade cometidos no âmbito da reclamada. A empresa, então, aduzindo que tais documentos teriam sido obtidos de modo ilícito, solicitara a instauração de inquérito policial e o desentranhamento da documentação sigilosa que instruíra o primeiro inquérito policial, porquanto violado o art. 5º, LVI, da CF. O juízo de origem determinara o desentranhamento dessas provas e declarara a sua ilicitude. O Ministério Público Federal requisitara cópia integral dos autos daquela ação trabalhista. Diante disso, a defesa dos pacientes informara ao magistrado que o reclamante havia juntado aos autos cópia integral do inquérito, do qual constavam os documentos sigilosos, sendo-lhe deferida a solicitação para que tais cópias do inquérito policial fossem excluídas da requisição do MPF. Contra esta decisão, o parquet impetrara mandado de segurança perante o TRF da 3ª Região, postulando a remessa de cópia integral da aludida ação trabalhista, inclusive com os documentos desentranhados por ilicitude, sob a alegação de indevido cerceio a sua atividade institucional. Concedida a liminar, os diretores da empresa impetraram habeas corpus, não conhecido por Ministro do STJ, em que sustentaram a reinserção, por via oblíqua, daquela prova ilícita. No presente writ, reiteraram os fundamentos do pedido. HC 82862/SP, rel. Min. Cezar Peluso, 19.2.2008. (HC-82862)
+
+Inquérito Policial e Prova Ilícita - 2 Inicialmente, salientou-se que, durante o trâmite do feito, o TRF da 3ª Região deferira a segurança pleiteada pelo Ministério Público Federal. Entendeu-se caracterizado constrangimento ilegal manifesto, autorizador da cognição oficial do pedido, agora contra o teor do julgamento superveniente que absorvera a eficácia da liminar impugnada neste habeas corpus. Reputou-se, ainda, dispensável adentrar a questão relativa ao uso desvirtuado do mandado de segurança, já que não poderia haver direito líquido e certo, da parte acusadora, de fazer juntar aos autos de procedimento de persecução criminal, mediante sentença mandamental de segurança, prova originalmente obtida de forma ilícita, qualquer que fosse a razão ou o pretexto invocado para o lograr. Enfatizou, nesse sentido, que o poder jurídico que as partes têm de requerer e produzir provas que julguem necessárias à apuração da verdade encontra limite intransponível no seu eventual caráter ilícito, repudiado pela Constituição (art. 5º, LVI). Ademais, aduziu-se que, na espécie, seria patente a ilicitude das provas, porquanto obtidas por funcionário da empresa, sem autorização desta, sob acusação de criminoso abuso de confiança. Concluiu-se que a permissão, para efeito de suporte de opinio delicti e de convicção judicial, da juntada de cópia integral dos autos da reclamação trabalhista em que contida cópia de documentos de presumida origem ilícita, autorizaria a produção, por via indireta, de prova, em princípio, ilícita. HC 82862/SP, rel. Min. Cezar Peluso, 19.2.2008. (HC-82862)
+
+## Referência processual
+
+Inquérito Policial e Prova Ilícita - 1 A Turma deferiu habeas corpus para determinar a exclusão, do inquérito policial, de cópia de documentos obtidos ilicitamente que, antes desentranhadas, foram reconduzidas, por via indireta, ao mesmo procedimento inquisitório. No caso, ex-presidente da empresa da qual os pacientes são diretores ajuizara reclamação trabalhista e requerera, com base em documentos sigilosos da empresa, fornecidos por colega de trabalho, a abertura de inquérito policial para apuração de supostos crimes de falsidade cometidos no âmbito da reclamada. A empresa, então, aduzindo que tais documentos teriam sido obtidos de modo ilícito, solicitara a instauração de inquérito policial e o desentranhamento da documentação sigilosa que instruíra o primeiro inquérito policial, porquanto violado o art. 5º, LVI, da CF. O juízo de origem determinara o desentranhamento dessas provas e declarara a sua ilicitude. O Ministério Público Federal requisitara cópia integral dos autos daquela ação trabalhista. Diante disso, a defesa dos pacientes informara ao magistrado que o reclamante havia juntado aos autos cópia integral do inquérito, do qual constavam os documentos sigilosos, sendo-lhe deferida a solicitação para que tais cópias do inquérito policial fossem excluídas da requisição do MPF. Contra esta decisão, o parquet impetrara mandado de segurança perante o TRF da 3ª Região, postulando a remessa de cópia integral da aludida ação trabalhista, inclusive com os documentos desentranhados por ilicitude, sob a alegação de indevido cerceio a sua atividade institucional. Concedida a liminar, os diretores da empresa impetraram habeas corpus, não conhecido por Ministro do STJ, em que sustentaram a reinserção, por via oblíqua, daquela prova ilícita. No presente writ, reiteraram os fundamentos do pedido. HC 82862/SP, rel. Min. Cezar Peluso, 19.2.2008. (HC-82862) | Inquérito Policial e Prova Ilícita - 2 Inicialmente, salientou-se que, durante o trâmite do feito, o TRF da 3ª Região deferira a segurança pleiteada pelo Ministério Público Federal. Entendeu-se caracterizado constrangimento ilegal manifesto, autorizador da cognição oficial do pedido, agora contra o teor do julgamento superveniente que absorvera a eficácia da liminar impugnada neste habeas corpus. Reputou-se, ainda, dispensável adentrar a questão relativa ao uso desvirtuado do mandado de segurança, já que não poderia haver direito líquido e certo, da parte acusadora, de fazer juntar aos autos de procedimento de persecução criminal, mediante sentença mandamental de segurança, prova originalmente obtida de forma ilícita, qualquer que fosse a razão ou o pretexto invocado para o lograr. Enfatizou, nesse sentido, que o poder jurídico que as partes têm de requerer e produzir provas que julguem necessárias à apuração da verdade encontra limite intransponível no seu eventual caráter ilícito, repudiado pela Constituição (art. 5º, LVI). Ademais, aduziu-se que, na espécie, seria patente a ilicitude das provas, porquanto obtidas por funcionário da empresa, sem autorização desta, sob acusação de criminoso abuso de confiança. Concluiu-se que a permissão, para efeito de suporte de opinio delicti e de convicção judicial, da juntada de cópia integral dos autos da reclamação trabalhista em que contida cópia de documentos de presumida origem ilícita, autorizaria a produção, por via indireta, de prova, em princípio, ilícita. HC 82862/SP, rel. Min. Cezar Peluso, 19.2.2008. (HC-82862)
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0495
+- Arquivo-fonte: `stf/Informativo_STF_0495.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo495.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

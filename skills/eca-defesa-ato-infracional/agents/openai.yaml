@@ -1,0 +1,6 @@
+interface:
+  display_name: "ECA — Defesa na Apuração de Ato Infracional"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $eca-defesa-ato-infracional para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

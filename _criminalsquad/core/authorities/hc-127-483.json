@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "HC 127.483 (STF) — Autoridade em colaboração premiada, citada ao lado da regra de corroboração do art. 4º, § 16, da Lei 12.850/2013.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "hc-127-483-fonte-oficial",
+      "kind": "docket",
+      "title": "HC 127.483 (STF)",
+      "official_url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo796.htm",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Habeas corpus impetrado contra decisão monocrática de Ministro do STF que homologou termo de colaboração premiada (origem: Justiça Federal do Paraná — Lava Jato). Julgado pelo TRIBUNAL PLENO em 27/08/2015, relator Min. DIAS TOFFOLI, ordem denegada por unanimidade. O acórdão firmou que a colaboração premiada é meio de obtenção de prova e que o acordo, negócio jurídico personalíssimo, não pode ser impugnado por corréu/delatado. É efetivamente autoridade de colaboração premiada "
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

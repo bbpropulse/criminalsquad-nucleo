@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "HC 84.412 (STF) — É o leading case do princípio da insignificância (bagatela) no STF, com os quatro vetores.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "hc-84-412-fonte-oficial",
+      "kind": "docket",
+      "title": "HC 84.412 (STF)",
+      "official_url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=63002&ori=1",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "HC 84.412-0/SP, Rel. Min. Celso de Mello. Furto de fita de vídeo-game de R$ 25,00 por jovem de 19 anos, desempregado (Processo-crime 238/2000, 1ª Vara Criminal de Barretos/SP), impetrado contra acórdão do STJ que denegara a ordem. A decisão liminar de 29/06/2004 traz a ementa que 'IDENTIFICA OS VETORES CUJA PRESENÇA LEGITIMA O RECONHECIMENTO DESSE POSTULADO' e enumera literalmente os quatro vetores. No mérito, a 2ª Turma, em 19/10/2004, por unanimidade, deferiu a ordem com fu"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

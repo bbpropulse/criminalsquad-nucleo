@@ -1,0 +1,6 @@
+interface:
+  display_name: "Calculadora de Tempestividade Recursal (CPP 798)"
+  short_description: "Cálculo penal determinístico e auditável"
+  default_prompt: "Use $calculadora-tempestividade para executar um cálculo auditável sem inferir a regra jurídica."
+policy:
+  allow_implicit_invocation: false

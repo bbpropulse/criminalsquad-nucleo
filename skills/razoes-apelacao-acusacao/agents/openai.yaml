@@ -1,0 +1,6 @@
+interface:
+  display_name: "Razões de Apelação da Acusação (CPP, arts. 593, I e III, e 598)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $razoes-apelacao-acusacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

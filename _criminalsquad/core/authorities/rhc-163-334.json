@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "RHC 163.334 (STF) — O nao recolhimento de ICMS DECLARADO pode ser crime se houver contumacia e dolo de apropriacao (art. 2o, II, da Lei 8.137/1990 - apropriacao indebita tributaria).",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "rhc-163-334-fonte-oficial",
+      "kind": "docket",
+      "title": "RHC 163.334 (STF)",
+      "official_url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo964.htm",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "RHC 163334/SC, rel. Min. Roberto Barroso, Plenario, julgamento em 18.12.2019 (sessoes de 11, 12 e 18.12.2019). Socios/administradores declararam operacoes de venda ao Fisco mas deixaram de recolher o ICMS em diversos periodos; foram denunciados pelo art. 2o, II, da Lei 8.137/1990; absolvidos sumariamente em 1o grau por atipicidade; o TJ afastou a atipicidade; o STJ (HC 399.109) negou a absolvicao sumaria; dai o RHC. O Plenario, por maioria, negou provimento e assentou que a c"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Competência da Justiça Eleitoral e Conexão com o Crime Comum (CF, art. 121; Cód. Eleitoral, arts. 35 e 78; STF, INQ 4.435)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $competencia-justica-eleitoral-conexao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

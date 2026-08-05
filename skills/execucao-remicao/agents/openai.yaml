@@ -1,0 +1,6 @@
+interface:
+  display_name: "Remição de Pena e Efeitos da Falta Grave"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-remicao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

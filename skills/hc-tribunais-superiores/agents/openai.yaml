@@ -1,0 +1,6 @@
+interface:
+  display_name: "Habeas Corpus nos Tribunais Superiores (STJ e STF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $hc-tribunais-superiores para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

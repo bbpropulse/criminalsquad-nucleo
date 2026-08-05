@@ -1,0 +1,6 @@
+interface:
+  display_name: "Liberdade Provisória / Relaxamento (pedidos de soltura)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $liberdade-provisoria-relaxamento para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Crimes contra o respeito aos mortos e o sentimento religioso — Defesa (CP arts. 208-212)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-mortos-e-sentimento-religioso para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

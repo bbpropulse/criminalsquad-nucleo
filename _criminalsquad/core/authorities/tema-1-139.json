@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 1.139 (STJ) — recurso repetitivo — Inquéritos e ações penais em curso NÃO caracterizam dedicação ao crime nem afastam a minorante do tráfico.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-1-139-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 1.139 (STJ) — recurso repetitivo",
+      "official_url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1139&cod_tema_final=1139",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Tema Repetitivo 1139, TERCEIRA SEÇÃO, ramo DIREITO PENAL, situação Trânsito em Julgado. Paradigmas REsp 1977027/PR e REsp 1977180/PR, ambos do TJPR, Relatora LAURITA VAZ, afetação em 08/04/2022, julgados em 10/08/2022, acórdãos publicados em 18/08/2022, trânsito em julgado em 29/09/2022. Questão e tese versam exatamente sobre o uso de inquéritos e ações penais em curso na aplicação do art. 33, § 4º, da Lei 11.343/2006 (tráfico privilegiado). Confere com a afirmação do produto"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

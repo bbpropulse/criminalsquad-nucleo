@@ -1,0 +1,6 @@
+interface:
+  display_name: "Homologação de Sentença Penal Estrangeira no STJ (CF, art. 105, I, i; CP, art. 9º; CPP, arts. 787-790)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $homologacao-sentenca-penal-estrangeira-stj para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Estratégia Integrada de Negociação Penal (art. 28-A CPP; Lei 9.099/95; Lei 12.850/13)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $estrategia-plea-negociacao-integrada-anpp-colaboracao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

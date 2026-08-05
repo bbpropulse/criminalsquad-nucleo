@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "RE 635.659 (STF) — O porte de maconha para consumo pessoal foi declarado ilícito NÃO criminal.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "re-635-659-fonte-oficial",
+      "kind": "docket",
+      "title": "RE 635.659 (STF)",
+      "official_url": "https://www.stf.jus.br/arquivo/cms/noticiaNoticiaStf/anexo/RE635659Tema506informaosociedaderev.LCFSP20h10.pdf",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "RE 635.659/SP, Rel. Min. Gilmar Mendes, Tribunal Pleno, julgado em 26/06/2024 por maioria (6x5), leading case do Tema 506. Fixou que não comete infração PENAL quem adquire/guarda/transporta cannabis sativa para consumo pessoal, subsistindo a ilicitude EXTRAPENAL (sanções do art. 28, I e III, aplicadas em procedimento de natureza não penal), com presunção relativa de 40 gramas ou seis plantas-fêmeas para separar usuário de traficante. Confere com a afirmação do produto, com o "
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

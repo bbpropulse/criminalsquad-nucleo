@@ -1,0 +1,42 @@
+---
+id: "stf-74e8b77bfe2c"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0728"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal"]
+assunto: "AP 470/MG: segundos embargos de declaração - 1"
+processo: null
+relator: "Roberto Barroso"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0728.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo728.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "209ec1e2bc3cdf1226c05b4cd4634dbaefb46e671c941e9538abd976fe53fff1"
+---
+
+# AP 470/MG: segundos embargos de declaração
+
+## Conteúdo do informativo
+
+AP 470/MG: segundos embargos de declaração - 1 O Plenário acolheu, em parte, para fins de redimensionar a pena, segundos embargos de declaração opostos de decisão que condenara o embargante à pena de três anos e seis meses em regime semiaberto, pelo crime de lavagem de dinheiro. A defesa alegava omissão do Tribunal quanto à definição do regime inicial de cumprimento da pena e à possibilidade de substituição da pena privativa de liberdade por restritiva de direitos. Apontava, ainda, que as penas aplicadas ao embargante deveriam ser de mesmo patamar daquelas a que apenado o seu sócio e corréu. A Corte asseverou que, no julgamento dos primeiros embargos de declaração, prevalecera o entendimento de que a valoração desigual nas operações de lavagem de dinheiro realizadas por sócios de mesma empresa, sem que se verificasse no acórdão qualquer motivação plausível para essa divergência, imporia o realinhamento da pena aplicada ao embargante. Reconheceu que a conversão da pena privativa de liberdade em restritiva de direitos não teria ficado clara no julgamento dos primeiros embargos. Definiu, assim, que a pena restritiva de direitos consistiria em prestação de serviços à comunidade na razão de uma hora de tarefas por dia e no pagamento de multa no valor de 300 salários mínimos. AP 470 EDj - vigésimos sextos - ED/MG, rel. Min. Roberto Barroso, 13.11.2013. (AP-470)
+
+AP 470/MG: segundos embargos de declaração - 2 Na sequência, o Plenário, por maioria não conheceu de segundos embargos de declaração opostos por condenado pelos crimes de corrupção passiva e lavagem de dinheiro, por considerá-los procrastinatórios. Na espécie, o embargante requeria a revisão da pena. A defesa alegava que o réu teria situação similar à de outro ex-assessor parlamentar, cuja pena fora reduzida. Pleiteava que ao réu fosse aplicada a mesma fração de aumento pela continuidade delitiva imposta a outro corréu e parlamentar, diminuindo-se, por conseguinte, a penalidade. O Tribunal afirmou não serem compatíveis os crimes praticados pelo embargante e o paradigma por ele indicado. Frisou que o recurso estaria a reiterar argumentos de mérito já analisados pelo STF. Concluiu pela inadmissibilidade dos embargos porque não ocorrentes os respectivos pressupostos de embargabilidade. Vencidos os Ministros Teori Zavascki, Dias Toffoli, Ricardo Lewandowski e Marco Aurélio, que acolhiam os embargos para reconhecer a continuidade delitiva na fração de 1/3. Destacavam que outro corréu fora condenado em 41 operações de lavagem de dinheiro e a reprimenda fora aumentada, pela continuidade delitiva, em 1/3. Aduziam, por outro lado, que, embora o embargante tivesse sido condenado em 40 operações, a ele fora aplicado o acréscimo de 2/3. AP 470 EDj - décimos primeiros - ED/MG, rel. Min. Joaquim Barbosa, 13.11.2013. (AP-470)
+
+AP 470/MG: segundos embargos de declaração - 4 Ato contínuo, o Plenário não conheceu dos segundos embargos de declaração opostos por ex-parlamentar condenado pelos crimes de corrupção passiva e lavagem de dinheiro. O embargante alegava a necessidade de se ampliar o objeto do recurso, porque se trataria de julgamento em instância única. Sustentava, ainda, que a decisão embargada estaria em confronto com o teor da denúncia e com o princípio da correlação. Entendia que haveria contradição na incidência da Lei 10.763/2002, a refletir na dosimetria de sua pena por corrupção passiva. Arguia, ainda, omissão no acórdão embargado quanto à regra aplicável ao concurso de crimes, porque deveria ser adotado concurso formal. O Tribunal destacou que o embargante intentaria rediscutir o julgado. Salientou que não haveria contradição, omissão ou obscuridade. Asseverou que, no julgamento dos primeiros embargos de declaração, a Corte teria exaustivamente examinado as temáticas apresentadas, que teriam sido afastadas pelos seus integrantes. Apontou estar caracterizada mera reiteração de fundamentos afastados nos primeiros embargos e utilizados para impedir o trânsito em julgado da condenação. Por fim, por maioria, o Colegiado reconheceu o caráter protelatório do recurso, vencidos, neste ponto, os Ministros Ricardo Lewandowski e Marco Aurélio. AP 470 EDj - décimos - ED/MG, rel. Min. Joaquim Barbosa, 13.11.2013. (AP-470)
+
+AP 470/MG: segundos embargos de declaração - 6 O Plenário, por maioria, não conheceu de embargos de declaração em que requerido o perdão judicial com a aplicação da redução de 2/3 da reprimenda, bem como a conversão da pena privativa de liberdade em restritiva de direito ou o cumprimento de pena em prisão domiciliar em razão da fragilidade do estado de saúde do embargante. Em relação ao pedido de prisão domiciliar, o Tribunal entendeu que o pleito não guardaria pertinência com o acórdão embargado, mas que poderia ser apreciado na fase de execução da pena. Vencido o Ministro Marco Aurélio, que admitia os embargos relativamente a essa questão e aplicava o que disposto no inciso II do art. 117 da Lei de Execução Penal - LEP para fixar, desde já, o regime domiciliar ao embargante. Quanto às demais questões, o Colegiado reputou que a matéria teria sido exaustivamente debatida no acórdão embargado. Declarou, além disso, o caráter procrastinatório do recurso. Vencidos, neste ponto, os Ministros Ricardo Lewandowski e Marco Aurélio. Em seguida, a Corte não conheceu de embargos de declaração em que apontada contradição entre a condenação do embargante e a absolvição de outro réu. Consignou que o tema já teria sido rechaçado pelo aresto embargado. Destacou o caráter meramente protelatório do recurso. Vencidos, neste ponto, os Ministros Ricardo Lewandowski e Marco Aurélio. AP 470 EDj - décimos sextos - ED/MG e AP 470 EDj - segundos - ED/MG, rel. Min. Joaquim Barbosa, 13.11.2013. (AP-470) 1ª Parte : 2ª Parte :
+
+AP 470/MG: segundos embargos de declaração - 7 Na sequência, o Plenário não conheceu de embargos de declaração em que alegada omissão por falta de apreciação de erro material na fixação da pena-base. O embargante aduzia que esta deveria ter sido estabelecida em dois anos e não de dois anos e seis meses. Pleiteava, também, o reconhecimento do direito à atenuante de confissão espontânea. O Tribunal sublinhou que as arguições teriam sido enfrentadas no acórdão dos primeiros embargos de declaração, motivo pelo qual reconheceu o caráter meramente procrastinatório do recurso. Vencidos, neste ponto, os Ministros Ricardo Lewandowski e Marco Aurélio. De igual modo, a Corte não conheceu de embargos de declaração em que se reiterava a assertiva de ofensa ao princípio da proporcionalidade na aplicação da pena imposta ao embargante, quando comparada às de outros condenados. Enfatizou que a matéria já fora analisada no julgamento dos primeiros embargos de declaração. Reconheceu-se o caráter meramente protelatório do recurso. Vencidos, neste ponto, os Ministros Ricardo Lewandowski e Marco Aurélio. Por fim, o Plenário acolheu embargos de declaração para sanar contradição entre a parte dispositiva do acórdão e a respectiva ementa no que tange ao valor desviado em crime de peculato. Ressaltou que a correção do valor seria importante para efeito de progressão de regime, consoante o disposto no art. 33, § 4º, do CP. AP 470 EDj - vigésimos segundos - ED/MG, AP 470 EDj - vigésimos quartos - ED/MG e AP 470 EDj - oitavos - ED/MG, rel. Min. Joaquim Barbosa, 13.11.2013. (AP-470)
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0728
+- Arquivo-fonte: `stf/Informativo_STF_0728.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo728.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

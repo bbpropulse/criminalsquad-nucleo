@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agravo em Execução"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $agravo-em-execucao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

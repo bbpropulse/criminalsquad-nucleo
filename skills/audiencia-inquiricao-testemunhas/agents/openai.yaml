@@ -1,0 +1,6 @@
+interface:
+  display_name: "Inquirição de Testemunhas na AIJ (arts. 212, 214, 229–230 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $audiencia-inquiricao-testemunhas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

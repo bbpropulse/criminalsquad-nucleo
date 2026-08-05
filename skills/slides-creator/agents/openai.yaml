@@ -1,0 +1,6 @@
+interface:
+  display_name: "Slides Creator"
+  short_description: "Automação validada e reutilizável"
+  default_prompt: "Use $slides-creator para construir o artefato reutilizável com validação e evidências."
+policy:
+  allow_implicit_invocation: false

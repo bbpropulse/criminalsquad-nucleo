@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agravo Regimental / Agravo Interno (AgRg / AgInt)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $agravo-regimental para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

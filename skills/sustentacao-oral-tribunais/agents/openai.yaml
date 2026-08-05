@@ -1,0 +1,6 @@
+interface:
+  display_name: "Sustentação Oral em Tribunais (Câmaras Criminais, STJ e STF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $sustentacao-oral-tribunais para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

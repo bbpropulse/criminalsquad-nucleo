@@ -1,0 +1,6 @@
+interface:
+  display_name: "Restituição de Coisas Apreendidas (CPP, arts. 118-124)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $restituicao-coisas-apreendidas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

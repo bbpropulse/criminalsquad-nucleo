@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "ADI 4424/DF (STF, Pleno, rel. Min. Marco Aurélio, j. 09.02.2012) — Tornou a ação penal por LESÃO CORPORAL LEVE em contexto de violência doméstica contra a mulher pública INCONDICIONADA.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "adi-4424-df-fonte-oficial",
+      "kind": "docket",
+      "title": "ADI 4424/DF (STF, Pleno, rel. Min. Marco Aurélio, j. 09.02.2012)",
+      "official_url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=3897992",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Ação direta de inconstitucionalidade, proposta pelo Procurador-Geral da República contra os arts. 12, I, 16 e 41 da Lei 11.340/2006 (objeto confirmado no despacho do relator de 23/06/2010, lido por mim na aba de andamentos). Julgada PROCEDENTE pelo Tribunal Pleno em 09/02/2012, por maioria (vencido o Min. Cezar Peluso, Presidente), com interpretação conforme para assentar a natureza INCONDICIONADA da ação penal no crime de lesão praticado contra a mulher no ambiente doméstico"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

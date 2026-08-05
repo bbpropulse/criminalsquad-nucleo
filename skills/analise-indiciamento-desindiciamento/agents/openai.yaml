@@ -1,0 +1,6 @@
+interface:
+  display_name: "Análise do Indiciamento e Desindiciamento (Lei 12.830/2013, art. 2º, §6º)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $analise-indiciamento-desindiciamento para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

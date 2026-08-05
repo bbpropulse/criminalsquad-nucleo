@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 280/STF — entrada forçada em DOMICÍLIO sem mandado exige fundadas razões",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-280-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 280/STF",
+      "official_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=3774503",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "RE 603.616, Rel. Min. Gilmar Mendes. Rege a ENTRADA EM DOMICÍLIO (CF 5º, XI), NÃO a busca pessoal. A expressão fundadas razões devidamente justificadas é da tese, mas o sujeito é o ingresso em domicílio — não transporte para revista de pessoa."
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

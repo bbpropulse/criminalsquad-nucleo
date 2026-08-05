@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mapa de Ônus da Prova e Standard Probatório por Elemento (arts. 156 e 386, VII, CPP; CF, art. 5º, LVII)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $mapa-onus-e-standard-probatorio para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

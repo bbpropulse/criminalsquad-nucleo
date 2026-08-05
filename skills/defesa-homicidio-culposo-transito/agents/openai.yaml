@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa — Homicídio Culposo na Direção de Veículo Automotor (art. 302 do CTB)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-homicidio-culposo-transito para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "HC 653.515-RJ (STJ, 6ª Turma, Rel. Min. Laurita Vaz, Rel. p/ acórdão Min. Rogerio Schietti Cruz) — A quebra da cadeia de custódia NÃO gera nulidade automática; exige exame caso a caso.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "hc-653-515-rj-fonte-oficial",
+      "kind": "docket",
+      "title": "HC 653.515-RJ (STJ, 6ª Turma, Rel. Min. Laurita Vaz, Rel. p/ acórdão Min. Rogerio Schietti Cruz)",
+      "official_url": "https://processo.stj.jus.br/jurisprudencia/externo/informativo/?aplicacao=informativo&acao=pesquisar&livre=%40CNOT%3D%27018781%27",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "SOBREVIVE À AUDITORIA, E É O MAIS BEM AJUSTADO DOS TRÊS. Habeas corpus sobre as consequências processuais da quebra da cadeia de custódia (arts. 158-A a 158-F do CPP), princípio da mesmidade e necessidade de o magistrado sopesar todos os elementos da instrução. A Sexta Turma, por maioria, rejeitou expressamente a tese da inadmissibilidade/nulidade automática e adotou a do sopesamento judicial. O Destaque oficial do verbete é literalmente a proposição do produto — não há diver"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

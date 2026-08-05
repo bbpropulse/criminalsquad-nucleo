@@ -1,0 +1,40 @@
+---
+id: "stf-2c96e3490365"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0423"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "Procurador do DF e Patrocínio Infiel - 1"
+processo: "RE 467923/DF"
+relator: "Cezar Peluso"
+orgao_julgador: "PRIMEIRA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0423.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo423.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "cf9aca816ba1bd5458bf61a229e23236fceb236261200ba3642a8a8f80c1ff90"
+---
+
+# Procurador do DF e Patrocínio Infiel
+
+## Conteúdo do informativo
+
+Procurador do DF e Patrocínio Infiel - 1 Compete ao TRF da 1ª Região, com fundamento no art. 108, I, a, da CF, processar e julgar, originariamente, os membros do Ministério Público do Distrito Federal e dos Territórios que atuem em primeira instância. Com base nesse entendimento, a Turma cassou acórdão do Tribunal de Justiça do Distrito Federal e dos Territórios que afirmara a sua competência para processar e julgar habeas corpus em que a coação fora atribuída a promotor de justiça daquela unidade da federação. Entretanto, por maioria, concedeu, de ofício, pela atipicidade da imputação, habeas corpus para manter, em definitivo, o trancamento de inquérito policial instaurado contra procurador do Distrito Federal pela suposta prática do crime de patrocínio infiel (CP, art. 355). No caso, o ora recorrido, exercendo advocacia privada, sucedera ao defensor de acusado em ação penal por crime de sonegação fiscal, a quem fora proposta suspensão do processo (Lei 9.099/95, art. 89), desde que preenchidos determinados requisitos, dentre os quais, o pagamento de tributos devidos ao GDF. Desse modo, o recorrido peticionara àquele magistrado, comunicando que esses tributos haviam sido pagos mediante compensação com precatórios e requerera a extinção da punibilidade de seu cliente. Aberta vista ao Ministério Público, o promotor de justiça entendera que o recorrido, por exercer o cargo de procurador do DF, lotado na Procuradoria Fiscal, estaria impedido de atuar naquele feito, uma vez que o DF seria vítima dos fatos. Em conseqüência, o membro do parquet requisitara a instauração de inquérito policial. Contra este ato, o recorrido impetrara habeas corpus, deferido, pelo Tribunal de Justiça local que, dando-se por competente para julgar a causa, trancara o aludido inquérito, por entender que o DF não integrava a relação jurídica processual e que o paciente não realizara a defesa simultânea de seu cliente e do citado ente da federação. Inconformado, o MPDFT interpusera o presente recurso extraordinário. RE 467923/DF, rel. Min. Cezar Peluso, 18.4.2006. (RE-467923)
+
+Procurador do DF e Patrocínio Infiel - 2 Preliminarmente, assentou-se a incompetência absoluta do TJDFT para conhecer de habeas corpus em que a autoridade apontada como coatora é membro do MPDFT. No mérito, salientou-se o reconhecimento, pelo juízo de origem, do fato de o recorrido não haver sido designado para defender judicialmente os interesses do DF na ação penal instaurada por crime de sonegação fiscal, da qual o referido ente não fora parte, assistente, ou interveniente. Entendeu-se não restar configurado, sequer em tese, o crime de patrocínio infiel ou de outro delito, porquanto ausentes os elementos típicos. Assim, asseverando que o recorrido não traíra dever funcional nem prejudicara interesse cujo patrocínio em juízo lhe fora confiado, bem como que inexistente dano econômico para a Fazenda Pública do DF, já que o crédito fora integralmente pago, considerou-se evidente a falta de justa causa para a persecução penal. Vencido, no ponto, o Min. Carlos Britto que não concedia o writ de ofício, por considerar prematuro o trancamento do inquérito, em face da possibilidade de se enquadrar a conduta do recorrido em outros tipos penais. Aduziu, para tanto, que, quando do requerimento do procurador, a situação tributária de seu cliente estava pendente, haja vista ter sido pago apenas o sinal da dívida. RE 467923/DF, rel. Min. Cezar Peluso, 18.4.2006. (RE-467923) SEGUNDA TURMA
+
+## Referência processual
+
+Procurador do DF e Patrocínio Infiel - 1 Compete ao TRF da 1ª Região, com fundamento no art. 108, I, a, da CF, processar e julgar, originariamente, os membros do Ministério Público do Distrito Federal e dos Territórios que atuem em primeira instância. Com base nesse entendimento, a Turma cassou acórdão do Tribunal de Justiça do Distrito Federal e dos Territórios que afirmara a sua competência para processar e julgar habeas corpus em que a coação fora atribuída a promotor de justiça daquela unidade da federação. Entretanto, por maioria, concedeu, de ofício, pela atipicidade da imputação, habeas corpus para manter, em definitivo, o trancamento de inquérito policial instaurado contra procurador do Distrito Federal pela suposta prática do crime de patrocínio infiel (CP, art. 355). No caso, o ora recorrido, exercendo advocacia privada, sucedera ao defensor de acusado em ação penal por crime de sonegação fiscal, a quem fora proposta suspensão do processo (Lei 9.099/95, art. 89), desde que preenchidos determinados requisitos, dentre os quais, o pagamento de tributos devidos ao GDF. Desse modo, o recorrido peticionara àquele magistrado, comunicando que esses tributos haviam sido pagos mediante compensação com precatórios e requerera a extinção da punibilidade de seu cliente. Aberta vista ao Ministério Público, o promotor de justiça entendera que o recorrido, por exercer o cargo de procurador do DF, lotado na Procuradoria Fiscal, estaria impedido de atuar naquele feito, uma vez que o DF seria vítima dos fatos. Em conseqüência, o membro do parquet requisitara a instauração de inquérito policial. Contra este ato, o recorrido impetrara habeas corpus, deferido, pelo Tribunal de Justiça local que, dando-se por competente para julgar a causa, trancara o aludido inquérito, por entender que o DF não integrava a relação jurídica processual e que o paciente não realizara a defesa simultânea de seu cliente e do citado ente da federação. Inconformado, o MPDFT interpusera o presente recurso extraordinário. RE 467923/DF, rel. Min. Cezar Peluso, 18.4.2006. (RE-467923) | Procurador do DF e Patrocínio Infiel - 2 Preliminarmente, assentou-se a incompetência absoluta do TJDFT para conhecer de habeas corpus em que a autoridade apontada como coatora é membro do MPDFT. No mérito, salientou-se o reconhecimento, pelo juízo de origem, do fato de o recorrido não haver sido designado para defender judicialmente os interesses do DF na ação penal instaurada por crime de sonegação fiscal, da qual o referido ente não fora parte, assistente, ou interveniente. Entendeu-se não restar configurado, sequer em tese, o crime de patrocínio infiel ou de outro delito, porquanto ausentes os elementos típicos. Assim, asseverando que o recorrido não traíra dever funcional nem prejudicara interesse cujo patrocínio em juízo lhe fora confiado, bem como que inexistente dano econômico para a Fazenda Pública do DF, já que o crédito fora integralmente pago, considerou-se evidente a falta de justa causa para a persecução penal. Vencido, no ponto, o Min. Carlos Britto que não concedia o writ de ofício, por considerar prematuro o trancamento do inquérito, em face da possibilidade de se enquadrar a conduta do recorrido em outros tipos penais. Aduziu, para tanto, que, quando do requerimento do procurador, a situação tributária de seu cliente estava pendente, haja vista ter sido pago apenas o sinal da dívida. RE 467923/DF, rel. Min. Cezar Peluso, 18.4.2006. (RE-467923) SEGUNDA TURMA
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0423
+- Arquivo-fonte: `stf/Informativo_STF_0423.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo423.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

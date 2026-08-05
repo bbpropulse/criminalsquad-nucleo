@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mail-Merge de Peças (geração 1 para N)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $mail-merge-pecas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

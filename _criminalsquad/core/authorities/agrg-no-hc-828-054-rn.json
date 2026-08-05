@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "AgRg no HC 828.054-RN (STJ, 5ª Turma, Rel. Min. Joel Ilan Paciornik) — Quem apresenta a prova tem o ônus (de comprovar integridade/confiabilidade), que não se presume.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "agrg-no-hc-828-054-rn-fonte-oficial",
+      "kind": "docket",
+      "title": "AgRg no HC 828.054-RN (STJ, 5ª Turma, Rel. Min. Joel Ilan Paciornik)",
+      "official_url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?aplicacao=informativo&acao=pesquisar&livre=%40CNOT%3D%27020706%27",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Também citado na forma curta HC 828.054. JULGADO SOBREVIVE; A FRASE DO PRODUTO NÃO. Agravo regimental em HC sobre apreensão de celular, extração de dados por print screen de diálogos de WhatsApp sem ferramenta forense (o juízo singular consignou que a 'análise se deu após consulta direta ao aparelho, sem necessidade de uso de máquinas extratoras (ex. Cellebrite)'), quebra da cadeia de custódia (arts. 158-A e ss. do CPP) e inadmissibilidade da prova digital. Verbete do Informativo n. 811, de 14/5/2024. O tema bate co"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

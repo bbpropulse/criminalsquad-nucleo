@@ -1,0 +1,6 @@
+interface:
+  display_name: "Análise de Prescrição Virtual / Antecipada (arts. 109-110 CP; Súmula 438/STJ)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $analise-prescricao-virtual-antecipada para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

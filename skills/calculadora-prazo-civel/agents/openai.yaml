@@ -1,0 +1,6 @@
+interface:
+  display_name: "Calculadora de Prazo Cível (CPC 219 — dias úteis)"
+  short_description: "Cálculo penal determinístico e auditável"
+  default_prompt: "Use $calculadora-prazo-civel para executar um cálculo auditável sem inferir a regra jurídica."
+policy:
+  allow_implicit_invocation: false

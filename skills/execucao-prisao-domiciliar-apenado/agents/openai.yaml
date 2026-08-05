@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prisão Domiciliar do Apenado (art. 117 da LEP + domiciliar humanitária)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-prisao-domiciliar-apenado para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

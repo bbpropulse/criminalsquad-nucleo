@@ -1,0 +1,6 @@
+interface:
+  display_name: "Reperguntas e Requerimentos Probatórios do Assistente na Instrução (arts. 271 e 212 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $assistente-reperguntas-instrucao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Insubmissão (arts. 183-186 CPM; arts. 463-465 CPPM)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-insubmissao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

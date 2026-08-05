@@ -1,0 +1,6 @@
+interface:
+  display_name: "RESE contra a Pronúncia (arts. 581, IV, e 589 CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-rese-contra-pronuncia para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

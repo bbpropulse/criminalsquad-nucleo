@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Crimes Propriamente Militares de Serviço e Sentinela (CPM — DL 1.001/69)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-crimes-propriamente-militares-servico-sentinela para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

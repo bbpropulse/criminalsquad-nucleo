@@ -1,0 +1,6 @@
+interface:
+  display_name: "Plantão Pós-Flagrante — As Primeiras 24 Horas (CPP, arts. 301 a 310)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $plantao-pos-flagrante-primeiras-24h para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

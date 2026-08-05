@@ -1,0 +1,6 @@
+interface:
+  display_name: "Audiência de Custódia (CPP, art. 310; Res. CNJ 213/2015)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $audiencia-de-custodia para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

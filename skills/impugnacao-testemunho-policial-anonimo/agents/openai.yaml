@@ -1,0 +1,6 @@
+interface:
+  display_name: "Valoração da Palavra de Policiais, Informantes e Testemunho Anônimo (CPP arts. 202, 203, 206-208; Lei 9.807/99; CF art. 5º, LV)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $impugnacao-testemunho-policial-anonimo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

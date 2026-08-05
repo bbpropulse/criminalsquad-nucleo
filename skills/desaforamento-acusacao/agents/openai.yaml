@@ -1,0 +1,6 @@
+interface:
+  display_name: "Desaforamento no Júri (arts. 427 e 428 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $desaforamento-acusacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

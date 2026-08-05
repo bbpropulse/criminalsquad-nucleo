@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Prevaricação e Condescendência Criminosa (arts. 319, 319-A e 320 do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-prevaricacao-condescendencia para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

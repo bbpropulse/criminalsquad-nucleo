@@ -1,0 +1,6 @@
+interface:
+  display_name: "Estratégia Ativa da Queixa em Crimes contra a Honra (arts. 138 a 145 do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $acusacao-queixa-honra-estrategia-ativa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

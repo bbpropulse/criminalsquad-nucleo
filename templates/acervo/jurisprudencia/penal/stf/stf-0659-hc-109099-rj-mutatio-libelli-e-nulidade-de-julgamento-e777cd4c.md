@@ -1,0 +1,42 @@
+---
+id: "stf-7fe0e777cd4c"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0659"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal", "Direito Tributário", "Direito Processual Penal"]
+assunto: "“Mutatio libelli” e nulidade de julgamento - 2"
+processo: "HC 109099/RJ"
+relator: "Ricardo Lewandowski"
+orgao_julgador: "SEGUNDA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0659.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo659.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "baixa"
+revisao_humana: false
+hash_conteudo_sha256: "8c89ac7d57ddab338b91c482a5dac6073c4a20023f71eced827f2ad63f3d0d8a"
+---
+
+# “Mutatio libelli” e nulidade de julgamento
+
+> Avisos de curadoria automática: Classificação heurística de baixa confiança; requer revisão humana.
+
+## Conteúdo do informativo
+
+“Mutatio libelli” e nulidade de julgamento - 2 Em conclusão de julgamento conjunto, a 2ª Turma, ao afastar preliminar de nulidade de acórdão do STJ, denegou a ordem no HC 109098/RJ em que se pleiteava a anulação do feito a partir do despacho que determinara a baixa dos autos para o aditamento da denúncia. Alternativamente, requeria-a desde o novo interrogatório dos pacientes, com abertura de prazo para novas alegações e manifestações a respeito da alteração na tipificação penal. Na sequência, concedeu, em parte, a ordem no HC 109099/RJ para anular o acórdão proferido no STJ e possibilitar o rejulgamento do feito, com renovação da oportunidade de produção de provas, considerado prejudicado o pedido de liberdade provisória. Na espécie, os pacientes foram denunciados pela suposta prática dos crimes de sequestro e cárcere privado (CP, art. 148, c/c com o art. 70), roubo qualificado pelo concurso de pessoas (CP, art. 157, § 2º, II) e concussão (CP, art. 316), todos em concurso material. Ocorre que, após o término da instrução criminal, as partes apresentaram alegações finais e a magistrada remetera os autos ao Ministério Público para que procedesse ao aditamento da denúncia, o que resultara na desclassificação da imputação do delito de concussão para o de extorsão mediante sequestro (CP, art. 159). Posteriormente, os pacientes foram condenados com base no novo enquadramento legal — v. Informativo 641. HC 109098/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109098) HC 109099/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109099)
+
+“Mutatio libelli” e nulidade de julgamento - 3 No tocante ao HC 109098/RJ, rejeitou-se a preliminar formulada em razão da falta de provas quanto ao pedido de sustentação oral e, no mérito, reputou-se que a mutatio libelli ocorrera nos termos do então vigente parágrafo único do art. 384 do CPP, sem imposição ao Ministério Público por parte da magistrada. Ressaltou-se não haver afronta ao princípio da imparcialidade do órgão jurisdicional pelo dispositivo em comento, porquanto este jamais fora contestado quanto à sua constitucionalidade, encontrando-se em plena vigência à época. O Min. Gilmar Mendes acrescentou que o desvelamento, objetivo, de um fato verificado durante a instrução processual, por si só, não seria hábil a comprometer a imparcialidade do juiz, derivada de busca da verdade real, de modo que conseguisse apreender os acontecimentos com todas as suas circunstâncias, inclusive colhendo aquilo que as partes — por limitação ou vontade — teriam deixado de narrar. Outrossim, realçou que, ao constatar a existência deste fato omitido ou desconhecido, fora instaurado o contraditório, consoante o parágrafo único do art. 384 do CPP, tendo em conta a necessidade de provocação do parquet para eventual aditamento. Ademais, destacou que a nova redação do dispositivo, embora tivesse suprimido a possibilidade de o próprio juiz “alterar a acusação”, teria incluído novo mecanismo de “controle” sob a forma de remessa do feito ao Procurador-Geral nos termos do art. 28 do CPP (§1º do art. 384 do CPP). Entendeu que a mudança da denúncia, decorrida da mutatio libelli, não implicaria ampla modificação dos fatos imputados, sendo mera consequência de prova existente nos autos. Por fim, assinalou que, observada a cronologia dos fatos e a vacatio legis, ainda que se pudesse cogitar de medida de precaução da juíza, a magistrada não estaria obrigada a aplicar a norma projetada a viger no futuro. HC 109098/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109098) HC 109099/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109099)
+
+## Referência processual
+
+“Mutatio libelli” e nulidade de julgamento - 2 Em conclusão de julgamento conjunto, a 2ª Turma, ao afastar preliminar de nulidade de acórdão do STJ, denegou a ordem no HC 109098/RJ em que se pleiteava a anulação do feito a partir do despacho que determinara a baixa dos autos para o aditamento da denúncia. Alternativamente, requeria-a desde o novo interrogatório dos pacientes, com abertura de prazo para novas alegações e manifestações a respeito da alteração na tipificação penal. Na sequência, concedeu, em parte, a ordem no HC 109099/RJ para anular o acórdão proferido no STJ e possibilitar o rejulgamento do feito, com renovação da oportunidade de produção de provas, considerado prejudicado o pedido de liberdade provisória. Na espécie, os pacientes foram denunciados pela suposta prática dos crimes de sequestro e cárcere privado (CP, art. 148, c/c com o art. 70), roubo qualificado pelo concurso de pessoas (CP, art. 157, § 2º, II) e concussão (CP, art. 316), todos em concurso material. Ocorre que, após o término da instrução criminal, as partes apresentaram alegações finais e a magistrada remetera os autos ao Ministério Público para que procedesse ao aditamento da denúncia, o que resultara na desclassificação da imputação do delito de concussão para o de extorsão mediante sequestro (CP, art. 159). Posteriormente, os pacientes foram condenados com base no novo enquadramento legal — v. Informativo 641. HC 109098/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109098) HC 109099/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109099) | “Mutatio libelli” e nulidade de julgamento - 3 No tocante ao HC 109098/RJ, rejeitou-se a preliminar formulada em razão da falta de provas quanto ao pedido de sustentação oral e, no mérito, reputou-se que a mutatio libelli ocorrera nos termos do então vigente parágrafo único do art. 384 do CPP, sem imposição ao Ministério Público por parte da magistrada. Ressaltou-se não haver afronta ao princípio da imparcialidade do órgão jurisdicional pelo dispositivo em comento, porquanto este jamais fora contestado quanto à sua constitucionalidade, encontrando-se em plena vigência à época. O Min. Gilmar Mendes acrescentou que o desvelamento, objetivo, de um fato verificado durante a instrução processual, por si só, não seria hábil a comprometer a imparcialidade do juiz, derivada de busca da verdade real, de modo que conseguisse apreender os acontecimentos com todas as suas circunstâncias, inclusive colhendo aquilo que as partes — por limitação ou vontade — teriam deixado de narrar. Outrossim, realçou que, ao constatar a existência deste fato omitido ou desconhecido, fora instaurado o contraditório, consoante o parágrafo único do art. 384 do CPP, tendo em conta a necessidade de provocação do parquet para eventual aditamento. Ademais, destacou que a nova redação do dispositivo, embora tivesse suprimido a possibilidade de o próprio juiz “alterar a acusação”, teria incluído novo mecanismo de “controle” sob a forma de remessa do feito ao Procurador-Geral nos termos do art. 28 do CPP (§1º do art. 384 do CPP). Entendeu que a mudança da denúncia, decorrida da mutatio libelli, não implicaria ampla modificação dos fatos imputados, sendo mera consequência de prova existente nos autos. Por fim, assinalou que, observada a cronologia dos fatos e a vacatio legis, ainda que se pudesse cogitar de medida de precaução da juíza, a magistrada não estaria obrigada a aplicar a norma projetada a viger no futuro. HC 109098/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109098) HC 109099/RJ, rel. Min. Ricardo Lewandowski, 20.3.2012. (HC-109099)
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0659
+- Arquivo-fonte: `stf/Informativo_STF_0659.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo659.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

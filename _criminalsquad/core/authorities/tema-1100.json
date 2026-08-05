@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 1100 (STJ) — REsp 1.920.091/RJ e REsp 1.930.130/MG, Terceira Seção — O acórdão CONFIRMATÓRIO da condenação interrompe a prescrição (art. 117, IV, do Código Penal).",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-1100-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 1100 (STJ) — REsp 1.920.091/RJ e REsp 1.930.130/MG, Terceira Seção",
+      "official_url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1100&cod_tema_final=1100",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Ficha do Tema Repetitivo 1100 no banco de precedentes qualificados do STJ. Órgão julgador: TERCEIRA SEÇÃO. Ramo: DIREITO PENAL (Parte Geral / Prescrição). Situação: Trânsito em Julgado. Paradigmas: REsp 1920091/RJ (origem TJRJ, Relator JESUÍNO RISSATO — Desembargador convocado do TJDFT; afetação 01/07/2021; julgado em 10/08/2022; acórdão publicado 22/08/2022; trânsito 04/10/2022) e REsp 1930130/MG (origem TJMG, Relator MESSOD AZULAY NETO; afetação 01/07/2021; julgado em 10/08"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

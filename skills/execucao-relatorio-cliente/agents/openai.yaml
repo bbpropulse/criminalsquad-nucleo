@@ -1,0 +1,6 @@
+interface:
+  display_name: "Relatório claro ao cliente ou família"
+  short_description: "Operação jurídica segura e acionável"
+  default_prompt: "Use $execucao-relatorio-cliente para organizar a demanda com sigilo, urgência e próximos passos."
+policy:
+  allow_implicit_invocation: false

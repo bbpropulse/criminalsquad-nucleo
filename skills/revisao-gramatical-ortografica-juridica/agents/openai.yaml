@@ -1,0 +1,6 @@
+interface:
+  display_name: "Revisão gramatical, ortográfica e linguística da peça"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $revisao-gramatical-ortografica-juridica para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

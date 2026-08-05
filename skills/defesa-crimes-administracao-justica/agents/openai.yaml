@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa de Crimes contra a Administração da Justiça (arts. 338-359 do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-administracao-justica para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

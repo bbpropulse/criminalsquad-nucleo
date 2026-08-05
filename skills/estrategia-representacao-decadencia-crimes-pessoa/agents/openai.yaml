@@ -1,0 +1,6 @@
+interface:
+  display_name: "Estratégia de Representação, Decadência e Ação Penal nos Crimes contra a Pessoa (arts. 100-107 CP; arts. 24-38 e 100-106 CPP; Lei 9.099/95)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $estrategia-representacao-decadencia-crimes-pessoa para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Injúria Racial / Racismo (Lei 7.716/89, art. 2º-A — Lei 14.532/2023)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-injuria-racial-racismo para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

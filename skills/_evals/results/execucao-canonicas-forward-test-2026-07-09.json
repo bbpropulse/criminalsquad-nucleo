@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "suite": "execucao-canonicas-v4",
+  "evaluated_at": "2026-07-09",
+  "evaluator_context": "independent_fresh_agent",
+  "method": "Leitura isolada das 16 skills contra os cenários normal/adversarial, gatilhos, guards, isolamento de previews e hard fails.",
+  "limitations": [
+    "Este forward-test valida contrato e roteamento; não é execução de modelo com output persistido.",
+    "Nenhuma skill pode ser promovida a active apenas com este resultado.",
+    "Promoção exige forward-runs comportamentais, comparação de saídas e revisão humana."
+  ],
+  "summary": {
+    "skills": 16,
+    "contract_pass": 16,
+    "preview_isolation_pass": 16,
+    "promotion_approved": 0,
+    "recommended_lifecycle": "pilot"
+  },
+  "results": [
+    { "skill": "execucao-alertas-beneficios-prazos", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-detectar-beneficios", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-classificador-documental", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-competencia-vep", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-dashboard-carteira", "contract": "pass_with_guard_fix", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-data-base-beneficios", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-diagnostico-360", "contract": "pass_with_guard_fix", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-exame-criminologico", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-extincao-pena-alvara", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-extrator-dados", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-relatorio-cliente", "contract": "pass_with_guard_fix", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-penas-restritivas-direitos", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-estrategia-multiteses", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-regime-aberto-condicoes", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-triagem-familia", "contract": "pass_with_guard_fix", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" },
+    { "skill": "execucao-matriz-fato-prova-tese", "contract": "pass", "preview_isolation": "pass", "promotion": "hold", "lifecycle": "pilot" }
+  ],
+  "guard_fixes_applied": [
+    "execucao-dashboard-carteira: PII bloqueia e exige pseudonimização/proveniência",
+    "execucao-diagnostico-360: autos incompletos geram blockers e diligências",
+    "execucao-relatorio-cliente: destinatário sem autorização bloqueia comunicação",
+    "execucao-triagem-familia: documento de outro cliente é recusado e não persistido"
+  ]
+}

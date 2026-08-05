@@ -1,0 +1,6 @@
+interface:
+  display_name: "Conflito de Competência e de Jurisdição no Processo Penal (arts. 113-117 CPP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $conflito-competencia-penal-interno para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

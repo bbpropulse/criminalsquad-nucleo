@@ -1,0 +1,42 @@
+---
+id: "stf-0ce5ffdca4bf"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0611"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal"]
+assunto: "Tráfico de drogas e combinação de leis - 1"
+processo: "RE 596152/SP"
+relator: "Ricardo Lewandowski"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0611.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo611.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "03a0cc048695b5143d2a6e1534e0ef46c4f1ae420cb1aa926e25088e22aac7a8"
+---
+
+# Tráfico de drogas e combinação de leis
+
+## Conteúdo do informativo
+
+Tráfico de drogas e combinação de leis - 1 O Plenário iniciou julgamento de recurso extraordinário em que se discute a aplicabilidade, ou não, da causa de diminuição de pena prevista no art. 33, § 4º, da Lei 11.343/2006 sobre condenações fixadas com base no art. 12, caput, da Lei 6.368/76, diploma normativo este vigente à época da prática do delito. Na espécie, o Ministério Público Federal alega afronta ao art. 5º, XL, da CF (“a lei penal não retroagirá, salvo para beneficiar o réu;”) ao argumento de que a combinação de regras mais benignas de dois sistemas legislativos diversos formaria uma terceira lei. O Min. Ricardo Lewandowski, relator, proveu o recurso para determinar que o juízo da Vara de Execuções Penais aplique, em sua integralidade, a legislação mais benéfica ao recorrido, no que foi acompanhado pelos Ministros Cármen Lúcia e Joaquim Barbosa. Inicialmente, ressaltou que a doutrina sempre esteve dividida quanto ao tema. Em seqüência, entendeu não ser possível a conjugação de partes mais benéficas de diferentes normas para se criar uma terceira lei, sob penal de ofensa aos princípios da legalidade e da separação de poderes. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152)
+
+Tráfico de drogas e combinação de leis - 2 Afirmou que a Constituição permitiria a retroatividade da lei penal para favorecer o réu, mas não mencionaria sua aplicação em partes. Consignou que a Lei 6.368/76 estabelecia para o delito de tráfico de drogas uma pena em abstrato de 3 a15 anos de reclusão e fora revogada pela Lei 11.343/2006, que cominou, para o mesmo crime, pena de 5 a 15 anos de reclusão. Enfatizou, assim, que a novel lei teria imposto reprimenda mais severa para aquele tipo penal e que o legislador se preocupara em diferenciar o traficante organizado do pequeno traficante. Acrescentou haver correlação entre o aumento da pena-base mínima prevista no caput do art. 33 da Lei 11.343/2006 e a inserção da causa de diminuição disposta em seu § 4º. Explicitou que, ao ser permitida a combinação das leis referidas para se extrair um terceiro gênero, os magistrados estariam atuando como legislador positivo. Ademais, ponderou que, dessa forma, poder-se-ia chegar à situação em que o delito de tráfico viesse a ser punido com pena semelhante às das infrações de menor potencial ofensivo. Concluiu que, se na dúvida quanto à legislação mais benéfica em determinada situação, dever-se-ia examinar o caso concreto e verificar a lei, que aplicada em sua totalidade, seria mais favorável. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152)
+
+Tráfico de drogas e combinação de leis - 3 Em divergência, o Min. Cezar Peluso, Presidente, proveu o recurso, no que foi seguido pelo Min. Dias Toffoli. Reiterou o teor do voto proferido no julgamento do HC 95435/RS (DJe de 7.11.2008), no sentido de entender que aplicar a causa de diminuição não significaria baralhar e confundir normas, uma vez que o juiz, ao assim proceder, não criaria lei nova, mas apenas se movimentaria dentro dos quadros legais para uma tarefa de integração perfeitamente possível. Além disso, asseverou que se deveria observar a finalidade e a ratio do princípio, para que fosse dada correta resposta ao tema, não havendo como se repudiar a aplicação da causa de diminuição também a situações anteriores. Nesse diapasão, realçou, também, que a vedação de junção de dispositivos de leis diversas seria apenas produto de interpretação da doutrina e da jurisprudência, sem apoio direto em texto constitucional. Após, pediu vista o Min. Ayres Britto. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152) 1ª parte 2ª parte 3ª parte PRIMEIRA TURMA
+
+## Referência processual
+
+Tráfico de drogas e combinação de leis - 1 O Plenário iniciou julgamento de recurso extraordinário em que se discute a aplicabilidade, ou não, da causa de diminuição de pena prevista no art. 33, § 4º, da Lei 11.343/2006 sobre condenações fixadas com base no art. 12, caput, da Lei 6.368/76, diploma normativo este vigente à época da prática do delito. Na espécie, o Ministério Público Federal alega afronta ao art. 5º, XL, da CF (“a lei penal não retroagirá, salvo para beneficiar o réu;”) ao argumento de que a combinação de regras mais benignas de dois sistemas legislativos diversos formaria uma terceira lei. O Min. Ricardo Lewandowski, relator, proveu o recurso para determinar que o juízo da Vara de Execuções Penais aplique, em sua integralidade, a legislação mais benéfica ao recorrido, no que foi acompanhado pelos Ministros Cármen Lúcia e Joaquim Barbosa. Inicialmente, ressaltou que a doutrina sempre esteve dividida quanto ao tema. Em seqüência, entendeu não ser possível a conjugação de partes mais benéficas de diferentes normas para se criar uma terceira lei, sob penal de ofensa aos princípios da legalidade e da separação de poderes. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152) | Tráfico de drogas e combinação de leis - 2 Afirmou que a Constituição permitiria a retroatividade da lei penal para favorecer o réu, mas não mencionaria sua aplicação em partes. Consignou que a Lei 6.368/76 estabelecia para o delito de tráfico de drogas uma pena em abstrato de 3 a15 anos de reclusão e fora revogada pela Lei 11.343/2006, que cominou, para o mesmo crime, pena de 5 a 15 anos de reclusão. Enfatizou, assim, que a novel lei teria imposto reprimenda mais severa para aquele tipo penal e que o legislador se preocupara em diferenciar o traficante organizado do pequeno traficante. Acrescentou haver correlação entre o aumento da pena-base mínima prevista no caput do art. 33 da Lei 11.343/2006 e a inserção da causa de diminuição disposta em seu § 4º. Explicitou que, ao ser permitida a combinação das leis referidas para se extrair um terceiro gênero, os magistrados estariam atuando como legislador positivo. Ademais, ponderou que, dessa forma, poder-se-ia chegar à situação em que o delito de tráfico viesse a ser punido com pena semelhante às das infrações de menor potencial ofensivo. Concluiu que, se na dúvida quanto à legislação mais benéfica em determinada situação, dever-se-ia examinar o caso concreto e verificar a lei, que aplicada em sua totalidade, seria mais favorável. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152) | Tráfico de drogas e combinação de leis - 3 Em divergência, o Min. Cezar Peluso, Presidente, proveu o recurso, no que foi seguido pelo Min. Dias Toffoli. Reiterou o teor do voto proferido no julgamento do HC 95435/RS (DJe de 7.11.2008), no sentido de entender que aplicar a causa de diminuição não significaria baralhar e confundir normas, uma vez que o juiz, ao assim proceder, não criaria lei nova, mas apenas se movimentaria dentro dos quadros legais para uma tarefa de integração perfeitamente possível. Além disso, asseverou que se deveria observar a finalidade e a ratio do princípio, para que fosse dada correta resposta ao tema, não havendo como se repudiar a aplicação da causa de diminuição também a situações anteriores. Nesse diapasão, realçou, também, que a vedação de junção de dispositivos de leis diversas seria apenas produto de interpretação da doutrina e da jurisprudência, sem apoio direto em texto constitucional. Após, pediu vista o Min. Ayres Britto. RE 596152/SP, rel. Min. Ricardo Lewandowski, 2.12.2010. (RE-596152) 1ª parte 2ª parte 3ª parte PRIMEIRA TURMA
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0611
+- Arquivo-fonte: `stf/Informativo_STF_0611.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo611.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

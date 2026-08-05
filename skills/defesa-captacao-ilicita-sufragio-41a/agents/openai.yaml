@@ -1,0 +1,6 @@
+interface:
+  display_name: "Captação Ilícita de Sufrágio (art. 41-A da Lei 9.504/97)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-captacao-ilicita-sufragio-41a para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

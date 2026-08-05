@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Roubo e Majorantes (CP, art. 157 e §§)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-roubo-majorado para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "command": "node .cursor/hooks/verifica-citacoes.mjs",
+        "failClosed": true,
+        "timeout": 20
+      },
+      {
+        "command": "node .cursor/hooks/verifica-redacao.mjs",
+        "failClosed": true,
+        "timeout": 20
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "node .cursor/hooks/verifica-citacoes.mjs",
+        "timeout": 20
+      }
+    ]
+  }
+}

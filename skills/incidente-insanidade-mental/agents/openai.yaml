@@ -1,0 +1,6 @@
+interface:
+  display_name: "Incidente de Insanidade Mental (CPP, arts. 149 a 154)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $incidente-insanidade-mental para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

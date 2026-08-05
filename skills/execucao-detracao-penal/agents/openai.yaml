@@ -1,0 +1,6 @@
+interface:
+  display_name: "Detração Penal na Execução (art. 42 do CP; art. 387, §2º, do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-detracao-penal para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

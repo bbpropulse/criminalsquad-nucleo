@@ -1,0 +1,6 @@
+interface:
+  display_name: "Crimes contra a Pessoa Idosa (Lei 10.741/2003, arts. 95 a 108)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $crimes-contra-idoso para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

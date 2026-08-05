@@ -1,0 +1,6 @@
+interface:
+  display_name: "Soberania dos Veredictos e Limites de Nova Apelação (art. 593, §3º, CPP; art. 5º, XXXVIII, \"c\", CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-soberania-veredicto-limites-nova-apelacao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Transferência de Pessoas Condenadas (Lei 13.445/2017, arts. 103-105; tratados)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $cooperacao-transferencia-pessoas-condenadas-tratado para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

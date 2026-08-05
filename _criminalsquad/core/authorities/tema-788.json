@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 788 (STF) — ARE 848107, Rel. Min. Dias Toffoli — O termo inicial da prescrição da pretensão executória (PPE) conta-se do trânsito em julgado para AMBAS as partes, com modulação de efeitos.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-788-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 788 (STF) — ARE 848107, Rel. Min. Dias Toffoli",
+      "official_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4661629&numeroProcesso=848107&classeProcesso=ARE&numeroTema=788",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Página do Tema 788 no repositório de repercussão geral do STF. Leading case ARE 848107, Rel. MIN. DIAS TOFFOLI, Tribunal Pleno, Sessão Virtual de 23.6.2023 a 30.6.2023. O Tribunal, por maioria, negou provimento ao ARE e declarou a NÃO RECEPÇÃO da locução 'para a acusação' do art. 112, I, do CP, com modulação expressa: aplica-se aos casos em que (i) a pena não foi declarada extinta pela prescrição e (ii) cujo trânsito em julgado para a acusação tenha ocorrido após 12.11.2020. "
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

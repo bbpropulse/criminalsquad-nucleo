@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Propaganda Eleitoral Irregular e Antecipada (Lei 9.504/97, arts. 36 a 39 e 57-A a 57-J)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-propaganda-eleitoral-irregular para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

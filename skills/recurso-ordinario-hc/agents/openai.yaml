@@ -1,0 +1,6 @@
+interface:
+  display_name: "Recurso Ordinário Constitucional em Habeas Corpus (RHC)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $recurso-ordinario-hc para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

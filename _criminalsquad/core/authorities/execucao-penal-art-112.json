@@ -1,0 +1,72 @@
+{
+  "schema_version": "1",
+  "topic": "LEP art. 112 — progressão, vigência, eficácia e direito intertemporal",
+  "operational_status": "quarantined",
+  "verified_at": "2026-07-09",
+  "revalidate_policy": "same_day",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "lep-compilada-planalto",
+      "kind": "legislation",
+      "title": "Lei de Execução Penal compilada",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/leis/l7210compilado.htm",
+      "verified_at": "2026-07-09",
+      "status": "verified_official",
+      "scope": "Texto formal consolidado; não resolve sozinho direito intertemporal ou eficácia no caso."
+    },
+    {
+      "id": "lei-15358-2026-camara",
+      "kind": "legislation",
+      "title": "Lei 15.358/2026 — publicação original",
+      "official_url": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15358-24-marco-2026-798846-publicacaooriginal-178585-pl.html",
+      "verified_at": "2026-07-09",
+      "status": "verified_official",
+      "scope": "Alterações publicadas em 25/03/2026; aplicação concreta depende de análise temporal."
+    },
+    {
+      "id": "lei-15402-2026-camara",
+      "kind": "legislation",
+      "title": "Lei 15.402/2026 — publicação original",
+      "official_url": "https://www2.camara.leg.br/legin/fed/lei/2026/lei-15402-8-maio-2026-799086-publicacaooriginal-179231-pl.html",
+      "verified_at": "2026-07-09",
+      "status": "verified_official",
+      "scope": "Alterações publicadas em 08/05/2026; aplicação concreta depende de análise temporal."
+    },
+    {
+      "id": "adi-7966-stf",
+      "kind": "docket",
+      "title": "ADI 7966 — andamento oficial",
+      "official_url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7587580",
+      "verified_at": "2026-07-09",
+      "status": "verified_official",
+      "scope": "Controle concentrado pendente; reconsultar andamento e decisões no mesmo dia do uso."
+    },
+    {
+      "id": "stf-suspensao-execucoes-especificas",
+      "kind": "official_news",
+      "title": "STF — suspensão em execuções penais específicas",
+      "official_url": "https://noticias.stf.jus.br/postsnoticias/relator-suspende-aplicacao-da-lei-da-dosimetria-a-execucoes-penais-no-stf/",
+      "verified_at": "2026-07-09",
+      "status": "discovery_only",
+      "scope": "Notícia oficial indica alcance individual; confirmar no processo antes de invocar."
+    }
+  ],
+  "affected_skills": [
+    "execucao-progressao-regime",
+    "execucao-liquidacao-pena-atestado",
+    "execucao-data-base-beneficios",
+    "execucao-detectar-beneficios",
+    "execucao-diagnostico-360"
+  ],
+  "affected_eval_cases": ["ep-canon-data-base-001", "ep-canon-beneficios-001", "ep-canon-diagnostico-001"],
+  "notes": [
+    "A matriz humana legível está em acervo/legislacao/matriz-temporal-art-112-lep.md.",
+    "Nenhum percentual ou data pode ser liberado enquanto a revisão humana estiver pendente.",
+    "A notícia oficial não substitui o inteiro teor da decisão nem autoriza generalização erga omnes."
+  ]
+}

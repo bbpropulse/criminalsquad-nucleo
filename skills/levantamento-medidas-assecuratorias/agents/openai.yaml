@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa Patrimonial contra Medidas Assecuratórias (CPP, arts. 125-144-A)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $levantamento-medidas-assecuratorias para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

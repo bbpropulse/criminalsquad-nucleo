@@ -1,0 +1,6 @@
+interface:
+  display_name: "Perdão Judicial em Crime Culposo de Trânsito (art. 121, §5º / art. 129, §8º, CP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $perdao-judicial-transito para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

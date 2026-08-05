@@ -1,0 +1,6 @@
+interface:
+  display_name: "Excludentes no Plenário do Júri (arts. 23-25 CP; art. 483, III e §2º, CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $juri-tese-legitima-defesa-excludentes-plenario para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 1.068/STF — execução imediata da pena aplicada pelo Tribunal do Júri",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-1-068-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 1.068/STF",
+      "official_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5776893",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "RE 1.235.340, Rel. Min. Luís Roberto Barroso. PRECEDENTE PRÓ-ACUSAÇÃO: autoriza a execução imediata independentemente do total da pena — tese MAIS AMPLA que o art. 492, I, e do CPP, que exige condenação igual ou superior a 15 anos. Não é tese de defesa; usar para antecipar e enfrentar."
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

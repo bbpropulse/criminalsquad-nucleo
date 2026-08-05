@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa na Extradição Passiva (Lei 13.445/2017, arts. 81-99; RISTF)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-extradicao-passiva-stf para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

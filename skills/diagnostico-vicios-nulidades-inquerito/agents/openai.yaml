@@ -1,0 +1,6 @@
+interface:
+  display_name: "Diagnóstico de Vícios e Nulidades da Investigação (CPP arts. 157, 226, 240-250, 306; CF art. 5º, XI e LVI; Lei 9.296/96)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $diagnostico-vicios-nulidades-inquerito para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

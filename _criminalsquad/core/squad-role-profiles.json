@@ -1,0 +1,66 @@
+{
+  "descricao": "Matriz papel -> perfil de skill para o checker de cobertura de squads (spec 2026-07-24). Lista ORDENADA: o primeiro padrao que casa vence (regra mais especifica primeiro), como PROFILE_PATTERNS em src/skill-quality.js. 'profile' e um dos 8 perfis do skill-quality.js (ou null quando o papel e definido so por ancoras). 'anchors' sao skills obrigatorias por id. 'namePattern' detecta o papel pelo id do agente no retrofit; squads novos declaram 'role' explicito.",
+  "contract_version": "1.0.0",
+  "roles": [
+    {
+      "role": "calculo",
+      "profile": "legal-calculation",
+      "anchors": [],
+      "namePattern": "calcul|remicao|prescricao|fracao|dosimetria|revisor-calculo"
+    },
+    {
+      "role": "prova",
+      "profile": "evidence-forensics",
+      "anchors": [],
+      "namePattern": "probatori|leitor|classificador|pericia|cadeia-custodia|ocr"
+    },
+    {
+      "role": "citacao",
+      "profile": "legal-analysis",
+      "anchors": [],
+      "namePattern": "revisor-cita|verificador-cita|citac"
+    },
+    {
+      "role": "revisao",
+      "profile": null,
+      "anchors": ["revisao-gramatical-ortografica-juridica"],
+      "namePattern": "revis"
+    },
+    {
+      "role": "redacao",
+      "profile": "legal-drafting",
+      "anchors": ["redacao-persuasiva-criminal"],
+      "namePattern": "redat|redac|plenario|minuta"
+    },
+    {
+      "role": "pesquisa",
+      "profile": "legal-analysis",
+      "anchors": [],
+      "namePattern": "pesquis|jurisprud|doutrina"
+    },
+    {
+      "role": "estrategia",
+      "profile": "legal-analysis",
+      "anchors": [],
+      "namePattern": "estrateg|teoria-do-caso|diagnostic|tese"
+    },
+    {
+      "role": "protocolo",
+      "profile": "external-action",
+      "anchors": [],
+      "namePattern": "protocolo|encaminhament|assinatura|publicac"
+    },
+    {
+      "role": "conteudo",
+      "profile": "authority-content",
+      "anchors": [],
+      "namePattern": "copywriter|designer|copywrit"
+    },
+    {
+      "role": "operacoes-cliente",
+      "profile": "client-operations",
+      "anchors": [],
+      "namePattern": "triagem|onboarding|comunicador|honorario|agenda|\\bprazo\\b|intima|monitor|notificador"
+    }
+  ]
+}

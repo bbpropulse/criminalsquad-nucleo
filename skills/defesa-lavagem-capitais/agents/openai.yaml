@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa na Imputação de Lavagem de Capitais (Lei 9.613/98)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-lavagem-capitais para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

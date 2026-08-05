@@ -1,0 +1,34 @@
+---
+id: "stf-709b06c57ff0"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0519"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal", "Direito Internacional"]
+assunto: "Extradição: Desqualificação do Crime de Sequëstro e Morte Presumida - 1"
+processo: null
+relator: "Marco Aurélio"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0519.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo519.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "eca75ea8a91bd90b2f785e536bd877b16f440f8bae956614315a79adf27b361f"
+---
+
+# Extradição: Desqualificação do Crime de Sequëstro e Morte Presumida - 1
+
+## Conteúdo do informativo
+
+Extradição: Desqualificação do Crime de Seqüestro e Morte Presumida - 1 O Tribunal iniciou julgamento de extradição formulada, com base em tratado bilateral, pelo Governo da Argentina contra nacional uruguaio, a fim de submetê-lo a processo judicial no qual lhe é imputada a prática dos crimes de privação de liberdade e de associação ilícita, previstos, respectivamente, nos artigos 144, alínea 1ª, e 210, ambos do Código Penal argentino. Alega o Estado requerente que, durante a denominada "Operação Condor", "identificada como uma organização terrorista, secreta e multinacional para caçar adversários políticos" dos regimes militares do Brasil, Argentina, Chile, Uruguai, Paraguai e Bolívia nas décadas de 1970 e 1980, o extraditando, à época, Major do Exército uruguaio, teria participado de ações militares que resultaram no seqüestro de pessoas, dentre as quais um cidadão argentino, levadas a uma fábrica abandonada e lá submetidas a interrogatórios e torturas. Preliminarmente, tendo em conta a regra prevista no art. 25, II, do Tratado do MERCOSUL, que estabelece que, quando mais de um Estado requer a extradição da mesma pessoa, pelo mesmo fato, tem preferência aquele em cujo território a infração foi cometida, julgou-se prejudicado outro pedido de extradição, formulado pelo Governo da República Oriental do Uruguai (Ext 1079), porquanto o desaparecimento do cidadão argentino, em 1976, imputado ao extraditando, ocorrera na Argentina. Ext 974/República Argentina, rel. Min. Marco Aurélio, 11.9.2008. (Ext-974) Extradição: Desqualificação do Crime de Seqüestro e Morte Presumida - 2 Quanto ao mérito, o Min. Marco Aurélio, relator, indeferiu o pleito, no que foi acompanhado pelos Ministros Menezes Direito, Cármen Lúcia e Eros Grau. De início, reputou prescrito o crime de associação ilícita (quadrilha) tanto pela legislação brasileira quanto pela argentina. No que se refere ao desaparecimento do cidadão argentino, em 1976, negou - ante a impossibilidade de ter-se, por ausência de ratificação, a Convenção Interamericana sobre o Desaparecimento Forçado de Pessoas como a compor o ordenamento jurídico brasileiro - a aplicação do disposto no art. 7º dela constante, que prevê que o crime de desaparecimento não está sujeito à prescrição. Rejeitou, de igual modo, a alegação do Procurador-Geral da República, em seu parecer, de que a imputação feita ao extraditando, por ser enquadrável como seqüestro, não estaria prescrita, haja vista se tratar de crime permanente no Brasil e na Argentina. No ponto, asseverou que tal imputação adquiriu contornos peculiares, ficando afastada a tipologia seqüestro. Considerou que, no contexto, o vocábulo desaparecimento não corresponderia ao seqüestro previsto no art. 148 do CP ("privar alguém de sua liberdade, mediante seqüestro ou cárcere privado"), porque o desaparecimento forçado do cidadão argentino atribuído ao extraditando alcançaria a própria morte, ante o fim visado, qual seja, alijar pessoas que pudessem colocar em risco o regime existente. Ressaltou o relator ser sintomático que, ocorrido o aludido desaparecimento, em 1976, passados 32 anos, com mudanças substanciais de regime nos países que integrariam a "Operação Condor", não haja notícia do local em que se encontre o referido cidadão. Dessa forma, presente o sentido vernacular do vocábulo desaparecimento, entendeu não preenchido o requisito da dupla tipicidade relativamente ao disposto na legislação penal brasileira sobre o seqüestro. Ext 974/República Argentina, rel. Min. Marco Aurélio, 11.9.2008. (Ext-974) Extradição: Desqualificação do Crime de Seqüestro e Morte Presumida - 3 Em seguida, o Min. Marco Aurélio, reportando-se aos princípios da razão suficiente, da causalidade e do determinismo, afirmou ter-se, considerada quer a legislação brasileira, quer a argentina, a morte presumida. Quanto à legislação brasileira, citou o que disposto na Lei 9.140/95, que reconheceu como mortas as pessoas desaparecidas em virtude de participação ou acusação de participação em atividades políticas no período de 2.9.61 a 5.10.88 (art. 1º), e ainda, a previsão geral decorrente do Código Civil de 2002 no que, além do instituto da simples ausência, inseriu, no contexto, a morte presumida, quando "for extremamente provável a morte de quem estava em perigo de vida" (art. 7º). No que tange à argentina, mencionou o art. 22 da Lei 14.394/54. Daí, para o relator, assentada a morte presumida ante os dois ordenamentos jurídicos, estar-se-ia diante da figura do homicídio, crime instantâneo, já prescrito tanto pelo direito pátrio quanto pelo argentino. Por fim, o relator, ao salientar que a extradição, presente a simetria, pressupõe, se cometido o crime no Brasil, a possibilidade de o extraditando vir a responder pelo ato em território brasileiro, entendeu que isso não ocorre, no caso, em razão da anistia verificada. Afirmou que, em última análise, o Supremo está a enfrentar, na espécie, na via indireta, a problemática relativa ao alcance da anistia, e que, na hipótese de ser deferida a extradição, assentar-se-á a viabilidade de persecução criminal, de responsabilidade administrativa e civil, no tocante a fatos por ela cobertos, o que implicará o esvaziamento de sua essência e um conflito sem limites. Quanto à tese da anistia, a Min. Cármen Lúcia fez ressalva. O Min. Ricardo Lewandowski abriu divergência e deferiu, em parte, o pedido, por considerar que o crime de seqüestro pode, em tese, ainda subsistir. Asseverou o fato de, nesses crimes de desaparecimento, muitos bebês terem sido tirados de suas mães nos cárceres e, até hoje, estarem em poder de outras famílias. Após, pediu vista dos autos o Min. Cezar Peluso. Ext 974/República Argentina, rel. Min. Marco Aurélio, 11.9.2008. (Ext-974)
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0519
+- Arquivo-fonte: `stf/Informativo_STF_0519.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo519.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

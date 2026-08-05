@@ -1,0 +1,6 @@
+interface:
+  display_name: "Acompanhamento de Oitiva de Testemunhas na Fase Policial (CPP, art. 6º; EAOAB, art. 7º, XXI)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $acompanhamento-oitiva-testemunhas-inquerito para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

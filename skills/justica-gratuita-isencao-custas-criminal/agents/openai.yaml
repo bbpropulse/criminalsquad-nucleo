@@ -1,0 +1,6 @@
+interface:
+  display_name: "Justiça Gratuita e Isenção de Custas (processo penal)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $justica-gratuita-isencao-custas-criminal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa dos crimes de responsabilidade de prefeito (art. 1º do DL 201/67)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crimes-responsabilidade-prefeito-dl-201 para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

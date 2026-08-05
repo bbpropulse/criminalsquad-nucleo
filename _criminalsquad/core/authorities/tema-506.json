@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "Tema 506 (STF) — Tema de repercussão geral em que o porte de maconha para consumo pessoal foi declarado ilícito não criminal.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "tema-506-fonte-oficial",
+      "kind": "precedent",
+      "title": "Tema 506 (STF)",
+      "official_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4034145&numeroProcesso=635659&classeProcesso=RE&numeroTema=506",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Tema 506 da repercussão geral do STF: 'Tipicidade do porte de droga para consumo pessoal', Rel. Min. Gilmar Mendes, leading case RE 635659 (incidente 4034145), com repercussão geral reconhecida ('Há Repercussão? Sim') e tese fixada em 8 itens. Andamentos confirmam trânsito em julgado em 18/03/2025 e baixa definitiva ao TJSP. Confere com a afirmação do produto."
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

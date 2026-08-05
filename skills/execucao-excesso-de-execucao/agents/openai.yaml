@@ -1,0 +1,6 @@
+interface:
+  display_name: "Excesso ou Desvio de Execução (arts. 185 e 186 da LEP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-excesso-de-execucao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

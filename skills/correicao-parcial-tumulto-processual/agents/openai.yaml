@@ -1,0 +1,6 @@
+interface:
+  display_name: "Correição Parcial (reclamação correicional contra inversão tumultuária)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $correicao-parcial-tumulto-processual para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

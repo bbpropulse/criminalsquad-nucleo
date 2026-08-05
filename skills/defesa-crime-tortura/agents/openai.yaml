@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes de Tortura (Lei 9.455/1997)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-crime-tortura para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

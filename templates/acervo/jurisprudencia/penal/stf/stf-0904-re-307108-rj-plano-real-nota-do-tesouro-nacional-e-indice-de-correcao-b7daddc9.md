@@ -1,0 +1,38 @@
+---
+id: "stf-3501b7daddc9"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0904"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal"]
+assunto: "Plano Real: Nota do Tesouro Nacional e índice de correção"
+processo: "RE 307108/RJ"
+relator: ") deu provimento ao recurso para restabelecer o entendimento contido na sentença"
+orgao_julgador: "PRIMEIRA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0904.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo904.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "ramo_oficial_do_informativo"
+classificacao_confianca: "alta"
+revisao_humana: false
+hash_conteudo_sha256: "fa5ebd4b797911ed03a921d91669d5ddc941d3f3767dd76d0d926e9bcbc26085"
+---
+
+# Plano Real: Nota do Tesouro Nacional e índice de correção
+
+## Conteúdo do informativo
+
+Plano Real: Nota do Tesouro Nacional e índice de correção A Primeira Turma iniciou julgamento de recurso extraordinário em que se discute a incidência da norma de correção monetária prevista no artigo 38(1) da Lei 8.880/1994 a negócio jurídico formalizado antes da sua vigência. No caso, as partes pactuaram Notas do Tesouro Nacional, com vencimento em 1º.11.1994, fixando o Índice Geral de Preços de Mercado (IGPM) como indexador de atualização do valor nominal. O tribunal de origem, ao reformar a decisão do juízo, afastou o critério de correção monetária determinado, consignando a aplicabilidade do art. 38 da Lei 8.880/1994, norma superveniente. O ministro Marco Aurélio (relator) deu provimento ao recurso para restabelecer o entendimento contido na sentença, que utilizou o IGPM previsto na Lei 8.249/1991, regulamentada pelo Decreto 1.019/1993. Assinalou que o pano de fundo é a aplicação da lei no tempo. Tratar-se de negócio jurídico plenamente constituído antes do advento da lei de 1994. Os requisitos do título, cujo teor revela a adoção do IGPM, foram preenchidos na regência das Leis 8.177/1991 e 8.249/1991, ficando o recorrido obrigado a remunerar os títulos conforme o indexador contido no Decreto 1.019/1993. A Constituição Federal (CF) encerra norma direcionada a evitar a insegurança jurídica, o que acaba por ocorrer quando se despreza, como no caso, a intangibilidade do ato jurídico perfeito e do direito adquirido [CF, art. 5º, XXXVI(2)]. Se as Notas do Tesouro Nacional foram contratadas de acordo com a legislação da época, tem-se como configurado ato jurídico perfeito a revelar relação jurídica projetada no tempo. Reportou-se ao decidido na ADI 493, em que o Plenário assentara a intangibilidade do ato jurídico perfeito. Se é certo ter ocorrido no País movimento com o objetivo de implementar novo Sistema Monetário Nacional, não menos correto é haver permanecido íntegra a Constituição, que impõe o respeito irrestrito ao ato jurídico perfeito e ao direito adquirido. Entendimento contrário importaria na quebra do próprio sistema constitucional, gerando, ante o efeito retroativo de lei nova, desequilíbrio ímpar a fulminar a segurança jurídica. Por fim, frisou que o próprio art. 38, em seu parágrafo único, ressalvara as situações existentes. Em seguida, o ministro Alexandre de Moraes pediu vista dos autos. (1) Lei 8.880/1994: “Art. 38. O cálculo dos índices de correção monetária, no mês em que se verificar a emissão do Real de que trata o art. 3º desta lei, bem como no mês subseqüente, tomará por base preços em Real, o equivalente em URV dos preços em cruzeiros reais, e os preços nominados ou convertidos em URV dos meses imediatamente anteriores, segundo critérios estabelecidos em lei. Parágrafo Único. Observado o disposto no parágrafo único do art. 7º, é nula de pleno direito e não surtirá nenhum efeito a aplicação de índice, para fins de correção monetária, calculado de forma diferente da estabelecida no caput deste artigo. ” (2) CF: “Art. 5º: (...) XXXVI - a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada; ” RE 307108/RJ, rel. Min. Marco Aurélio, julgamento em 29.5.2018. (RE-307108) DIREITO PENAL – TIPICIDADE
+
+## Referência processual
+
+Plano Real: Nota do Tesouro Nacional e índice de correção A Primeira Turma iniciou julgamento de recurso extraordinário em que se discute a incidência da norma de correção monetária prevista no artigo 38(1) da Lei 8.880/1994 a negócio jurídico formalizado antes da sua vigência. No caso, as partes pactuaram Notas do Tesouro Nacional, com vencimento em 1º.11.1994, fixando o Índice Geral de Preços de Mercado (IGPM) como indexador de atualização do valor nominal. O tribunal de origem, ao reformar a decisão do juízo, afastou o critério de correção monetária determinado, consignando a aplicabilidade do art. 38 da Lei 8.880/1994, norma superveniente. O ministro Marco Aurélio (relator) deu provimento ao recurso para restabelecer o entendimento contido na sentença, que utilizou o IGPM previsto na Lei 8.249/1991, regulamentada pelo Decreto 1.019/1993. Assinalou que o pano de fundo é a aplicação da lei no tempo. Tratar-se de negócio jurídico plenamente constituído antes do advento da lei de 1994. Os requisitos do título, cujo teor revela a adoção do IGPM, foram preenchidos na regência das Leis 8.177/1991 e 8.249/1991, ficando o recorrido obrigado a remunerar os títulos conforme o indexador contido no Decreto 1.019/1993. A Constituição Federal (CF) encerra norma direcionada a evitar a insegurança jurídica, o que acaba por ocorrer quando se despreza, como no caso, a intangibilidade do ato jurídico perfeito e do direito adquirido [CF, art. 5º, XXXVI(2)]. Se as Notas do Tesouro Nacional foram contratadas de acordo com a legislação da época, tem-se como configurado ato jurídico perfeito a revelar relação jurídica projetada no tempo. Reportou-se ao decidido na ADI 493, em que o Plenário assentara a intangibilidade do ato jurídico perfeito. Se é certo ter ocorrido no País movimento com o objetivo de implementar novo Sistema Monetário Nacional, não menos correto é haver permanecido íntegra a Constituição, que impõe o respeito irrestrito ao ato jurídico perfeito e ao direito adquirido. Entendimento contrário importaria na quebra do próprio sistema constitucional, gerando, ante o efeito retroativo de lei nova, desequilíbrio ímpar a fulminar a segurança jurídica. Por fim, frisou que o próprio art. 38, em seu parágrafo único, ressalvara as situações existentes. Em seguida, o ministro Alexandre de Moraes pediu vista dos autos. (1) Lei 8.880/1994: “Art. 38. O cálculo dos índices de correção monetária, no mês em que se verificar a emissão do Real de que trata o art. 3º desta lei, bem como no mês subseqüente, tomará por base preços em Real, o equivalente em URV dos preços em cruzeiros reais, e os preços nominados ou convertidos em URV dos meses imediatamente anteriores, segundo critérios estabelecidos em lei. Parágrafo Único. Observado o disposto no parágrafo único do art. 7º, é nula de pleno direito e não surtirá nenhum efeito a aplicação de índice, para fins de correção monetária, calculado de forma diferente da estabelecida no caput deste artigo. ” (2) CF: “Art. 5º: (...) XXXVI - a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada; ” RE 307108/RJ, rel. Min. Marco Aurélio, julgamento em 29.5.2018. (RE-307108) DIREITO PENAL – TIPICIDADE
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0904
+- Arquivo-fonte: `stf/Informativo_STF_0904.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo904.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

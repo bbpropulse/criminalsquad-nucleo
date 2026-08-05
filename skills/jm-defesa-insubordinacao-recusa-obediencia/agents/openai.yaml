@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em crimes de insubordinação (arts. 163 a 166 do CPM — Decreto-Lei 1.001/1969)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $jm-defesa-insubordinacao-recusa-obediencia para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "HC 143.641/SP (STF, 2ª Turma, rel. Min. Ricardo Lewandowski, j. 20.02.2018) — Precedente para PRISÃO DOMICILIAR de gestante/mãe de criança (art. 318 do CPP).",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "hc-143-641-sp-fonte-oficial",
+      "kind": "docket",
+      "title": "HC 143.641/SP (STF, 2ª Turma, rel. Min. Ricardo Lewandowski, j. 20.02.2018)",
+      "official_url": "https://portal.stf.jus.br/processos/abaDecisoes.asp?incidente=5183497",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "Habeas corpus COLETIVO impetrado pela Defensoria Pública da União em favor de 'todas as mulheres submetidas à prisão cautelar no sistema penitenciário nacional, que ostentem a condição de gestantes, de puérperas ou de mães com crianças com até 12 anos de idade sob sua responsabilidade, e das próprias crianças' (rol de pacientes copiado da página do processo), tendo por coatores 'juízes e juízas das varas criminais estaduais'. Concedido pela 2ª TURMA em 20/02/2018, por maioria"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

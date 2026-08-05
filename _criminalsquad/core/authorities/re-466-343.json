@@ -1,0 +1,25 @@
+{
+  "schema_version": "1",
+  "topic": "RE 466.343 (STF) — Tratado internacional de direitos humanos tem status SUPRALEGAL.",
+  "operational_status": "pilot",
+  "verified_at": "2026-07-28",
+  "revalidate_policy": "monthly",
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "reviewed_at": null
+  },
+  "sources": [
+    {
+      "id": "re-466-343-fonte-oficial",
+      "kind": "docket",
+      "title": "RE 466.343 (STF)",
+      "official_url": "https://www.stf.jus.br/imprensa/pdf/re466343.pdf",
+      "verified_at": "2026-07-28",
+      "status": "verified_official",
+      "scope": "RE 466.343-1/SP, rel. Min. Cezar Peluso, Tribunal Pleno, julgado em 03.12.2008. Recurso extraordinario do Banco Bradesco S/A contra acordao do TJSP que reconheceu a inconstitucionalidade da prisao civil do devedor fiduciante em contrato de alienacao fiduciaria em garantia ('depositario infiel'). Ao decidir, o STF afirmou pela primeira vez o status SUPRALEGAL dos tratados internacionais de direitos humanos - abaixo da Constituicao, acima da legislacao infraconstitucional -, te"
+    }
+  ],
+  "affected_skills": [],
+  "affected_eval_cases": []
+}

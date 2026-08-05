@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa em Calúnia (CP, art. 138)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-calunia-138 para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

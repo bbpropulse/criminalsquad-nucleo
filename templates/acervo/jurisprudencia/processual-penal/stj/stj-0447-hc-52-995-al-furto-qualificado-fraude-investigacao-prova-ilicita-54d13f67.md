@@ -1,0 +1,40 @@
+---
+id: "stj-b2d354d13f67"
+tribunal: "STJ"
+tribunal_nome: "Superior Tribunal de Justiça"
+informativo: "0447"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "FURTO QUALIFICADO. FRAUDE. INVESTIGAÇÃO. PROVA ILÍCITA."
+processo: "HC 52.995-AL"
+relator: "que"
+orgao_julgador: "SEXTA TURMA"
+data_julgamento: "16/9/2010"
+fonte_arquivo: "stj/Informativo_STJ_0447.pdf"
+fonte_url: "https://processo.stj.jus.br/SCON/GetPDFINFJ?edicao=0447"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "heuristica_por_termos_juridicos"
+classificacao_confianca: "media"
+revisao_humana: false
+hash_conteudo_sha256: "067e1c32491b59a8728e5ed10b4f0d38ab960c81cfd2fcbaa16b948c726a0a64"
+---
+
+# FURTO QUALIFICADO. FRAUDE. INVESTIGAÇÃO. PROVA ILÍCITA.
+
+## Conteúdo do informativo
+
+FURTO QUALIFICADO. FRAUDE. INVESTIGAÇÃO. PROVA ILÍCITA.
+
+Trata-se de habeas corpus no qual se alega, em síntese, que a sentença condenatória dos pacientes pela prática do crime previsto no art. 155, § 4º, II, do CP (furto qualificado mediante fraude) e o acórdão que a confirmou devem ser anulados, uma vez que toda a investigação se originou de prova ilícita consistente em documento expedido sem a devida autorização judicial. Sustenta-se que a autorização para quebra de sigilo bancário dos pacientes só se concretizou seis meses depois da publicidade dada ao documento, que gozava de proteção do sigilo bancário. Inicialmente, ressaltou o Min. Relator que, quanto à proteção dada às informações de operações bancárias, o sigilo, segundo disposição legal, corresponde à obrigação imposta às instituições financeiras, configurando infração penal sua quebra injustificada. Porém, sobre o que dispõe o art. 5º, XII, da CF/1988, entende ser necessário que sua interpretação seja feita com temperamentos, afinal, inexiste, no ordenamento pátrio, direito absoluto. Assim, diante do caso concreto, cabe ao intérprete fazer uma ponderação de valores. A inviolabilidade dos sigilos é, portanto, a regra e a quebra, a exceção; como tal se deve observar que a fundamentação para a quebra dos sigilos seja de modo que encontre apoio no princípio da proporcionalidade, sob pena de serem consideradas ilícitas as provas obtidas dessa violação. Desse modo, a par da regra da liberdade dos meios de prova, excetua-se a utilização daquelas obtidas por meios ilegais, conforme dispõe o art. 5º, LVI, da CF/1988, inserindo-se, nesse contexto, as oriundas da quebra de sigilo sem autorização judicial devidamente motivada. Entretanto, no caso em foco, entendeu o Min. Relator haver peculiaridade que afasta, por completo, a proteção à violação de sigilo bancário que é reivindicada, isto é, tratou-se toda a operação bancária de um golpe efetivado por meio de um engodo. Aliás, a própria titularidade solidária que detinha uma das pacientes e que agora é reclamada para respaldar eventual autorização legal nasceu como início da trama que foi efetivada contra a vítima, conforme se inferiu da sentença condenatória. Dessa forma, antes mesmo de verificar eventual tensão entre princípios que ensejasse a relativização daquele que prevê o sigilo das informações, observou que a pretensão de reconhecimento da nulidade é precedida do desejo de beneficiar os pacientes com o fruto do ato ilícito, o que foge à razoabilidade. Lembrou, ainda, o § 2º do art. 157 do CPP, o qual entende servir para mitigar a teoria da contaminação da prova, restringindo-a para os casos em que a prova ilícita foi absolutamente determinante para a descoberta da prova derivada que sem aquela não existiria, o que não aconteceu na espécie. Asseverou, por fim, que, in casu, o sobrinho da vítima, na condição de herdeiro, teria, inarredavelmente, após a habilitação no inventário, o conhecimento das movimentações financeiras e, certamente, saberia do desfalque que a vítima havia sofrido; ou seja, a descoberta seria inevitável, não havendo, portanto, razoabilidade alguma em anular todo o processo e demais provas colhidas, não só durante a instrução criminal, mas também aquelas colhidas na fase pré-processual investigativa. Diante desses fundamentos, entre outros, a Turma denegou a ordem. Precedentes citados: HC 133.347-PE, DJe 30/11/2009, e HC 67.435-RS, DJe 23/3/2009. HC 52.995-AL, Rel. Min. Og Fernandes, julgado em 16/9/2010.
+
+## Referência processual
+
+Trata-se de habeas corpus no qual se alega, em síntese, que a sentença condenatória dos pacientes pela prática do crime previsto no art. 155, § 4º, II, do CP (furto qualificado mediante fraude) e o acórdão que a confirmou devem ser anulados, uma vez que toda a investigação se originou de prova ilícita consistente em documento expedido sem a devida autorização judicial. Sustenta-se que a autorização para quebra de sigilo bancário dos pacientes só se concretizou seis meses depois da publicidade dada ao documento, que gozava de proteção do sigilo bancário. Inicialmente, ressaltou o Min. Relator que, quanto à proteção dada às informações de operações bancárias, o sigilo, segundo disposição legal, corresponde à obrigação imposta às instituições financeiras, configurando infração penal sua quebra injustificada. Porém, sobre o que dispõe o art. 5º, XII, da CF/1988, entende ser necessário que sua interpretação seja feita com temperamentos, afinal, inexiste, no ordenamento pátrio, direito absoluto. Assim, diante do caso concreto, cabe ao intérprete fazer uma ponderação de valores. A inviolabilidade dos sigilos é, portanto, a regra e a quebra, a exceção; como tal se deve observar que a fundamentação para a quebra dos sigilos seja de modo que encontre apoio no princípio da proporcionalidade, sob pena de serem consideradas ilícitas as provas obtidas dessa violação. Desse modo, a par da regra da liberdade dos meios de prova, excetua-se a utilização daquelas obtidas por meios ilegais, conforme dispõe o art. 5º, LVI, da CF/1988, inserindo-se, nesse contexto, as oriundas da quebra de sigilo sem autorização judicial devidamente motivada. Entretanto, no caso em foco, entendeu o Min. Relator haver peculiaridade que afasta, por completo, a proteção à violação de sigilo bancário que é reivindicada, isto é, tratou-se toda a operação bancária de um golpe efetivado por meio de um engodo. Aliás, a própria titularidade solidária que detinha uma das pacientes e que agora é reclamada para respaldar eventual autorização legal nasceu como início da trama que foi efetivada contra a vítima, conforme se inferiu da sentença condenatória. Dessa forma, antes mesmo de verificar eventual tensão entre princípios que ensejasse a relativização daquele que prevê o sigilo das informações, observou que a pretensão de reconhecimento da nulidade é precedida do desejo de beneficiar os pacientes com o fruto do ato ilícito, o que foge à razoabilidade. Lembrou, ainda, o § 2º do art. 157 do CPP, o qual entende servir para mitigar a teoria da contaminação da prova, restringindo-a para os casos em que a prova ilícita foi absolutamente determinante para a descoberta da prova derivada que sem aquela não existiria, o que não aconteceu na espécie. Asseverou, por fim, que, in casu, o sobrinho da vítima, na condição de herdeiro, teria, inarredavelmente, após a habilitação no inventário, o conhecimento das movimentações financeiras e, certamente, saberia do desfalque que a vítima havia sofrido; ou seja, a descoberta seria inevitável, não havendo, portanto, razoabilidade alguma em anular todo o processo e demais provas colhidas, não só durante a instrução criminal, mas também aquelas colhidas na fase pré-processual investigativa. Diante desses fundamentos, entre outros, a Turma denegou a ordem. Precedentes citados: HC 133.347-PE, DJe 30/11/2009, e HC 67.435-RS, DJe 23/3/2009. HC 52.995-AL, Rel. Min. Og Fernandes, julgado em 16/9/2010.
+
+## Proveniência
+
+- Tribunal: Superior Tribunal de Justiça
+- Informativo: 0447
+- Arquivo-fonte: `stj/Informativo_STJ_0447.pdf`
+- URL registrada no índice de origem: https://processo.stj.jus.br/SCON/GetPDFINFJ?edicao=0447
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

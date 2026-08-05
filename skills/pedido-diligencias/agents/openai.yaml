@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pedido de Diligências Complementares (art. 402 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $pedido-diligencias para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

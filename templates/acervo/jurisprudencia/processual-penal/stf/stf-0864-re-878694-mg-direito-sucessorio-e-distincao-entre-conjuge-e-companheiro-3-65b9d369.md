@@ -1,0 +1,42 @@
+---
+id: "stf-2e0865b9d369"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0864"
+area_primaria: "Direito Processual Penal"
+areas: ["Direito Processual Penal"]
+assunto: "Direito sucessório e distinção entre cônjuge e companheiro - 3"
+processo: "RE 878694/MG"
+relator: "Roberto Barroso"
+orgao_julgador: "PLENÁRIO"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0864.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo864.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "ramo_oficial_do_informativo"
+classificacao_confianca: "alta"
+revisao_humana: false
+hash_conteudo_sha256: "b3695dd110f3582010e7396d7a827153952f821853942c74a09c6eba16e72a67"
+---
+
+# Direito sucessório e distinção entre cônjuge e companheiro - 3
+
+## Conteúdo do informativo
+
+Direito sucessório e distinção entre cônjuge e companheiro - 3 No sistema constitucional vigente, é inconstitucional a diferenciação de regimes sucessórios entre cônjuges e companheiros, devendo ser aplicado, em ambos os casos, o regime estabelecido no artigo 1.829 do Código Civil. Com base nesse entendimento, o Plenário, ao apreciar o Tema 809 da repercussão geral, por maioria, deu provimento ao recurso extraordinário para reconhecer, de forma incidental, a inconstitucionalidade do art. 1.790 do Código Civil de 2002 (1) e declarar o direito da recorrente a participar da herança de seu companheiro, em conformidade com o regime jurídico estabelecido no art. 1.829 do referido código (2) (vide Informativos
+
+e
+
+). No caso, a recorrente vivia em união estável, em regime de comunhão parcial de bens, há cerca de nove anos, até seu companheiro falecer, sem deixar testamento. O falecido não tinha descendentes nem ascendentes, apenas três irmãos. O tribunal de origem, com fundamento no art. 1.790, III, do Código Civil de 2002, limitou o direito sucessório da recorrente a 1/3 dos bens adquiridos onerosamente durante a união estável, excluídos os bens particulares do falecido, os quais seriam recebidos integralmente pelos irmãos. Porém, se fosse casada com o falecido, a recorrente teria direito à totalidade da herança. O Supremo Tribunal Federal afirmou que a Constituição contempla diferentes formas de família, além da que resulta do casamento. Nesse rol incluem-se as famílias formadas mediante união estável. Portanto, não é legítimo desequiparar, para fins sucessórios, os cônjuges e os companheiros, isto é, a família formada por casamento e a constituída por união estável. Tal hierarquização entre entidades familiares mostra-se incompatível com a Constituição. O art. 1.790 do Código Civil de 2002, ao revogar as Leis 8.971/1994 e 9.278/1996 e discriminar a companheira (ou companheiro), dando-lhe direitos sucessórios inferiores aos conferidos à esposa (ou ao marido), entra em contraste com os princípios da igualdade, da dignidade da pessoa humana, da proporcionalidade na modalidade de proibição à proteção deficiente e da vedação ao retrocesso. A Corte ainda ressaltou que, com a finalidade de preservar a segurança jurídica, o entendimento ora firmado aplica-se apenas aos inventários judiciais em que a sentença de partilha não tenha transitado em julgado e às partilhas extrajudiciais em que ainda não haja escritura pública. Vencidos os ministros Dias Toffoli, Marco Aurélio e Ricardo Lewandowski, que negaram provimento ao recurso. Para eles, a norma civil apontada como inconstitucional não hierarquiza o casamento em relação à união estável, mas acentua serem formas diversas de entidades familiares. Nesse sentido, ponderaram que há de ser respeitada a opção dos indivíduos que decidem submeter-se a um ou a outro regime. (1) Código Civil/2002: “Art. 1.790. A companheira ou o companheiro participará da sucessão do outro, quanto aos bens adquiridos onerosamente na vigência da união estável, nas condições seguintes: I – se concorrer com filhos comuns, terá direito a uma quota equivalente à que por lei for atribuída ao filho; II – se concorrer com descendentes só do autor da herança, tocar-lhe-á a metade do que couber a cada um daqueles; III – se concorrer com outros parentes sucessíveis, terá direito a um terço da herança;” (2) Código Civil/2002: “Art. 1.829. A sucessão legítima defere-se na ordem seguinte: I – aos descendentes, em concorrência com o cônjuge sobrevivente, salvo se casado este com o falecido no regime da comunhão universal, ou no da separação obrigatória de bens (art. 1.640, parágrafo único); ou se, no regime da comunhão parcial, o autor da herança não houver deixado bens particulares; II – aos ascendentes, em concorrência com o cônjuge; III – ao cônjuge sobrevivente; IV – aos colaterais.” RE 878694/MG, rel. Min. Roberto Barroso, julgamento em 10.5.2017. (RE-878694) Video: Audio: PRIMEIRA TURMA DIREITO PROCESSUAL PENAL - DENÚNCIA
+
+## Referência processual
+
+). No caso, a recorrente vivia em união estável, em regime de comunhão parcial de bens, há cerca de nove anos, até seu companheiro falecer, sem deixar testamento. O falecido não tinha descendentes nem ascendentes, apenas três irmãos. O tribunal de origem, com fundamento no art. 1.790, III, do Código Civil de 2002, limitou o direito sucessório da recorrente a 1/3 dos bens adquiridos onerosamente durante a união estável, excluídos os bens particulares do falecido, os quais seriam recebidos integralmente pelos irmãos. Porém, se fosse casada com o falecido, a recorrente teria direito à totalidade da herança. O Supremo Tribunal Federal afirmou que a Constituição contempla diferentes formas de família, além da que resulta do casamento. Nesse rol incluem-se as famílias formadas mediante união estável. Portanto, não é legítimo desequiparar, para fins sucessórios, os cônjuges e os companheiros, isto é, a família formada por casamento e a constituída por união estável. Tal hierarquização entre entidades familiares mostra-se incompatível com a Constituição. O art. 1.790 do Código Civil de 2002, ao revogar as Leis 8.971/1994 e 9.278/1996 e discriminar a companheira (ou companheiro), dando-lhe direitos sucessórios inferiores aos conferidos à esposa (ou ao marido), entra em contraste com os princípios da igualdade, da dignidade da pessoa humana, da proporcionalidade na modalidade de proibição à proteção deficiente e da vedação ao retrocesso. A Corte ainda ressaltou que, com a finalidade de preservar a segurança jurídica, o entendimento ora firmado aplica-se apenas aos inventários judiciais em que a sentença de partilha não tenha transitado em julgado e às partilhas extrajudiciais em que ainda não haja escritura pública. Vencidos os ministros Dias Toffoli, Marco Aurélio e Ricardo Lewandowski, que negaram provimento ao recurso. Para eles, a norma civil apontada como inconstitucional não hierarquiza o casamento em relação à união estável, mas acentua serem formas diversas de entidades familiares. Nesse sentido, ponderaram que há de ser respeitada a opção dos indivíduos que decidem submeter-se a um ou a outro regime. (1) Código Civil/2002: “Art. 1.790. A companheira ou o companheiro participará da sucessão do outro, quanto aos bens adquiridos onerosamente na vigência da união estável, nas condições seguintes: I – se concorrer com filhos comuns, terá direito a uma quota equivalente à que por lei for atribuída ao filho; II – se concorrer com descendentes só do autor da herança, tocar-lhe-á a metade do que couber a cada um daqueles; III – se concorrer com outros parentes sucessíveis, terá direito a um terço da herança;” (2) Código Civil/2002: “Art. 1.829. A sucessão legítima defere-se na ordem seguinte: I – aos descendentes, em concorrência com o cônjuge sobrevivente, salvo se casado este com o falecido no regime da comunhão universal, ou no da separação obrigatória de bens (art. 1.640, parágrafo único); ou se, no regime da comunhão parcial, o autor da herança não houver deixado bens particulares; II – aos ascendentes, em concorrência com o cônjuge; III – ao cônjuge sobrevivente; IV – aos colaterais.” RE 878694/MG, rel. Min. Roberto Barroso, julgamento em 10.5.2017. (RE-878694) Video: Audio: PRIMEIRA TURMA DIREITO PROCESSUAL PENAL - DENÚNCIA
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0864
+- Arquivo-fonte: `stf/Informativo_STF_0864.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo864.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Calculadora de Dosimetria (trifásica — CP 68)"
+  short_description: "Cálculo penal determinístico e auditável"
+  default_prompt: "Use $calculadora-dosimetria para executar um cálculo auditável sem inferir a regra jurídica."
+policy:
+  allow_implicit_invocation: false

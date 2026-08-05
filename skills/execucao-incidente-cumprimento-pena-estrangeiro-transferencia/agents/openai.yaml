@@ -1,0 +1,6 @@
+interface:
+  display_name: "Execução Penal e o Estrangeiro — Transferência Internacional, Sentença Estrangeira e Expulsão"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-incidente-cumprimento-pena-estrangeiro-transferencia para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

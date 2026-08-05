@@ -1,0 +1,6 @@
+interface:
+  display_name: "Medida de Segurança — Desinternação e Cessação de Periculosidade"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $medida-seguranca-desinternacao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

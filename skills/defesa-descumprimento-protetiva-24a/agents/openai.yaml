@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa no crime de descumprimento de protetiva (art. 24-A da Lei 11.340/2006)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $defesa-descumprimento-protetiva-24a para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

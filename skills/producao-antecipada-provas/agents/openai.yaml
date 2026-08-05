@@ -1,0 +1,6 @@
+interface:
+  display_name: "Produção Antecipada de Provas (CPP, arts. 156, I, 225 e 366 — Súmula 455 STJ)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $producao-antecipada-provas para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

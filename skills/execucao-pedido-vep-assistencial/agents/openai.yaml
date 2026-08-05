@@ -1,0 +1,6 @@
+interface:
+  display_name: "Permissão de Saída e Providências Assistenciais na Execução (arts. 120-121 e 10-14 LEP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $execucao-pedido-vep-assistencial para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

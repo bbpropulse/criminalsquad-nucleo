@@ -1,0 +1,6 @@
+interface:
+  display_name: "Alegações Finais Orais (Debates na AIJ)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $alegacoes-finais-orais para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

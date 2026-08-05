@@ -1,0 +1,6 @@
+interface:
+  display_name: "Nulidades da Busca Pessoal e da Abordagem Policial"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $nulidades-busca-pessoal-abordagem-policial para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

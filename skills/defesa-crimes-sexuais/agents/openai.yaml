@@ -1,0 +1,6 @@
+interface:
+  display_name: "Defesa nos Crimes contra a Dignidade Sexual (CP, arts. 213 a 218-C)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $defesa-crimes-sexuais para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

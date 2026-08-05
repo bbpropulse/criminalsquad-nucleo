@@ -1,0 +1,6 @@
+interface:
+  display_name: "Triagem de Competência e Foro em Matéria Criminal (arts. 69-91 CPP; art. 109 CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $triagem-competencia-foro-criminal para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

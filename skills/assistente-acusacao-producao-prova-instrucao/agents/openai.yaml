@@ -1,0 +1,6 @@
+interface:
+  display_name: "Assistente de Acusação — Estratégia Probatória e Rol na Instrução (arts. 268-273 e 155-250 do CPP)"
+  short_description: "Redação penal verificável e revisável"
+  default_prompt: "Use $assistente-acusacao-producao-prova-instrucao para produzir uma minuta penal verificável para revisão humana."
+policy:
+  allow_implicit_invocation: false

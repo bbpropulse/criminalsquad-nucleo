@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matriz de Efeitos Extrapenais e Colaterais da Condenação (arts. 91 e 92 do CP)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $matriz-efeitos-extrapenais-condenacao para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,38 @@
+---
+id: "stf-d1b89ed775ea"
+tribunal: "STF"
+tribunal_nome: "Supremo Tribunal Federal"
+informativo: "0952"
+area_primaria: "Direito Penal"
+areas: ["Direito Penal"]
+assunto: "Ação de improbidade administrativa e atuação de procurador do estado"
+processo: "ARE 1165456"
+relator: ") negou provimento ao agravo e impôs multa ao agravante. Ponderou que os autos versam matéria estritamente legal"
+orgao_julgador: "PRIMEIRA TURMA"
+data_julgamento: null
+fonte_arquivo: "stf/Informativo_STF_0952.html"
+fonte_url: "https://www.stf.jus.br/arquivo/informativo/documento/informativo952.htm"
+extracao_metodo: "texto_nativo"
+classificacao_metodo: "ramo_oficial_do_informativo"
+classificacao_confianca: "alta"
+revisao_humana: false
+hash_conteudo_sha256: "cf99cdea4ecd0fab5e8bc605d02cc6468169c8125b53f54de2e7cf04dfa1c4d4"
+---
+
+# Ação de improbidade administrativa e atuação de procurador do estado
+
+## Conteúdo do informativo
+
+Ação de improbidade administrativa e atuação de procurador do estado - A Primeira Turma retomou julgamento de agravo regimental em recurso extraordinário com agravo, em que se discute se procurador do Estado de Sergipe pode ajuizar ação por ato de improbidade administrativa sem autorização do governador e do procurador-geral daquela unidade federativa. Na espécie, o acórdão impugnado pelo recurso extraordinário concluiu que não se pode falar em autonomia funcional de procurador do estado em ajuizar ação civil pública sem a aludida autorização. O ministro Marco Aurélio (relator) negou provimento ao agravo e impôs multa ao agravante. Ponderou que os autos versam matéria estritamente legal, ou seja, saber quem tem legitimidade para atuar no âmbito da procuradoria estadual. Ressaltou que o pronunciamento do tribunal de origem envolveu a interpretação da Lei Complementar (LC) sergipana 27/1996, mais precisamente do que se contém em seu art. 7º (1). Em divergência, o ministro Alexandre de Moraes deu provimento ao agravo e ao recurso extraordinário, por entender que a restrição imposta pelo tribunal a quo não encontra respaldo na lei orgânica da procuradoria-geral — LC estadual 27/1996 — e ofende o art. 132 da CF (2). De início, avaliou tratar-se de tema com assento constitucional: se procurador-geral de estado deve obrigatoriamente assinar todas ações de improbidade. Assinalou que, em determinadas leis orgânicas de procuradorias estaduais, é exigida a assinatura do procurador-geral do estado nas ações por ato de improbidade. Na divisão orgânica da carreira, estipulam essa necessidade. Em outras, as funções são divididas e não se exige a subscrição. Explicitou constar da CF que lei complementar irá organizar a carreira. No caso do Estado de Sergipe, a LC 27/1996, que rege a atuação dos seus procuradores, não exige a assinatura do procurador-geral ou do governador nas ações de improbidade. A norma não impôs a obrigatoriedade da assinatura por opção legislativa do próprio estado. Logo, essa é uma função típica de procurador do estado de Sergipe atuante naquela área de contencioso. Em seguida, o ministro Roberto Barroso pediu vista dos autos. (1) LC 27/1996: “Art. 7°. – Compete ao Procurador-Geral do Estado: I – dirigir a Procuradoria-Geral do Estado, coordenar e controlar suas atividades e orientar-lhe a atuação; (...) VII – desistir, transigir, formar composição e confessar, nos feitos de interesse do Estado, mediante autorização do Governador do Estado; (...)” (2) CF: “Art. 132. Os Procuradores dos Estados e do Distrito Federal, organizados em carreira, na qual o ingresso dependerá de concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as suas fases, exercerão a representação judicial e a consultoria jurídica das respectivas unidades federadas. Parágrafo único. Aos procuradores referidos neste artigo é assegurada estabilidade após três anos de efetivo exercício, mediante avaliação de desempenho perante os órgãos próprios, após relatório circunstanciado das corregedorias.” ARE 1165456 AgR/SE, rel. Min. Marco Aurélio, julgamento em 17.9.2019. (ARE-1165456) SEGUNDA TURMA DIREITO PENAL – LEGISLAÇÃO PENAL ESPECIAL
+
+## Referência processual
+
+Ação de improbidade administrativa e atuação de procurador do estado - A Primeira Turma retomou julgamento de agravo regimental em recurso extraordinário com agravo, em que se discute se procurador do Estado de Sergipe pode ajuizar ação por ato de improbidade administrativa sem autorização do governador e do procurador-geral daquela unidade federativa. Na espécie, o acórdão impugnado pelo recurso extraordinário concluiu que não se pode falar em autonomia funcional de procurador do estado em ajuizar ação civil pública sem a aludida autorização. O ministro Marco Aurélio (relator) negou provimento ao agravo e impôs multa ao agravante. Ponderou que os autos versam matéria estritamente legal, ou seja, saber quem tem legitimidade para atuar no âmbito da procuradoria estadual. Ressaltou que o pronunciamento do tribunal de origem envolveu a interpretação da Lei Complementar (LC) sergipana 27/1996, mais precisamente do que se contém em seu art. 7º (1). Em divergência, o ministro Alexandre de Moraes deu provimento ao agravo e ao recurso extraordinário, por entender que a restrição imposta pelo tribunal a quo não encontra respaldo na lei orgânica da procuradoria-geral — LC estadual 27/1996 — e ofende o art. 132 da CF (2). De início, avaliou tratar-se de tema com assento constitucional: se procurador-geral de estado deve obrigatoriamente assinar todas ações de improbidade. Assinalou que, em determinadas leis orgânicas de procuradorias estaduais, é exigida a assinatura do procurador-geral do estado nas ações por ato de improbidade. Na divisão orgânica da carreira, estipulam essa necessidade. Em outras, as funções são divididas e não se exige a subscrição. Explicitou constar da CF que lei complementar irá organizar a carreira. No caso do Estado de Sergipe, a LC 27/1996, que rege a atuação dos seus procuradores, não exige a assinatura do procurador-geral ou do governador nas ações de improbidade. A norma não impôs a obrigatoriedade da assinatura por opção legislativa do próprio estado. Logo, essa é uma função típica de procurador do estado de Sergipe atuante naquela área de contencioso. Em seguida, o ministro Roberto Barroso pediu vista dos autos. (1) LC 27/1996: “Art. 7°. – Compete ao Procurador-Geral do Estado: I – dirigir a Procuradoria-Geral do Estado, coordenar e controlar suas atividades e orientar-lhe a atuação; (...) VII – desistir, transigir, formar composição e confessar, nos feitos de interesse do Estado, mediante autorização do Governador do Estado; (...)” (2) CF: “Art. 132. Os Procuradores dos Estados e do Distrito Federal, organizados em carreira, na qual o ingresso dependerá de concurso público de provas e títulos, com a participação da Ordem dos Advogados do Brasil em todas as suas fases, exercerão a representação judicial e a consultoria jurídica das respectivas unidades federadas. Parágrafo único. Aos procuradores referidos neste artigo é assegurada estabilidade após três anos de efetivo exercício, mediante avaliação de desempenho perante os órgãos próprios, após relatório circunstanciado das corregedorias.” ARE 1165456 AgR/SE, rel. Min. Marco Aurélio, julgamento em 17.9.2019. (ARE-1165456) SEGUNDA TURMA DIREITO PENAL – LEGISLAÇÃO PENAL ESPECIAL
+
+## Proveniência
+
+- Tribunal: Supremo Tribunal Federal
+- Informativo: 0952
+- Arquivo-fonte: `stf/Informativo_STF_0952.html`
+- URL registrada no índice de origem: https://www.stf.jus.br/arquivo/informativo/documento/informativo952.htm
+- Observação: resumo de informativo; não substitui a conferência do acórdão oficial.

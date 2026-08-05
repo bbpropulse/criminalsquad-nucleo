@@ -1,0 +1,6 @@
+interface:
+  display_name: "Perfilamento e Leitura dos Jurados (arts. 425-426 e 462-472 do CPP; art. 5º, XXXVIII, CF)"
+  short_description: "Análise penal estruturada e verificável"
+  default_prompt: "Use $juri-perfilamento-jurados para analisar o caso com fatos, provas, fontes e riscos explícitos."
+policy:
+  allow_implicit_invocation: false
